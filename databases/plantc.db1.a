@@ -7408,7 +7408,7 @@ signal set point                                                      0.
 
  Component Description
     Generic type     : WCH Ground Source Heat Pump
-    Description      : Air Source Heat Pump connecting to WCH system; 1 node model
+    Description      : Ground Source Heat Pump connecting to WCH system; 1 node model
     Insertion date   : 09 Oct 17 20:56
     Type: Single component                    Component code :    470
 
@@ -7419,7 +7419,7 @@ signal set point                                                      0.
     Variable type    :  20,
 
  Miscellaneous Data
-    Adata items   :   3    Bdata items   :  25    Cdata items   :   1
+    Adata items   :   3    Bdata items   :  26    Cdata items   :   1
  ADATA variables:
     1 Component total mass (kg)
       Value =    110.00        Range (Min Max):     25.000        25.000
@@ -7515,7 +7515,7 @@ signal set point                                                      0.0000
  Component Description
     Generic type     : WCH Ground Source Heat Pump
     Description      : Ground Source Heat Pump connecting to WCH system; 2 node model
-    Insertion date   : 07 Jan 09 20:56
+    Insertion date   : 09 Oct 17 20:56
     Type: Single component                    Component code :    480
 
  Nodal Scheme Description
