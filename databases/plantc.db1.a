@@ -7586,6 +7586,12 @@ signal set point                                                      0.0000
       Value =    -1.300        Range (Min Max):     0.0000        100.000
    25 Heat pump lock out time (min)
       Value =    10.000        Range (Min Max):     0.0000        120.000
+   26 BrinePump rating (W)
+      Value =    60.000        Range (Min Max):     0.0000        120.000
+   27 BrinePump pf (-)
+      Value =     0.900        Range (Min Max):     0.0000        1.0000
+   28 BrineFlowrate at rated brine pump power (l/s)
+      Value =     0.300        Range (Min Max):     0.0000        2.0000
  CDATA variables:
     1  Call for heat (-)
 
