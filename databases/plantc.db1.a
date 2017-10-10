@@ -7419,7 +7419,7 @@ signal set point                                                      0.
     Variable type    :  20,
 
  Miscellaneous Data
-    Adata items   :   3    Bdata items   :  26    Cdata items   :   1
+    Adata items   :   3    Bdata items   :  27    Cdata items   :   1
  ADATA variables:
     1 Component total mass (kg)
       Value =    110.00        Range (Min Max):     25.000        25.000
@@ -7478,8 +7478,10 @@ signal set point                                                      0.
       Value =    -1.300        Range (Min Max):     0.0000        100.000
    25 Heat pump lock out time (min)
       Value =    10.000        Range (Min Max):     0.0000        120.000
-   26 Ground source depth below grade (m)
+   26 Ground source model [1 - standard profile 2 - user profile 3 - f(depth)]
       Value =     4.000        Range (Min Max):     0.0000        10.000
+   27 Model coef g0 [1 & 2 - profile number 3 - depth in m]
+      Value =     4.000        Range (Min Max):     0.0000       100.000
  CDATA variables:
     1  Call for heat (-)
 
@@ -7487,7 +7489,7 @@ signal set point                                                      0.
  Additional output variables:
     1 Heat output                    Type :    4
     2 Coefficient of performance     Type :    2
-    3 Ambient temperature            Type :    2
+    3 Ground temperature             Type :    2
     4 Device on/off status           Type :    4
     5 Return water set point         Type :    2
     6 Real power                     Type :    2
@@ -7591,7 +7593,7 @@ signal set point                                                      0.0000
  Additional output variables:
     1 Heat output                    Type :    4
     2 Coefficient of performance     Type :    2
-    3 Ambient temperature            Type :    2
+    3 Ground temperature             Type :    2
     4 Device on/off status           Type :    4
     5 Return water set point         Type :    2
     6 Real power                     Type :    2
