@@ -7524,7 +7524,7 @@ signal set point                                                      0.0000
     Number of nodes  :   2      No of nonzero matrix elements :      2
     Matrix positions :   1,   4,
     Node connections :   1,   1,
-    Variable type    :  20,  21,
+    Variable type    :  20,  20,
 
  Miscellaneous Data
     Adata items   :   3    Bdata items   :  28    Cdata items   :   1
