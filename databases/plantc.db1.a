@@ -7527,7 +7527,7 @@ signal set point                                                      0.0000
     Variable type    :  20,  21,
 
  Miscellaneous Data
-    Adata items   :   3    Bdata items   :  25    Cdata items   :   1
+    Adata items   :   3    Bdata items   :  28    Cdata items   :   1
  ADATA variables:
     1 Component total mass (kg)
       Value =    110.00        Range (Min Max):     25.000        25.000
