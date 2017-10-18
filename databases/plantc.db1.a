@@ -7649,8 +7649,8 @@ signal set point                                                      0.0000
   PLANT COMPONENT                                           No :    115
 
  Component Description
-    Generic type     : WCH flow control valve
-    Description      : WCH flow control valve; 1 node model; flow ratio control
+    Generic type     : WCH automatic flow control valve
+    Description      : WCH automatic flow control valve; 1 node model
     Insertion date   : 16 Oct 17 17:30
     Type: Single component                    Component code :    740
 
@@ -7677,18 +7677,6 @@ signal set point                                                      0.0000
      1 Valve position                 Type :    3
 
  Mass flow components data
-Quadratic law mass flow component   dP= a.m+b.m^2
-Type :  25    Init suppl dat :   3    Tot suppl dat :  10    No. of conns :   0
-fluid type (1=air, 2=water)                                           2.0000
-flow coefficient a (Pa/(kg/s))                                       0.10000
-flow coefficient b (Pa/(kg/s)^2)                                     0.40000
-control flag                                                          0.0000
-control period day type                                               0.0000
-control period start hour                                             0.0000
-control period finish hour                                            0.0000
-open(1) shut(0) outside period                                        0.0000
-index for the sensed property                                         0.0000
-signal set point                                                      0.0000
 Quadratic law mass flow component   dP= a.m+b.m^2
 Type :  25    Init suppl dat :   3    Tot suppl dat :  10    No. of conns :   0
 fluid type (1=air, 2=water)                                           2.0000
