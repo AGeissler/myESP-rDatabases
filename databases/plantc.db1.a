@@ -7489,7 +7489,9 @@ signal set point                                                      0.
    30 Tin max DHW (degC)
       Value =    61.000        Range (Min Max):    50.0000        85.000
  CDATA variables:
-    1  Call for heat [0 off - 1 space heat 2 - dhw] (-)
+    1 ON/OFF signal for space heat (-)
+    2 ON/OFF signal for DHW (-)
+    3 Preference signal 0 space heat, 1 DHW
 
  Number of additional output parameters:     9
  Additional output variables:
@@ -7605,7 +7607,9 @@ signal set point                                                      0.0000
    31 Tin max DHW (degC)
       Value =    61.000        Range (Min Max):    50.0000        85.000
  CDATA variables:
-    1  Call for heat [0 off - 1 space heat 2 - dhw] (-)
+    1 ON/OFF signal for space heat (-)
+    2 ON/OFF signal for DHW (-)
+    3 Preference signal 0 space heat, 1 DHW
 
  Number of additional output parameters:     9
  Additional output variables:
