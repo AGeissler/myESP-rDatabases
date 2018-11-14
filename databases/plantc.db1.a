@@ -2837,10 +2837,10 @@ Type :   0    Init suppl dat :   0    Tot suppl dat :   0    No. of conns :   0
  Miscellaneous Data
     Adata items   :   5    Bdata items   :   1    Cdata items   :   0
  ADATA variables:
-    1 Mass of encapsulated fluid on 'hot' side (kg)
-      Value =    1.0000        Range (Min Max):    0.10000E-01    5.0000
-    2 Mass of encapsulated fluid on the "cold" side (kg)
-      Value =    1.0000        Range (Min Max):    0.10000E-01    5.0000
+    1 Mass of node 1 (solids+liquid) (kg)
+      Value =    100.00        Range (Min Max):     0.0000        10000.
+    2 Mass of node 2 (solids+liquid) (kg)
+      Value =    100.00        Range (Min Max):     0.0000        10000.
     3 Overall heat transfer coefficient (W/m^2K)
       Value =    6000.0        Range (Min Max):     5000.0        7000.0
     4 Heat transfer surface area (m^2)
