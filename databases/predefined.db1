@@ -15,12 +15,14 @@ Tags are:
 - *vobject compound visual object (same as in geometry file) 
 *End_text
 *date Mon Oct 26 16:00:01 2015  # latest file modification 
-*Category,office_furn,Office furniture (visual + mass)
-*Category,house_furn,House furniture (visual + mass)
-*Category,stairs,Stairs as zones (visual + surfs)
+*Category,office_furn,Office furniture (visual+mass)
+*Category,house_furn,House furniture (visual+mass)
+*Category,kitchen,Kitchen fittings (visual+mass)
+*Category,bathroom,Bathroom fittings (visual+mass)
+*Category,stairs,Stairs as zones (visual+surfs)
 *Category,system_comp,Zonal environmental system comp
-*Category,facade,Facade components (visual + surfs)
-*Category,lighting,Lighting fixtures (visual + mass)
+*Category,facade,Facade components (visual+surfs)
+*Category,lighting,Lighting fixtures (visual+mass)
 *Text
 Pre-defined objects such as office chairs are represented by
 a set of primitive visual entities plus one or more pairs of
@@ -1003,7 +1005,7 @@ for case and mixed clutter e.g. books magazines papers on the shelves.
 *includes,visual,mass
 *sourced,Based on measurements of a typical bed and frame. Guess at composition.
 *origin,0.0,0.0,0.0
-*bounding_box,1.360,1.900,0.900
+*bounding_box,1.360,2.000,0.900
 *Text
 Double bed with solid wood head foot base 1.36x1.9x0.9m. With mass for base and matress.
 *End_text
@@ -1070,7 +1072,7 @@ Single bed with solid wood head foot base 1.0x1.9x0.9m. With mass for base and m
 *includes,visual,mass
 *sourced,Based on measurements of a chair. Guess at composition.
 *origin,0.0,0.0,0.0              # local origin
-*bounding_box,0.560,0.550,1.060  # extents of object
+*bounding_box,0.60,0.64,1.060  # extents of object
 *Text
 A typical wooden chair with arms fabric covered seat and back mass for
 the seat and seat back. Visual entities are a mix of
@@ -1106,7 +1108,7 @@ materials and the seat back reclines slightly.
 *vis,0.5200,0.0950,0.0000,0.0300,0.0300,0.5200,0.0000,1.00,leg_b,furn_wd10mm  # visual  11
 *vis,0.0950,0.5350,0.0000,0.0300,0.0400,0.5650,0.0000,1.00,leg_c,furn_wd10mm  # visual  12
 *vis,0.5200,0.5350,0.0000,0.0300,0.0400,0.5650,0.0000,1.00,leg_d,furn_wd10mm  # visual  13
-*vobject,kit-chair,standard office chair,13,seat,r_arm,l_arm,seat_bk,cross_a,cross_b,cross_c,r_arm_rest,l_arm_rest,leg_a,leg_b,leg_c,leg_d
+*vobject,kit-chair,padded wooden chair,13,seat,r_arm,l_arm,seat_bk,cross_a,cross_b,cross_c,r_arm_rest,l_arm_rest,leg_a,leg_b,leg_c,leg_d
 *end_item
 # 
 *item,armchair,arm chair with fabric cover# tag name menu entry
@@ -1123,8 +1125,8 @@ materials and the seat back reclines slightly.
 # 
 *vertex,0.09000,0.09000,0.22000  #   1
 *vertex,0.69000,0.09000,0.22000  #   2
-*vertex,0.69000,0.83000,0.22000  #   3
-*vertex,0.09000,0.83000,0.22000  #   4
+*vertex,0.69000,0.74000,0.22000  #   3
+*vertex,0.09000,0.74000,0.22000  #   4
 *vertex,0.02000,0.02000,0.21500  #   5
 *vertex,0.02000,0.74000,0.21500  #   6
 *vertex,0.02000,0.74000,0.66500  #   7
@@ -1217,8 +1219,8 @@ reclines slightly. Based on Ikea Knopparp.
 # 
 *vertex,0.09000,0.09000,0.22000  #   1
 *vertex,1.72000,0.09000,0.22000  #   2
-*vertex,1.72000,0.83000,0.22000  #   3
-*vertex,0.09000,0.83000,0.22000  #   4
+*vertex,1.72000,0.74000,0.22000  #   3
+*vertex,0.09000,0.74000,0.22000  #   4
 *vertex,0.02000,0.02000,0.21500  #   5
 *vertex,0.02000,0.74000,0.21500  #   6
 *vertex,0.02000,0.74000,0.66500  #   7
@@ -1249,7 +1251,296 @@ reclines slightly. Based on Ikea Knopparp.
 0.0800,0.0000,0.3900,1.6500,0.0000,0.3900,1.6500,0.7500,0.3600,0.0800,0.7500,0.3600  # 5-8 
 *vobject,sofa-3seat,fabric three seat sofa,8,arm_l,arm_r,leg_a,leg_b,leg_c,leg_d,back,seat
 *end_item
+#
+*item,wardrobe,freestanding wardrobe 1.2x0.6x2 # tag name menu entry
+*incat,house_furn
+*includes,visual,mass
+*origin,0.0,0.0,0.0              # local origin
+*bounding_box,1.200,0.600,2.050  # extents of object
+*Text
+Freestanding wooden wardrobe 1.2x0.6x2m.
+Front, sides, top, and contents represented with mass.
+*End_text
 # 
+*vertex,0.00000,0.00000,0.05000  #   1
+*vertex,1.20000,0.00000,0.05000  #   2
+*vertex,1.20000,0.60000,0.05000  #   3
+*vertex,0.00000,0.60000,0.05000  #   4
+*vertex,0.00000,0.00000,2.05000  #   5
+*vertex,1.20000,0.00000,2.05000  #   6
+*vertex,1.20000,0.60000,2.05000  #   7
+*vertex,0.00000,0.60000,2.05000  #   8
+*vertex,0.20000,0.40000,0.25000  #   9
+*vertex,1.00000,0.40000,0.25000  #   10
+*vertex,1.00000,0.40000,1.85000  #   11
+*vertex,0.20000,0.40000,1.85000  #   12
+#
+*mass,wdb_front,shelves_20mm,OPAQUE,4,1,2,6,5  #  1
+*mass,wdb_front_,shelves_20mm,OPAQUE,4,2,1,5,6  #  2
+*mass,wdb_left,shelves_20mm,OPAQUE,4,1,4,8,5  #  3
+*mass,wdb_left_,shelves_20mm,OPAQUE,4,4,1,5,8  #  4
+*mass,wdb_right,shelves_20mm,OPAQUE,4,2,3,7,6  #  5
+*mass,wdb_right_,shelves_20mm,OPAQUE,4,3,2,6,7  #  6
+*mass,wdb_top,shelves_20mm,OPAQUE,4,5,6,7,8  #  7
+*mass,wdb_top_,shelves_20mm,OPAQUE,4,6,5,8,7  #  8
+*mass,wdb_clths,upholstery,OPAQUE,4,9,10,11,12  #  9
+*mass,wdb_clths_,upholstery,OPAQUE,4,10,9,12,11  #  10
+# 
+*vis,0.0000,0.0000,0.0500,1.2000,0.5800,2.0000,0.0000,1.00,wdb_base,shelves_20mm  # visual   1
+*vis,0.0100,0.0000,0.0600,0.5900,0.0100,1.9800,0.0000,1.00,wdb_dr1,shelves_20mm  # visual   2
+*vis,0.6000,0.0000,0.0600,0.5900,0.0100,1.9800,0.0000,1.00,wdb_dr2,shelves_20mm  # visual   3
+# 
+*vobject,wardrobe,freestanding wardrobe,3,wdb_base,wdb_dr1,wdb_dr2
+*end_item
+#
+*item,dblcooker,double cooker 0.6x0.6x0.9 # tag name menu entry
+*incat,kitchen
+*includes,visual,mass
+*origin,0.0,0.0,0.0
+*bounding_box,0.600,0.600,0.900
+*Text
+A double cooker with oven, grill, and 4 hobs.
+Includes UK regulation spacing round back (10mm) and sides (20mm).
+Mass represented by double glazed glass front, glass-ceramic top, and insulated steel sides.
+*End_text
+#
+*vertex,0.02000,0.00000,0.02000  #   1
+*vertex,0.58000,0.00000,0.02000  #   2
+*vertex,0.58000,0.00000,0.82000  #   3
+*vertex,0.02000,0.00000,0.82000  #   4
+*vertex,0.02000,0.01000,0.90000  #   5
+*vertex,0.58000,0.01000,0.90000  #   6
+*vertex,0.58000,0.59000,0.90000  #   7
+*vertex,0.02000,0.59000,0.90000  #   8
+*vertex,0.02000,0.01000,0.02000  #   9
+*vertex,0.58000,0.01000,0.02000  #  10
+*vertex,0.58000,0.59000,0.02000  #  11
+*vertex,0.02000,0.59000,0.02000  #  12
+# 
+*mass,ckr_front,dbl_glz,OPAQUE,4,1,2,3,4  #  1
+*mass,ckr_front_,dbl_glz,OPAQUE,4,2,1,4,3  #  2
+*mass,ckr_top,glass-ceramic,OPAQUE,4,5,6,7,8  #  3
+*mass,ckr_top_,glass-ceramic,OPAQUE,4,6,5,8,7  #  4
+*mass,ckr_left,duct_w_35mm,OPAQUE,4,6,7,11,10  #  5
+*mass,ckr_left_,duct_w_35mm,OPAQUE,4,7,6,10,11  #  6
+*mass,ckr_right,duct_w_35mm,OPAQUE,4,5,8,12,9  #  7
+*mass,ckr_right_,duct_w_35mm,OPAQUE,4,8,5,9,12  #  8
+# 
+*vis,0.020,0.010,0.020,0.560,0.580,0.880,0.000,1.00,ckr_unit,steel_gr_3mm  # visual   1
+*vis,0.030,0.000,0.030,0.540,0.010,0.430,0.000,1.00,ckr_oven,dbl_glz  # visual   2
+*vis,0.030,0.000,0.480,0.540,0.010,0.330,0.000,1.00,ckr_grl,dbl_glz  # visual   3
+# 
+*vobject,dblcooker,double cooker 0.6x0.6x0.9, 3,ckr_unit,ckr_oven,ckr_grl
+*end_item
+#
+*item,frdgfrzr,tower fridge/freezer 0.6x0.6x1.8 # tag name menu entry
+*incat,kitchen
+*includes,visual,mass
+*origin,0.0,0.0,0.0
+*bounding_box,0.600,0.600,1.800
+*Text
+A tower fridge/freezer with a 60/40 split.
+Includes spacing of 20mm at the back.
+Mass represented by insulated plastic on all 6 sides.
+Recommend that boundary conditions for all 6 sides are set to a constant temperature
+of around 1 degree.
+*End_text
+#
+*vertex,0.00000,0.00000,0.02000  #   1
+*vertex,0.60000,0.00000,0.02000  #   2
+*vertex,0.60000,0.00000,1.80000  #   3
+*vertex,0.00000,0.00000,1.80000  #   4
+*vertex,0.00000,0.58000,0.02000  #   5
+*vertex,0.60000,0.58000,0.02000  #   6
+*vertex,0.60000,0.58000,1.80000  #   7
+*vertex,0.00000,0.58000,1.80000  #   8
+# 
+*mass,fgfz_front,fridge,OPAQUE,4,2,1,4,3  #  1
+*mass,fgfz_back,fridge,OPAQUE,4,5,6,7,8  #  1
+*mass,fgfz_left,fridge,OPAQUE,4,1,5,8,4  #  2
+*mass,fgfz_right,fridge,OPAQUE,4,6,2,3,7  #  3
+*mass,fgfz_top,fridge,OPAQUE,4,3,4,8,7  #  4
+*mass,fgfz_bot,fridge,OPAQUE,4,1,2,6,5  #  4
+# 
+*vis,0.000,0.034,0.020,0.600,0.546,1.780,0.000,1.00,fgfz_body,fridge  # visual   1
+*vis,0.000,0.000,0.020,0.600,0.034,0.700,0.000,1.00,fgfz_fzdr,fridge  # visual   2
+*vis,0.000,0.000,0.730,0.600,0.034,1.050,0.000,1.00,fgfz_fgdr,fridge  # visual   3
+# 
+*vobject,frdgfrzr,tower fridge/freezer, 3,fgfz_body,fgfz_fzdr,fgfz,fgdr
+*end_item
+# 
+*item,dbl_cpbd_lo,double low cupboard 1.2x0.6x0.9 # tag name menu entry
+*incat,kitchen
+*includes,visual,mass
+*origin,0.0,0.0,0.0
+*bounding_box,1.200,0.600,0.900
+*Text
+Double width under-counter corner cupboard.
+Mass represented by wood front, kicker, and sides, corian counter top, and metal contents (e.g. pots and pans).
+*End_text
+#
+*vertex,0.00000,0.00000,0.20000  #   1
+*vertex,1.20000,0.00000,0.20000  #   2
+*vertex,1.20000,0.00000,0.90000  #   3
+*vertex,0.00000,0.00000,0.90000  #   4
+*vertex,0.00000,0.60000,0.20000  #   5
+*vertex,1.20000,0.60000,0.20000  #   6
+*vertex,1.20000,0.60000,0.90000  #   7
+*vertex,0.00000,0.60000,0.90000  #   8
+*vertex,0.00000,0.10000,0.00000  #   9
+*vertex,1.20000,0.10000,0.00000  #  10
+*vertex,1.20000,0.10000,0.20000  #  11
+*vertex,0.00000,0.10000,0.20000  #  12
+*vertex,0.01000,0.01000,0.30000  #  13
+*vertex,1.19000,0.01000,0.30000  #  14
+*vertex,1.19000,0.59000,0.30000  #  15
+*vertex,0.01000,0.59000,0.30000  #  16
+*vertex,0.01000,0.01000,0.65000  #  17
+*vertex,1.19000,0.01000,0.65000  #  18
+*vertex,1.19000,0.59000,0.65000  #  19
+*vertex,0.01000,0.59000,0.65000  #  20
+# 
+*mass,cpbd_front,furn_wd10mm,OPAQUE,4,1,2,3,4  #  1
+*mass,cpbd_front_,furn_wd10mm,OPAQUE,4,2,1,4,3  #  2
+*mass,cpbd_kick,furn_wd10mm,OPAQUE,4,9,10,11,12  #  3
+*mass,cpbd_kick_,furn_wd10mm,OPAQUE,4,10,9,12,11  #  4
+*mass,cpbd_left,furn_wd10mm,OPAQUE,4,1,4,8,5  #  5
+*mass,cpbd_left_,furn_wd10mm,OPAQUE,4,4,1,5,8  #  6
+*mass,cpbd_right,furn_wd10mm,OPAQUE,4,2,3,7,6  #  7
+*mass,cpbd_right_,furn_wd10mm,OPAQUE,4,3,2,6,7  #  8
+*mass,cpbd_top,corian_count,OPAQUE,4,3,4,8,7  #  9
+*mass,cpbd_top_,corian_count,OPAQUE,4,4,3,7,8  #  10
+*mass,cpbd_stf1,steel_gr_5mm,OPAQUE,4,13,14,15,16  #  11
+*mass,cpbd_stf1_,steel_gr_5mm,OPAQUE,4,14,13,16,15  #  12
+*mass,cpbd_stf2,steel_gr_5mm,OPAQUE,4,17,18,19,20  #  13
+*mass,cpbd_stf2_,steel_gr_5mm,OPAQUE,4,18,17,20,19  #  14
+#
+*vis,0.000,0.000,0.200,0.600,0.600,0.700,0.000,1.00,cpbd_l,furn_wd10mm  # visual   1
+*vis,0.600,0.000,0.200,0.600,0.600,0.700,0.000,1.00,cpbd_r,furn_wd10mm  # visual   2
+*vis,0.000,0.100,0.000,1.200,0.010,0.200,0.000,1.00,cpbd_kick,furn_wd10mm  # visual   3
+# 
+*vobject,dbl_cpbd_lo,double low cupboard 1.2x0.6x0.9, 3,cpbd_l,cpbd_r,cpbd_kick
+*end_item
+#
+*item,toilet,porcelain toilet # tag name menu entry
+*incat,bathroom
+*includes,visual,mass
+*origin,0.0,0.0,0.0
+*bounding_box,0.400,0.700,0.700
+*Text
+One-piece porcelain gravity toilet.
+Mass of the stem, bowl and water tank represented.
+*End_text
+#
+*vertex,0.1000,0.22500,0.00000  #   1
+*vertex,0.3000,0.22500,0.00000  #   2
+*vertex,0.3000,0.22500,0.30000  #   3
+*vertex,0.1000,0.22500,0.30000  #   4
+*vertex,0.00000,0.00000,0.38000  #   5
+*vertex,0.40000,0.00000,0.38000  #   6
+*vertex,0.40000,0.45000,0.38000  #   7
+*vertex,0.00000,0.45000,0.38000  #   8
+*vertex,0.00000,0.57500,0.38000  #   9
+*vertex,0.40000,0.57500,0.38000  #   10
+*vertex,0.40000,0.57500,0.70000  #   11
+*vertex,0.00000,0.57500,0.70000  #   12
+# 
+*mass,tlt_stem,porcelain100mm,OPAQUE,4,1,2,3,4  #  1
+*mass,tlt_stem_,porcelain100mm,OPAQUE,4,2,1,4,3  #  1
+*mass,tlt_bowl,porcelain100mm,OPAQUE,4,5,6,7,8  #  1
+*mass,tlt_bowl_,porcelain100mm,OPAQUE,4,6,5,8,7  #  1
+*mass,tlt_tank,porcelain_water_tank,OPAQUE,4,9,10,11,12  #  1
+*mass,tlt_tank_,porcelain_water_tank,OPAQUE,4,10,9,12,11  #  1
+#
+*vis,0.100,0.100,0.000,0.200,0.250,0.280,0.000,1.00,tlt_stem,porcelain100mm  # visual   1
+*vis,0.000,0.000,0.280,0.400,0.450,0.100,0.000,1.00,tlt_bowl,porcelain100mm  # visual   2
+*vis,0.000,0.450,0.380,0.400,0.250,0.320,0.000,1.00,tlt_tank,porcelain_water_tank  # visual   3
+# 
+*vobject,toilet,porcelain throne, 3,tlt_stem,tlt_bowl,tlt_tank
+*end_item
+#
+*item,sink,wall-mounted porcelain sink # tag name menu entry
+*incat,bathroom
+*includes,visual,mass
+*origin,0.0,0.0,0.0
+*bounding_box,0.600,0.400,0.350
+*Text
+Wall-mounted porcelain sink.
+Mass of the bowl represented.
+*End_text
+#
+*vertex,0.0000,0.00000,0.25000  #   1
+*vertex,0.6000,0.00000,0.25000  #   2
+*vertex,0.6000,0.40000,0.25000  #   3
+*vertex,0.0000,0.40000,0.25000  #   4
+# 
+*mass,sink,porcelain100mm,OPAQUE,4,1,2,3,4  #  1
+*mass,sink_,porcelain100mm,OPAQUE,4,2,1,4,3  #  1
+#
+*vis,0.000,0.000,0.100,0.600,0.400,0.250,0.000,1.00,sink_bowl,porcelain100mm  # visual   1
+*vis,0.250,0.250,0.000,0.100,0.150,0.100,0.000,1.00,sink_stem,porcelain100mm  # visual   2
+# 
+*vobject,sink,porcelain sink, 2,sink_bowl,sink_stem
+*end_item
+#
+*item,bath,acrylic fitted bath 1.7x0.7x0.5 # tag name menu entry
+*incat,bathroom
+*includes,visual,mass
+*origin,0.0,0.0,0.0
+*bounding_box,1.700,0.700,0.500
+*Text
+Standard size alcove-fitted acrylic bath tub.
+Mass of front panel and top represented.
+*End_text
+#
+*vertex,0.0000,0.00000,0.00000  #   1
+*vertex,1.7000,0.00000,0.00000  #   2
+*vertex,1.7000,0.00000,0.50000  #   3
+*vertex,0.0000,0.00000,0.50000  #   4
+*vertex,0.0000,0.70000,0.50000  #   4
+*vertex,1.7000,0.70000,0.50000  #   3
+# 
+*mass,bath_frnt,IT_case,OPAQUE,4,1,2,3,4  #  1
+*mass,bath_frnt_,IT_case,OPAQUE,4,2,1,4,3  #  2
+*mass,bath_top,IT_case,OPAQUE,4,3,4,5,6  #  1
+*mass,bath_top_,IT_case,OPAQUE,4,4,3,6,5  #  2
+#
+*vis,0.000,0.000,0.000,1.700,0.700,0.500,0.000,1.00,bath,IT_case  # visual   1
+*end_item
+#
+*item,shower,walk-in corner shower 1x1x2.1 # tag name menu entry
+*incat,bathroom
+*includes,visual,mass
+*origin,0.0,0.0,0.0
+*bounding_box,1.000,1.000,2.100
+*Text
+Walk-in corner shower enclosure 1m x 1m, tray slightly raised.
+Two glass walls and tray represented by mass.
+Glass walls are on south and east faces with 0 rotation.
+*End_text
+#
+*vertex,0.0000,0.00000,0.10000  #   1
+*vertex,1.0000,0.00000,0.10000  #   2
+*vertex,1.0000,1.00000,0.10000  #   3
+*vertex,0.0000,1.00000,0.10000  #   4
+*vertex,0.0000,0.00000,2.10000  #   5
+*vertex,1.0000,0.00000,2.10000  #   6
+*vertex,1.0000,1.00000,2.10000  #   7
+# 
+*mass,shwr_tray,IT_case,OPAQUE,4,1,2,3,4  #  1
+*mass,shwr_tray_,IT_case,OPAQUE,4,2,1,4,3  #  2
+*mass,shwr_wal1,single_glaz,OPAQUE,4,1,2,6,5  #  3
+*mass,shwr_wal1_,single_glaz,OPAQUE,4,2,1,5,6  #  4
+*mass,shwr_wal2,single_glaz,OPAQUE,4,2,3,7,6  #  5
+*mass,shwr_wal2_,single_glaz,OPAQUE,4,3,2,6,7  #  6
+#
+*vis,0.000,0.000,0.000,1.000,1.000,0.100,0.000,1.00,shwr_tray,IT_case  # visual   1
+*vis,0.000,0.000,0.100,1.000,0.005,2.000,0.000,0.30,shwr_wal1,IT_case  # visual   1
+*vis,0.995,0.000,0.100,0.005,1.000,2.000,0.000,0.30,shwr_wal2,IT_case  # visual   1
+# 
+*vobject,shower,walk-in shower, 3,shwr_tray,shwr_wal1_shwr_wal2
+*end_item
+#
 *item,below_stair,space under a 13 step stair # tag name menu entry
 *incat,stairs    
 *includes,visual,boundary
