@@ -408,13 +408,13 @@ to calculate d as a function of the wind incidence angle.
 PCM_Cap
 *SPECDATA
 7
-20.0      Melting temperature (degC)
-21.0      Solidification temperature (degC)
-0.40      Conductivity in solid phase (J/kg)
-0.80      Conductivity in liquid phase (J/kg)
-1000.0    Specific heat (J/kg*K)
-5000.0    Latent heat member a - see info (J/kg*K^2)
-100000.0  Latent heat member b - see info (J/kg*K)
+20.0      Melting temperature (C)
+21.0      Solidification temperature (C)
+0.40      Conductivity in solid phase (W/m.C)
+0.80      Conductivity in liquid phase (W/m.C)
+1000.0    Specific heat (J/kg.C)
+5000.0    Latent heat member a - see info (J/kg.C^2)
+100000.0  Latent heat member b - see info (J/kg.C)
 *TEXT
 
 PHASE CHANGE MATERIAL
@@ -423,12 +423,12 @@ node of the layer in interest. Calculation being proced for
 all nodes represented this surface.
 
 Following informations are required to define phase change mat.
-- melting temperature,          degC
-- solidification temperature,   degC
-- conductivity in solid phase,  W/m*K
-- conductivity in liquid phase, W/m*K
-- specific heat,                J/kg*K
-- latent heat,                  J/kg*K
+- melting temperature,          C
+- solidification temperature,   C
+- conductivity in solid phase,  W/m.C
+- conductivity in liquid phase, W/m.C
+- specific heat,                J/kg.C
+- latent heat,                  J/kg.C
 
 Phase change occured between melting Tm (PCM becomes melts) and
 solidification Ts (PCM becomes solidified) temperatures. Below
@@ -443,9 +443,9 @@ equal to 0. In phase change temperature range latent heat is:
 2 - linear function of temperature LHT=aT+b
 according to this two cases can be considered:
 1 - latent heat is constant in temperature range (Ts-Tm),
-    y=ax+b (a=0, b=latent heat [J/kg*K])
+    y=ax+b (a=0, b=latent heat [J/kg.C])
 2 - latent heat is a linear function of temperature,
-    y=ax+b (a=latent heat [J/kg*K^2], b=latent heat [J/kg*K])
+    y=ax+b (a=latent heat [J/kg.C^2], b=latent heat [J/kg.C])
 
 *ENDTEXT
 *END
@@ -472,9 +472,9 @@ Ev=hc.Asurf.(w surf - w air)/cp (kg/s).
 
 w surf is the saturated moisture content at t surf (kg/kg da)
 w air is the moisture content of the air in the zone (kg/kg da)
-hc is the surface convective heat transfer coefficient (W/m^2K))
+hc is the surface convective heat transfer coefficient (W/m^2.C))
 Asurf is the surface area (m^2)
-cp is the specific heat capacity of the air (J/kgK)
+cp is the specific heat capacity of the air (J/kg.C)
 
 The evaporative loss for the surface is: 
 
@@ -494,7 +494,7 @@ Solar_collector_back_plate
 *SPECDATA
 5                 
 0.002     Water flow rate (l/s)
-12.00     Water inlet temperature (oC)
+12.00     Water inlet temperature (C)
 50.0      No. of tubes (-)
 0.01      Tube diameter (m)
 1.0       Tube length (m)
@@ -772,7 +772,7 @@ Power-sonic battery (CETC battery model)
 1        Number of battery cells in parallel in a pack (-)
 6        Number of packs in series in a battery (-)
 1.66     Capacity at operating temperature (Ah/cell)
-20.      Operating temperature recommended by manufacturer (oC)
+20.      Operating temperature recommended by manufacturer (C)
 2.15     Maximum manufacturer voltage of a battery cell (V)
 1.94     Minimum manufacturer voltage of a battery cell (V)
 1.5      Maximum recommended charge current of a battery cell (A)
@@ -782,7 +782,7 @@ Power-sonic battery (CETC battery model)
 1666.    Thermal mass of one battery cell (J/oC)
 0.01     Battery heat loss coefficient of one battery cell (W/oC)
 600.     Resistance of the heating elements for one battery cell (ohms)
-15.      Temperature below which the thermal management system takes priority (oC)
+15.      Temperature below which the thermal management system takes priority (C)
 2.15     Coefficient A for battery free voltage correlation (V)
 -0.21    Coefficient B for battery free voltage correlation (V)
 0.       Coefficient C for battery free voltage correlation (V)
@@ -791,8 +791,8 @@ Power-sonic battery (CETC battery model)
 0.       Exponential coefficient C for battery free voltage correlation (-)
 0.       Exponential coefficient D for battery free voltage correlation (-)
 0.8      Coefficient A for cell capacity/temperature correlation (-)
-0.0095   Coefficient B for cell capacity/temperature correlation (/oC)
--0.00006 Coefficient C for cell capacity/temperature correlation (/oC^2)
+0.0095   Coefficient B for cell capacity/temperature correlation (/C)
+-0.00006 Coefficient C for cell capacity/temperature correlation (/C^2)
 0.2      Coefficient CA for cell internal resistance correlation in charge mode
 0.       Coefficient CB for cell internal resistance correlation in charge mode
 0.       Coefficient CC for cell internal resistance correlation in charge mode
@@ -970,15 +970,15 @@ Lithium Ion Battery (CETC Battery subroutine)
 3.15     DOD=100% (V) of a single cell
 24.2     Maximum charge/discharge current of one cell(Amps)
 4.3      Maximum charge/discharge voltage of one cell(V)
-25.      initial battery temperature  (?C) 
+25.      initial battery temperature  (C) 
 0.       initial depth of discharge (probably zero for a charged battery)
-27.3     thermal mass of a single cell -mass*Cp (J/?C)
-42.64    heat loss factor h*A (W/?C)
+27.3     thermal mass of a single cell -mass*Cp (J/C)
+42.64    heat loss factor h*A (W/C)
 582.86   resistance of the heaters (Ohm)
 1.0      maximum DOD of battery (in percentage... probably 0.8)
 0.       minimum DOD of battery (in percentage... probably 0)
-60.      Maximum battery temperature (?C)
--40.     Minimum battery temperature (?C)
+60.      Maximum battery temperature (C)
+-40.     Minimum battery temperature (C)
 -.05712  E5 Exponential coefficent for OCV
 -.05255  E4 Exponential coefficent for OCV
 -.20969  E3 Exponential coefficent for OCV
