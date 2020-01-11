@@ -1,5 +1,5 @@
 *CLIMATE
-# ascii climate file from aus_sydney_iwec binary db,
+# ascii weather file from aus_sydney_iwec binary db,
 # defined in: aus_sydney_iwec.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)
@@ -7,7 +7,7 @@
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-SYDNEY Australia IWEC 947670    # site name
+SYDNEY Australia 2001 IWEC 947670    # site name
  2001,-33.95,1.18,0   # year latitude long diff rad flag
  1,365    # period (julian days)
 * day  1 month  1

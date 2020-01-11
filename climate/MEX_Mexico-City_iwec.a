@@ -7,7 +7,7 @@
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-MEXICO-CITY-IAP - MEX           # site name
+MEXICO-CITY-IAP - MEX 1985           # site name
  1985,19.43,-9.13,0   # year, latitude, long diff, direct normal rad flag
  1,365    # period (julian days)
 * day  1 month  1

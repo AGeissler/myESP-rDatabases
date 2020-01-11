@@ -1,5 +1,5 @@
 *CLIMATE
-# ascii climate file from KOR_Ulsan_IWEC binary db,
+# ascii weather file from KOR_Ulsan_IWEC binary db,
 # defined in: KOR_Ulsan_IWEC.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)
@@ -7,7 +7,7 @@
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-ULSAN - KOR IWEC 471520         # site name
+ULSAN - KOR 1991 IWEC 471520         # site name
  1991,35.55,-5.68,0   # year, latitude, long diff, direct normal rad flag
  1,365    # period (julian days)
 * day  1 month  1

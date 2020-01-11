@@ -1,5 +1,5 @@
 *CLIMATE
-# ascii climate file from ESP_Madrid_IWEC binary db,
+# ascii weather file from ESP_Madrid_IWEC binary db,
 # defined in: ESP_Madrid_IWEC.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)
@@ -7,7 +7,7 @@
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-MADRID - ESP from IWEC          # site name
+MADRID - ESP 2001 IWEC          # site name
  2001,40.23,-3.33,0   # year latitude long diff rad flag
  1,365    # period (julian days)
 * day  1 month  1

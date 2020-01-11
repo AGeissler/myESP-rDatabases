@@ -1114,7 +1114,7 @@ materials and the seat back reclines slightly.
 *visp,8,6,0.00,seat,upholstery  # visual   8 coords follow:
 0.0800,0.0000,0.2100,0.6200,0.0000,0.2100,0.6200,0.7500,0.2100,0.0800,0.7500,0.2100  # 1-4 
 0.0800,0.0000,0.3900,0.6200,0.0000,0.3900,0.6200,0.7500,0.3600,0.0800,0.7500,0.3600  # 5-8 
-*vobject,arm-chair,fabric arm chair,8,arm_l,arm_r,leg_a,leg_b,leg_c,leg_d,back,seat
+*vobject,arm-chair,fabric arm chair,8,arm_l,arm_r,leg_a,leg_b,leg_c,leg_d,seat,back
 *end_item
 # 
 *item,sofa2seat,fabric covered two seat sofa# tag name menu entry
@@ -1208,7 +1208,7 @@ reclines slightly. Based on Ikea Knopparp.
 *visp,8,6,0.00,seat,upholstery  # visual   8 coords follow:
 0.0800,0.0000,0.2100,1.6500,0.0000,0.2100,1.6500,0.7500,0.2100,0.0800,0.7500,0.2100  # 1-4 
 0.0800,0.0000,0.3900,1.6500,0.0000,0.3900,1.6500,0.7500,0.3600,0.0800,0.7500,0.3600  # 5-8 
-*vobject,sofa-3seat,fabric three seat sofa,8,arm_l,arm_r,leg_a,leg_b,leg_c,leg_d,back,seat
+*vobject,sofa-3seat,fabric three seat sofa,8,arm_l,arm_r,leg_a,leg_b,leg_c,leg_d,seat,back
 *end_item
 #
 *item,wardrobe,freestanding wardrobe 1.2x0.6x2 # tag name menu entry
@@ -1325,7 +1325,7 @@ of around 1 degree.
 *vis,0.000,0.000,0.020,0.600,0.034,0.700,0.000,1.00,fgfz_fzdr,fridge  # visual   2
 *vis,0.000,0.000,0.730,0.600,0.034,1.050,0.000,1.00,fgfz_fgdr,fridge  # visual   3
 # 
-*vobject,frdgfrzr,tower fridge/freezer, 3,fgfz_body,fgfz_fzdr,fgfz,fgdr
+*vobject,frdgfrzr,tower fridge/freezer, 3,fgfz_body,fgfz_fzdr,fgfz_fgdr
 *end_item
 # 
 *item,dbl_cpbd_lo,double low cupboard 1.2x0.6x0.9 # tag name menu entry

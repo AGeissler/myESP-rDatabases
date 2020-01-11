@@ -1,13 +1,13 @@
 *CLIMATE
-# ascii climate file from /Users/jon/Desktop/downloads/CHN_Guangzhou_IWEC/CHN_Guangzhou binary db,
-# defined in: /Users/jon/Desktop/downloads/CHN_Guangzhou_IWEC/CHN_Guangzhou.a
+# ascii weather CHN_Guangzhou binary db,
+# defined in: CHN_Guangzhou.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)
 # col 3: Direct normal solar intensity   (W/m**2)
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-GUANGZHOU - CHN                 # site name
+GUANGZHOU - CHN 1991                # site name
  1991,23.13,-6.68,0   # year, latitude, long diff, direct normal rad flag
  1,365    # period (julian days)
 * day  1 month  1

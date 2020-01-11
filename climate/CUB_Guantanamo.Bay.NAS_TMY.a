@@ -1,5 +1,5 @@
 *CLIMATE
-# ascii climate file from CUB_Guantanamo.Bay.NAS_TMY.b binary db,
+# ascii weather file from CUB_Guantanamo.Bay.NAS_TMY.b binary db,
 # defined in: CUB_Guantanamo.Bay.NAS_TMY.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)
@@ -7,7 +7,7 @@
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-Guantanamo Bay a CUB            # site name
+Guantanamo Bay a CUB 1971            # site name
  1971,19.90,14.85,0   # year, latitude, long diff, direct normal rad flag
  1,365    # period (julian days)
 * day  1 month  1

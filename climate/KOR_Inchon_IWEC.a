@@ -1,5 +1,5 @@
 *CLIMATE
-# ascii climate file from KOR_Inchon_IWEC binary db,
+# ascii weather file from KOR_Inchon_IWEC binary db,
 # defined in: KOR_Inchon_IWEC.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)
@@ -7,7 +7,7 @@
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-Inchon - KOR IWEC 471120        # site name
+Inchon - KOR 1996 IWEC 471120        # site name
  1996,37.48,-8.45,0   # year, latitude, long diff, direct normal rad flag
  1,365    # period (julian days)
 * day  1 month  1

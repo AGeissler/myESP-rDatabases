@@ -1,7 +1,7 @@
 *CONSTRUCTIONS,1.0 # multilayer constructions
 *Text
 As defined in multicon.db5 and based on
-materials db material.db4.a and CFClayers db CFClayers.db1.a
+materials db material.db and CFClayers db CFClayers.db1.a
 Tags are:
 - *Category ... *End_category markers for category
 - *Category  short name, menu entry, documentation

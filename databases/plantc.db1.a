@@ -3521,21 +3521,21 @@ Type :   0    Init suppl dat :   0    Tot suppl dat :   0    No. of conns :   0
  
 ---------------------------------------------------------------------
   PLANT COMPONENT                                           No :     63
- 
+
  Component Description
     Generic type     : Radiant Heating/Cooling System
     Description      : Slab-on-grade hydronic floor; 1 node model
     Insertion date   : 27 Feb 04 15:17
     Type: Single component                    Component code :    950
- 
+
  Nodal Scheme Description
     Number of nodes  :   1      No of nonzero matrix elements :      1
     Matrix positions :   1,
     Node connections :   1,
     Variable type    :  20,
- 
+
  Miscellaneous Data
-    Adata items   :   9    Bdata items   :   0    Cdata items   :   0
+    Adata items   :  14    Bdata items   :   0    Cdata items   :   0
  ADATA variables:
     1 Number of circuits (integer)
       Value =    1.0000        Range (Min Max):     1.0000        99.000
@@ -3555,7 +3555,17 @@ Type :   0    Init suppl dat :   0    Tot suppl dat :   0    No. of conns :   0
       Value =    6.0000        Range (Min Max):     1.0000        99.000
     9 Injection node number (integer)
       Value =    7.0000        Range (Min Max):     1.0000        99.000
- 
+   10 Insulation layer (integer)
+      Value =    0.0000        Range (Min Max):     0.0000        99.000
+   11 Under Relaxation factor
+      Value =    0.5000        Range (Min Max):     0.0010        1.0000
+   12 Maximum number of iterations (integer)
+      Value =    100.00        Range (Min Max):     100.00        1000.0
+   13 Flag for model. 1 = Laouadi Model, 2 = Fin model for pipe in subfloor (e.g. Warmboard)
+      Value =    1.0000        Range (Min Max):     1.0000        2.0000 
+   14 Amount of finite difference nodes for pipe-in-subfloor model
+      Value =    50.0000        Range (Min Max):     10.0000        100.0000
+
  Number of additional output parameters:     5
  Additional output variables:
     1 Minimum floor temperature (C)  Type :    4
@@ -3563,7 +3573,7 @@ Type :   0    Init suppl dat :   0    Tot suppl dat :   0    No. of conns :   0
     3 Supply power (Watts)           Type :    1
     4 Average fluid temperature (C)  Type :    4
     5 Average circuit length (m)     Type :    6
- 
+
  Mass flow components data
 General flow conduit component      m = rho.f(D,A,L,k,SCi)
 Type : 210    Init suppl dat :   6    Tot suppl dat :  13    No. of conns :   0
@@ -3580,7 +3590,7 @@ control period finish hour                                            0.0000
 open(1) shut(0) outside period                                        0.0000
 index for the sensed property                                         0.0000
 signal set point                                                      0.0000
- 
+
 ---------------------------------------------------------------------
   PLANT COMPONENT                                           No :     64
  

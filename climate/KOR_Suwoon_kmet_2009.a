@@ -1,5 +1,5 @@
 *CLIMATE
-# ascii climate file from suwoon_2009_jan-dec binary db,
+# ascii weather file from suwoon_2009_jan-dec binary db,
 # defined in: suwoon_2009_jan-dec.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)

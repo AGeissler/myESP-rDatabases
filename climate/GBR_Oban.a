@@ -1,5 +1,5 @@
 *CLIMATE
-# ascii climate file from GBR_Oban binary db,
+# ascii weather file from GBR_Oban binary db,
 # defined in: GBR_Oban.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)
@@ -7,7 +7,7 @@
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-OBAN - GBR (031140)                   # site name
+OBAN - GBR 1994 IWEC 031140                   # site name
  1994,56.42,-5.47,0   # year, latitude, long diff, direct normal rad flag
  1,365    # period (julian days)
 * day  1 month  1

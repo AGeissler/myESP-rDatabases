@@ -1,15 +1,15 @@
 *CLIMATE
-# ascii climate file from GBR_Aberdeen.Dyce binary db,
+# ascii weather file from GBR_Aberdeen.Dyce binary db,
 # defined in: GBR_Aberdeen.Dyce.a
-# col 1: Diffuse solar on the horizontal (W/m**2)
-# col 2: External dry bulb temperature   (Tenths DEG.C)
-# col 3: Direct normal solar intensity   (W/m**2)
+# col 1: Diffuse solar on the horizontal (W/m^2)
+# col 2: External dry bulb temperature   (Tenths C)
+# col 3: Direct normal solar intensity   (W/m^2)
 # col 4: Prevailing wind speed           (Tenths m/s) 
-# col 5: Wind direction     (clockwise deg from north) 
-# col 6: Relative humidity               (Percent)
-ABERDEEN/DYCE - GBR             # site name
+# col 5: Wind direction     (clockwise deg from N.) 
+# col 6: Relative humidity               (%)
+UK, Aberdee, Dyce, 1994         # site name
  1994,57.20,-2.22,0   # year, latitude, long diff, direct normal rad flag
- 1,365    # period (julian days)
+ 1,365    # period
 * day  1 month  1
  0,-31,0,10,10,94
  0,-47,0,10,360,94

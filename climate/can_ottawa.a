@@ -1,5 +1,5 @@
 *CLIMATE
-# ascii climate file from can_ottawa binary db,
+# ascii weather file from can_ottawa binary db,
 # defined in: can_ottawa.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)
@@ -7,7 +7,7 @@
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-Ottawa Intl ON CAN              # site name
+Ottawa Intl ON CAN 1966             # site name
  1966,45.32,-0.67,0,   # year latitude long diff rad flag
  1,365,    # period (julian days)
 * day  1 month  1

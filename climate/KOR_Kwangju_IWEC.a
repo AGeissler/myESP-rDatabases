@@ -1,5 +1,5 @@
 *CLIMATE
-# ascii climate file from KOR_Kwangju_IWEC binary db,
+# ascii weather file from KOR_Kwangju_IWEC binary db,
 # defined in: KOR_Kwangju_IWEC.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)
@@ -7,7 +7,7 @@
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-KWANGJU - KOR IWEC 471560       # site name
+KWANGJU - KOR 2001 IWEC 471560       # site name
  2001,35.13,-8.08,0   # year latitude long diff rad flag
  1,365    # period (julian days)
 * day  1 month  1

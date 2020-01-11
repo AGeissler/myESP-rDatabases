@@ -1,5 +1,5 @@
 *CLIMATE
-# ascii climate file from nzl_wellington_iwec binary db,
+# ascii weather file from nzl_wellington_iwec binary db,
 # defined in: nzl_wellington_iwec.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)
@@ -7,7 +7,7 @@
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-WELLINGTON New Zealand 934360   # site name
+WELLINGTON New Zealand 2001 IWEC 934360   # site name
  2001,-41.30,-5.22,0   # year latitude long diff rad flag
  1,365    # period (julian days)
 * day  1 month  1

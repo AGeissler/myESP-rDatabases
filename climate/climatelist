@@ -1,9 +1,8 @@
 *CLIMATE_LIST
-*group	ESRU standard climates
-# WARNING: Keep this file up to date with current directory structure !
+*group	Collection: std. distribution
 *item
-*name	Default UK clm Climate
-*aide	Climate data as distributed with ESP-r for testing purposes.
+*name	UK, ESP-r test weather, 1967
+*aide	Weather data used by ESP-r for testing purposes.
 *dbfl	/opt/esp-r/climate/clm67
 *winter_s 1  1  12  3  30  10  31 12
 *spring_s 13 3  14  5   4   9  29 10
@@ -13,7 +12,7 @@
 *summer_t 3  7   9  7
 *avail	ONLINE
 *help_start
-Location is 52.0N and 0.0E. The solar radiation is Direct Normal. 
+ Station location: 52.0 N, 0.0 E.
  Month       Minimum  Time           Maximum  Time         Mean
  Jan          -6.4 @20h00 Sun  8    12.7 @14h00 Sun 29     3.8
  Feb          -1.9 @ 5h00 Tue 14    12.2 @13h00 Thu  2     5.2
@@ -28,15 +27,15 @@ Location is 52.0N and 0.0E. The solar radiation is Direct Normal.
  Nov          -0.8 @ 5h00 Mon 27    14.4 @14h00 Sat 11     5.2
  Dec          -4.2 @ 1h00 Sat  9    12.7 @ 9h00 Sat 23     3.8
  All   -6.4 @20h00 Sun  8 Jan  27.7 @12h00 Mon 17 Jul   9.5
- Typical winter week begins Monday 6 Feb,
- Typical spring week begins Monday 17 April,
+ Typical winter week begins Monday 6 Feb.
+ Typical spring week begins Monday 17 April.
  Typical summer week begins Monday 3 July.
  Typical autumn week begins Monday 2 October.
- Typical winter week begins Monday 20 November,
+ Typical winter week begins Monday 20 November.
 *help_end
 *item
-*name	Aberdeen - Dyce  GBR
-*aide	Aberdeen - Dyce (030910) was sourced from US DoE
+*name	UK, Dyce, Aberdeen, 1994
+*aide	IWEC 030910 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/GBR_Aberdeen.Dyce
 *avail	ONLINE
 *winter_s  1  1  6  3  7 11 31 12 # seasons Sat-01-Jan--Sun-06-Mar & Mon-07-Nov--Sat-31-Dec
@@ -46,8 +45,7 @@ Location is 52.0N and 0.0E. The solar radiation is Direct Normal.
 *spring_t  4  4 10  4 19  9 25  9 # typical Mon-04-Apr--Sun-10-Apr & Mon-19-Sep--Sun-25-Sep
 *summer_t  8  8 14  8 # typical summer Mon-08-Aug--Sun-14-Aug
 *help_start
-Climate is ABERDEEN/DYCE - GBR
- Location: 57.20N  2.22W : 1994
+ Station location: 57.20 N, 2.22 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -6.3 @ 5h00 Sat-01       11.3 @22h00 Thu-20     3.6
  Feb     -5.1 @ 5h00 Tue-15       11.1 @14h00 Mon-28     4.3
@@ -75,8 +73,8 @@ Winter season is Mon-07-Nov - Sat-31-Dec
 Typical winter week begins Mon-21-Nov
 *help_end
 *item
-*name	ARE Abu Dhabi iwec 412170
-*aide	ARE Abu dhabi IWEC 412170 was sourced from US DoE
+*name	UAE, Abu Dhabi, ARE, 1997
+*aide	IWEC 412170 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/ARE_Abu_Dhabi
 *avail	ONLINE
 *winter_s  1  1  2  3 17 11 31 12 # seasons Wed-01-Jan--Sun-02-Mar & Mon-17-Nov--Wed-31-Dec
@@ -86,8 +84,7 @@ Typical winter week begins Mon-21-Nov
 *spring_t 14  4 20  4 20 10 26 10 # typical Mon-14-Apr--Sun-20-Apr & Mon-20-Oct--Sun-26-Oct
 *summer_t  7  7 13  7 # typical summer Mon-07-Jul--Sun-13-Jul
 *help_start
-Weather is ABU DHABI - ARE
- Location: 24.43N  5.35W : 1997
+ Station location: 24.43 N  5.35 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan      9.7 @ 7h00 Mon-20       28.0 @17h00 Fri-17    18.0
  Feb      5.0 @ 8h00 Sun-02       33.8 @16h00 Fri-28    19.9
@@ -115,8 +112,8 @@ Winter season is Mon-17-Nov - Wed-31-Dec
 Typical winter week begins Mon-01-Dec
 *help_end
 *item
-*name	ALBUQUERQUE NM USA iwec 723650
-*aide	ALBUQUERQUE NM USA iwec 723650 was sourced from US DoE web Sep 2005
+*name	USA, ALBUQUERQUE, 2001
+*aide	IWEC 723650 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/USA_NM_Albuquerque_iwec
 *avail	ONLINE
 *winter_s  1  1 25  3  5 11 31 12
@@ -126,8 +123,7 @@ Typical winter week begins Mon-01-Dec
 *spring_t 23  4 29  4  8 10 14 10
 *summer_t 11  6 17  6
 *help_start
-Climate is ALBUQUERQUE NM USA iwec 723650
- Location: 35.05N  1.62W : 2001
+ Station location: 35.05 N, 1.62 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -11.1 @ 5h00 Thu  4       16.7 @15h00 Thu 25     2.0
  Feb     -6.7 @ 6h00 Sun  4       22.2 @16h00 Wed 14     4.3
@@ -155,8 +151,8 @@ Winter season is Mon  5 Nov - Mon 31 Dec
 Typical winter week begins Mon 26 Nov
 *help_end
 *item
-*name	Aughton - GBR (033220)
-*aide	Aughton - GBR (033220) was sourced from US DoE
+*name	UK, Aughton, 1995
+*aide	IWEC 033220 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/GBR_Aughton
 *avail	ONLINE
 *winter_s  1  1  5  3 30 10 31 12 # seasons Sun-01-Jan--Sun-05-Mar & Mon-30-Oct--Sun-31-Dec
@@ -166,8 +162,7 @@ Typical winter week begins Mon 26 Nov
 *spring_t 10  4 16  4  9 10 15 10 # typical Mon-10-Apr--Sun-16-Apr & Mon-09-Oct--Sun-15-Oct
 *summer_t 21  8 27  8 # typical summer Mon-21-Aug--Sun-27-Aug
 *help_start
-Climate is AUGHTON - GBR
- Location: 53.55N  2.92W : 1995
+ Station location: 53.55 N, 2.92 W
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -2.3 @ 5h00 Tue-03       13.0 @16h00 Tue-31     4.7
  Feb     -2.9 @ 6h00 Thu-16       11.8 @15h00 Sat-04     3.7
@@ -195,8 +190,8 @@ Winter season is Mon-30-Oct - Sun-31-Dec
 Typical winter week begins Mon-20-Nov
 *help_end
 *item
-*name	Aswan EGY 624140
-*aide	EGY Aswan was sourced from US DoE site number 624140
+*name	Egypt, Aswan, 1986
+*aide	IWEC 624140 sourced from US DoE. 
 *dbfl	/opt/esp-r/climate/EGY_Aswan
 *avail	ONLINE
 *winter_s  1  1 22  3 21 12 31 12 # seasons Wed-01-Jan--Sat-22-Mar & Sun-21-Dec--Wed-31-Dec
@@ -206,8 +201,7 @@ Typical winter week begins Mon-20-Nov
 *spring_t 20  4 26  4 19 10 25 10 # typical Sun-20-Apr--Sat-26-Apr & Sun-19-Oct--Sat-25-Oct
 *summer_t  3  8  9  8 # typical summer Sun-03-Aug--Sat-09-Aug
 *help_start
-Weather is Aswan Aswan EGY 624140
- Location: 23.97N  2.78E : 1986
+ Station location: 23.97 N, 2.78 E.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan      3.8 @ 8h00 Tue-14       29.5 @16h00 Thu-02    15.9
  Feb      8.3 @ 7h00 Fri-21       28.3 @16h00 Tue-18    16.1
@@ -236,8 +230,8 @@ Winter season is Sun-21-Dec - Wed-31-Dec
 Typical winter week begins Sun-21-Dec
 *help_end
 *item
-*name	Baltimore MD USA iwec 724060
-*aide	Baltimore MD USA iwec 724060 was sourced from DoE web site Sep 2005
+*name	USA, Baltimore MD, 2001
+*aide	IWEC 724060 sourced from DoE.
 *dbfl	/opt/esp-r/climate/USA_MD_Baltimore_iwec
 *avail	ONLINE
 *winter_s  1  1 25  3 19 11 31 12
@@ -247,8 +241,7 @@ Typical winter week begins Sun-21-Dec
 *spring_t  2  4  8  4 15 10 21 10
 *summer_t  4  6 10  6
 *help_start
-Climate is Baltimore MD USA iwec 724060
- Location: 39.18N  1.67W : 2001
+ Station location: 39.18 N, 1.67 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -16.7 @20h00 Wed 17       16.7 @12h00 Tue  9    -0.7
  Feb    -11.1 @ 7h00 Thu  8       16.7 @16h00 Thu 15     0.9
@@ -276,8 +269,8 @@ Winter season is Mon 19 Nov - Mon 31 Dec
 Typical winter week begins Mon  3 Dec
 *help_end
 *item
-*name	Belfast NI GBR
-*aide	Belfast NI GBR (039170) was sourced from US DoE
+*name	UK, Belfast, 1994
+*aide	IWEC 039170) sourced from US DoE.
 *dbfl	/opt/esp-r/climate/GBR_Belfast
 *avail	ONLINE
 *winter_s  1  1  6  3  7 11 31 12 # seasons Sat-01-Jan--Sun-06-Mar & Mon-07-Nov--Sat-31-Dec
@@ -287,8 +280,7 @@ Typical winter week begins Mon  3 Dec
 *spring_t 25  4  1  5 19  9 25  9 # typical Mon-25-Apr--Sun-01-May & Mon-19-Sep--Sun-25-Sep
 *summer_t 18  7 24  7 # typical summer Mon-18-Jul--Sun-24-Jul
 *help_start
-Climate is BELFAST - GBR
- Location: 54.65N  6.22W : 1994
+ Station location: 54.65 N, 6.22 W
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -3.2 @ 6h00 Sun-16        9.2 @15h00 Sat-29     4.1
  Feb     -4.2 @ 3h00 Tue-15       12.4 @16h00 Sun-27     4.1
@@ -316,8 +308,8 @@ Winter season is Mon-07-Nov - Sat-31-Dec
 Typical winter week begins Mon-05-Dec
 *help_end
 *item
-*name	BESTEST drycold Denver USA
-*aide	BESTEST drycold Denver was sourced from US DoE
+*name	USA, BESTEST drycold, 1991
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/drycold.esp
 *avail	ONLINE
 *winter_s  1  1 14  4 28 10 31 12 # seasons Tue-01-Jan--Sun-14-Apr & Mon-28-Oct--Tue-31-Dec
@@ -327,8 +319,7 @@ Typical winter week begins Mon-05-Dec
 *spring_t 22  4 28  4 14 10 20 10 # typical Mon-22-Apr--Sun-28-Apr & Mon-14-Oct--Sun-20-Oct
 *summer_t 12  8 18  8 # typical summer Mon-12-Aug--Sun-18-Aug
 *help_start
-Weather is denver
- Location: 39.80N  0.10E : 1991
+ Station location: 39.80 N, 0.10 E.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -24.3 @ 2h00 Fri-04       17.8 @14h00 Thu-24    -1.6
  Feb    -22.1 @23h00 Tue-05       17.2 @14h00 Wed-13    -0.5
@@ -356,8 +347,8 @@ Winter season is Mon-28-Oct - Tue-31-Dec
 Typical winter week begins Mon-18-Nov
 *help_end
 *item
-*name	Berlin DEU IWEC 103840
-*aide	Berlin Germany IWEC 103840 was sourced from US DoE
+*name	Germany, Berlin DEU, 2001
+*aide	IWEC 103840 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/DEU_Berlin
 *avail	ONLINE
 *winter_s  1  1 25  2  5 11 31 12 # seasons Mon-01-Jan--Sun-25-Feb & Mon-05-Nov--Mon-31-Dec
@@ -367,8 +358,7 @@ Typical winter week begins Mon-18-Nov
 *spring_t 30  4  6  5  1 10  7 10 # typical Mon-30-Apr--Sun-06-May & Mon-01-Oct--Sun-07-Oct
 *summer_t  9  7 15  7 # typical summer Mon-09-Jul--Sun-15-Jul
 *help_start
-Climate is Berlin Germany IWEC 103840
- Location: 52.47N  1.60W : 2001
+ Station location: 52.47 N, 1.60 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -5.4 @ 4h00 Tue-23        8.9 @15h00 Mon-01     1.9
  Feb     -9.1 @ 7h00 Sun-18        9.3 @13h00 Mon-05     0.3
@@ -396,8 +386,8 @@ Winter season is Mon-05-Nov - Mon-31-Dec
 Typical winter week begins Mon-03-Dec
 *help_end
 *item
-*name	Birmingham - GBR
-*aide	Brimingham - GBR (03540) was sourced from US DoE
+*name	UK, Birmingham, 1995
+*aide	IWEC 03540 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/GBR_Birmingham
 *avail	ONLINE
 *winter_s  1  1  5  3 30 10 31 12 # seasons Sun-01-Jan--Sun-05-Mar & Mon-30-Oct--Sun-31-Dec
@@ -407,8 +397,7 @@ Typical winter week begins Mon-03-Dec
 *spring_t  3  4  9  4 11  9 17  9 # typical Mon-03-Apr--Sun-09-Apr & Mon-11-Sep--Sun-17-Sep
 *summer_t 19  6 25  6 # typical summer Mon-19-Jun--Sun-25-Jun
 *help_start
-Climate is BIRMINGHAM - GBR
- Location: 52.45N  1.73W : 1995
+ Station location: 52.45 N, 1.73 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -6.6 @ 5h00 Tue-03       11.9 @19h00 Tue-31     4.6
  Feb     -7.4 @ 6h00 Wed-01       12.7 @12h00 Tue-28     3.7
@@ -436,8 +425,8 @@ Winter season is Mon-30-Oct - Sun-31-Dec
 Typical winter week begins Mon-04-Dec
 *help_end
 *item
-*name	Boulder Colorado USA
-*aide	Boulder Colorado USA TMY2 data was sourced from US DoE
+*name	USA, Boulder CO, 1970
+*aide	TMY2 data sourced from US DoE.
 *dbfl	/opt/esp-r/climate/USA_CO_Boulder_TMY2
 *avail	ONLINE
 *winter_s  1  1  8  3 16 11 31 12 # seasons Thu-01-Jan--Sun-08-Mar & Mon-16-Nov--Thu-31-Dec
@@ -447,8 +436,7 @@ Typical winter week begins Mon-04-Dec
 *spring_t 23  3 29  3 12 10 18 10 # typical Mon-23-Mar--Sun-29-Mar & Mon-12-Oct--Sun-18-Oct
 *summer_t  3  8  9  8 # typical summer Mon-03-Aug--Sun-09-Aug
 *help_start
-Climate is BOULDER CO USA
- Location: 40.02N  0.25W : 1970
+ Station location: 40.02 N, 0.25 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -23.3 @ 5h00 Tue-06       19.4 @14h00 Sat-24    -1.0
  Feb    -19.4 @ 4h00 Sun-15       18.3 @13h00 Wed-11     0.6
@@ -476,8 +464,8 @@ Winter season is Mon-16-Nov - Thu-31-Dec
 Typical winter week begins Mon-14-Dec
 *help_end
 *item
-*name	Brescia-Ghedi - ITA
-*aide	Brescia-Ghedi - ITA was sourced from us DoE
+*name	Italy, Brescia-Ghedi, 2005
+*aide	Sourced from us DoE.
 *dbfl	/opt/esp-r/climate/ITA_Brescia-Ghedi
 *avail	ONLINE
 *winter_s  1  1 20  3 12 12 31 12 # seasons Sat-01-Jan--Sun-20-Mar & Mon-12-Dec--Sat-31-Dec
@@ -487,8 +475,7 @@ Typical winter week begins Mon-14-Dec
 *spring_t  6  6 12  6 13 11 19 11 # typical Mon-06-Jun--Sun-12-Jun & Sun-13-Nov--Sat-19-Nov
 *summer_t  8  8 14  8 # typical summer Mon-08-Aug--Sun-14-Aug
 *help_start
-Climate is Brescia-Ghedi - ITA
- Location: 45.42N  4.72W : 2005
+ Station location: 45.42 N, 4.72 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -5.0 @ 7h00 Fri-07       13.0 @16h00 Tue-04     2.2
  Feb     -5.0 @ 7h00 Thu-24       15.8 @14h00 Sat-26     4.2
@@ -516,8 +503,8 @@ Winter season is Mon-12-Dec - Sat-31-Dec
 Typical winter week begins Mon-19-Dec
 *help_end
 *item
-*name	Brussels Belgium IWEC WMO 064510
-*aide	Brussels (sourced from IWEC/DoE)
+*name	Belgium, Brussels, 2001
+*aide	IWEC 064510 sourced from DoE.
 *dbfl	/opt/esp-r/climate/bel_brussels_iwec
 *avail	ONLINE
 *winter_s 1  1  11  3  29  10  31 12
@@ -550,8 +537,8 @@ radiation is Direct Normal.  Dry bulb temperatures:
  Typical winter week begins Monday 11 November,
 *help_end
 *item
-*name	Burlington VT USA iwec 726170
-*aide	Burlington VT USA iwec 726170 was sourced from US DoE web site Sep 2005
+*name	USA, Burlington VT, 2001
+*aide	IWEC 726170 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/USA_VT_Burlington_iwec
 *avail	ONLINE
 *winter_s  1  1 22  4 29 10 31 12
@@ -561,8 +548,7 @@ radiation is Direct Normal.  Dry bulb temperatures:
 *spring_t 11  6 17  6  3  9  9  9
 *summer_t  9  7 15  7
 *help_start
-Climate is BURLINGTON VT USA iwec 726170
- Location: 44.47N  1.85E : 2001
+ Station location: 44.47 N, 1.85 E.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -24.4 @ 8h00 Mon  8       11.1 @12h00 Fri 19    -6.9
  Feb    -26.7 @ 7h00 Mon 26        6.7 @ 1h00 Sat  3    -7.8
@@ -590,8 +576,8 @@ Winter season is Mon 29 Oct - Mon 31 Dec
 Typical winter week begins Mon 19 Nov
 *help_end
 *item
-*name	CAIRO - EGY
-*aide	CAIRO - EGY was sourced from US DoE
+*name	Egypt, Cairo, 1988
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/EGY_Cairo
 *avail	ONLINE
 *winter_s  1  1 20  3 21 12 31 12 # seasons Fri-01-Jan--Sun-20-Mar & Wed-21-Dec--Sat-31-Dec
@@ -601,8 +587,7 @@ Typical winter week begins Mon 19 Nov
 *spring_t 25  4  1  5 25 11  1 12 # typical Mon-25-Apr--Sun-01-May & Fri-25-Nov--Thu-01-Dec
 *summer_t 12  7 18  7 # typical summer Tue-12-Jul--Mon-18-Jul
 *help_start
-Weather is CAIRO - EGY
- Location: 30.13N  1.40E : 1988
+ Station location: 30.13 N, 1.40 E.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan      7.0 @ 4h00 Wed-20       23.0 @15h00 Sun-31    14.0
  Feb      8.0 @ 6h00 Sat-20       26.0 @15h00 Tue-16    14.5
@@ -630,8 +615,8 @@ Winter season is Wed-21-Dec - Sat-31-Dec
 Typical winter week begins Wed-21-Dec
 *help_end
 *item
-*name	Calgary Intl AB CAN
-*aide	Calgary Intl AB CAN was sourced from US DoE
+*name	Canada, Calgary AB, 2001
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/CAN_AB_Calgary_CWEC
 *avail	ONLINE
 *winter_s  1  1  1  4 29 10 31 12
@@ -641,8 +626,7 @@ Typical winter week begins Wed-21-Dec
 *spring_t 30  4  6  5  3  9  9  9
 *summer_t  6  8 12  8
 *help_start
-Climate is Calgary Intl AB CAN
- Location: 51.12N  9.02W : 2001
+ Station location: 51.12 N, 9.02 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -28.9 @ 6h00 Wed 31       10.2 @12h00 Mon 22    -8.2
  Feb    -24.1 @ 5h00 Thu 15        8.4 @15h00 Thu  8    -6.4
@@ -670,8 +654,33 @@ Winter season is Mon 29 Oct - Mon 31 Dec
 Typical winter week begins Mon 24 Dec
 *help_end
 *item
-*name	Chicago IL USA iwec 725300
-*aide	Chicago IL USA iwec 725300 was sourced from US DoE web site Sep 2005
+*name	Italy, Catania-Sigonella, 2005
+*aide	Catania-Sigonella IWEC 164590 source US DoE August 2019
+*dbfl	/opt/esp-r/climate/ITA_Catania
+*avail	ONLINE
+*winter_s  1  1 20  3 28 11 31 12 # seasons Sat-01-Jan--Sun-20-Mar & Mon-28-Nov--Sat-31-Dec
+*spring_s 21  3 29  5 19  9 27 11 # seasons Mon-21-Mar--Sun-29-May & Mon-19-Sep--Sun-27-Nov
+*summer_s 30  5 18  9 # summer season Mon-30-May--Sun-18-Sep
+*winter_t 19  2 25  2  5 12 11 12 # typical Sat-19-Feb--Fri-25-Feb & Mon-05-Dec--Sun-11-Dec
+*spring_t 11  4 17  4 24 10 30 10 # typical Mon-11-Apr--Sun-17-Apr & Mon-24-Oct--Sun-30-Oct
+*summer_t 20  6 26  6 # typical summer Mon-20-Jun--Sun-26-Jun
+*help_start
+Station: Catania-Sigonella - ITA 37.40N -0.08W, 2005
+ ---Seasons & typical periods---
+Winter season is Sat-01-Jan - Sun-20-Mar
+Typical winter week begins Sat-19-Feb
+Spring season is Mon-21-Mar - Sun-29-May
+Typical spring week begins Mon-11-Apr
+Summer season is Mon-30-May - Sun-18-Sep
+Typical summer week begins Mon-20-Jun
+Autumn season is Mon-19-Sep - Sun-27-Nov
+Typical autumn week begins Mon-24-Oct
+Winter season is Mon-28-Nov - Sat-31-Dec
+Typical winter week begins Mon-05-Dec
+*help_end
+*item
+*name	USA, Chicago IL, 2001
+*aide	IWEC 725300 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/USA_IL_Chicago_iwec
 *avail	ONLINE
 *winter_s  1  1 25  3 29 10 31 12
@@ -681,8 +690,7 @@ Typical winter week begins Mon 24 Dec
 *spring_t 14  5 20  5  1 10  7 10
 *summer_t  4  6 10  6
 *help_start
-Climate is CHICAGO IL USA iwec 725300
- Location: 41.78N  2.25E : 2001
+ Station location: 41.78 N, 2.25 E.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -22.8 @ 7h00 Sun  7       12.2 @15h00 Sun 21    -4.6
  Feb    -16.7 @ 5h00 Fri  9       11.7 @11h00 Wed 28    -2.2
@@ -710,8 +718,8 @@ Winter season is Mon 29 Oct - Mon 31 Dec
 Typical winter week begins Mon 26 Nov
 *help_end
 *item
-*name	Copenhagen Denmark IWEC 0618800
-*aide	Copenhagen Denmark IWEC 0618800 was sourced from US DoE
+*name	Denmark, Copenhagen, 2001
+*aide	IWEC 0618800 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/dnk_copenhagen_iwec
 *avail	ONLINE
 *winter_s  1  1  1  4 12 11 31 12
@@ -721,8 +729,8 @@ Typical winter week begins Mon 26 Nov
 *spring_t  9  4 15  4 24  9 30  9
 *summer_t  4  6 10  6
 *help_start
-Climate is Copenhagen Denmark IWEC0618800
- Location: 55.63N  2.33W : 2001
+Weather is Copenhagen Denmark IWEC0618800
+ Station location: 55.63 N, 2.33 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -4.8 @ 7h00 Mon 22        8.6 @10h00 Mon  1     1.5
  Feb     -9.6 @ 1h00 Tue 13        8.5 @16h00 Sun  4     0.2
@@ -749,8 +757,8 @@ Winter season is Mon 12 Nov - Mon 31 Dec
 Typical winter week begins Mon 26 Nov
 *help_end
 *item
-*name	Dijon - FRA (47.27N 5.08E)
-*aide	Dijon - FRA (47.27N 5.08E) was sourced from USA DoE EPW file.
+*name	France, Dijon, 2001
+*aide	EPW file sourced from USA DoE.
 *dbfl	/opt/esp-r/climate/FRA_Dijon
 *avail	ONLINE
 *winter_s  1  1 25  2 12 11 31 12
@@ -760,8 +768,7 @@ Typical winter week begins Mon 26 Nov
 *spring_t 16  4 22  4  1 10  7 10
 *summer_t 11  6 17  6
 *help_start
-Climate is Dijon - FRA (47.27N 5.08E)
- Location: 47.27N  9.92W : 2001
+ Station location: 47.27 N, 9.92 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -11.0 @ 8h00 Sat-27       11.0 @17h00 Sun-14     2.2
  Feb     -8.0 @ 3h00 Tue-13       14.0 @15h00 Tue-27     2.6
@@ -789,8 +796,8 @@ Winter season is Mon-12-Nov - Mon-31-Dec
 Typical winter week begins Mon-19-Nov
 *help_end
 *item
-*name	Dublin Ireland (039690)
-*aide	Dublin Ireland (039690) was sourced from US DoE
+*name	Ireland, Dublin
+*aide	IWEC 039690) sourced from US DoE.
 *dbfl	/opt/esp-r/climate/IRL_Dublin
 *avail	ONLINE
 *winter_s  1  1  8  3  2 11 31 12 # seasons Thu-01-Jan--Sun-08-Mar & Mon-02-Nov--Thu-31-Dec
@@ -800,8 +807,7 @@ Typical winter week begins Mon-19-Nov
 *spring_t 23  3 29  3  5 10 11 10 # typical Mon-23-Mar--Sun-29-Mar & Mon-05-Oct--Sun-11-Oct
 *summer_t 22  6 28  6 # typical summer Mon-22-Jun--Sun-28-Jun
 *help_start
-Climate is DUBLIN - IRL
- Location: 53.43N  6.25W : 1998
+ Station location: 53.43 N, 6.25 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -4.2 @ 5h00 Tue-20       16.1 @13h00 Sat-10     5.8
  Feb     -4.0 @ 7h00 Wed-18       11.6 @14h00 Thu-26     4.8
@@ -829,8 +835,8 @@ Winter season is Mon-02-Nov - Thu-31-Dec
 Typical winter week begins Mon-30-Nov
 *help_end
 *item
-*name	Dundee 1980
-*aide	Dundee 1980 (sourced from Oscar Faber)
+*name	UK, Dundee, 1980
+*aide	Sourced from Oscar Faber, UK.
 *dbfl	/opt/esp-r/climate/dundee80
 *avail	ONLINE
 *winter_s  1  1 17  3  4 11 31 12
@@ -840,8 +846,7 @@ Typical winter week begins Mon-30-Nov
 *spring_t  8  4 14  4 30  9  6 10
 *summer_t  2  9  8  9
 *help_start
-Climate is dundee
- Location: 56.50N  3.00W : 1980
+ Station location: 56.50 N, 3.00 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -6.1 @ 9h00 Wed-16       11.3 @14h00 Wed-02     3.7
  Feb     -4.9 @ 7h00 Mon-25       13.1 @13h00 Wed-06     3.3
@@ -869,8 +874,8 @@ Winter season is Tue-04-Nov - Wed-31-Dec
 Typical winter week begins Tue-23-Dec
 *help_end
 *item
-*name	Duluth MN USA iwec 727450
-*aide	Duluth MN USA iwec 727450  was sourced from US DoE web site Sep 2005
+*name	USA, Duluth MN, 2001
+*aide	IWEC 727450  sourced from US DoE.
 *dbfl	/opt/esp-r/climate/USA_MN_Duluth_iwec
 *avail	ONLINE
 *winter_s  1  1 29  4 15 10 31 12
@@ -880,8 +885,7 @@ Typical winter week begins Tue-23-Dec
 *spring_t 28  5  3  6  1 10  7 10
 *summer_t  6  8 12  8
 *help_start
-Climate is Duluth MN USA iwec 727450
- Location: 46.83N  2.18W : 2001
+ Station location: 46.83 N, 2.18 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -30.6 @ 6h00 Tue  9        2.2 @15h00 Sat 13   -13.0
  Feb    -32.8 @ 8h00 Thu  1        8.9 @15h00 Wed 28   -11.0
@@ -909,8 +913,8 @@ Winter season is Mon 15 Oct - Mon 31 Dec
 Typical winter week begins Mon 19 Nov
 *help_end
 *item
-*name	El Paso TX USA iwec 722700
-*aide	El Paso TX USA iwec 722700 was sourced from DoE web Sep 2005
+*name	USA, El Paso TX, 2001
+*aide	IWEC 722700 sourced from DoE.
 *dbfl	/opt/esp-r/climate/USA_TX_El_Paso_iwec
 *avail	ONLINE
 *winter_s  1  1 11  2 19 11 31 12
@@ -920,8 +924,7 @@ Typical winter week begins Mon 19 Nov
 *spring_t 23  4 29  4  8 10 14 10
 *summer_t 13  8 19  8
 *help_start
-Climate is El Paso TX USA iwec 722700
- Location: 31.80N  1.40W : 2001
+ Station location: 31.80 N, 1.40 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -9.4 @ 7h00 Thu  4       24.4 @13h00 Sun 21     6.8
  Feb     -5.6 @ 6h00 Tue  6       26.1 @15h00 Tue 20    10.1
@@ -949,8 +952,8 @@ Winter season is Mon 19 Nov - Mon 31 Dec
 Typical winter week begins Mon 17 Dec
 *help_end
 *item
-*name	Guantanamo Bay CUBA
-*aide	Guantanamo Bay CUBA sourced from DoE web Mar 2008
+*name	Cuba, Guantanamo Bay, 1971
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/CUB_Guantanamo.Bay.NAS_TMY
 *avail	ONLINE
 *winter_s  1  1 28  2  1 11 31 12
@@ -960,8 +963,7 @@ Typical winter week begins Mon 17 Dec
 *spring_t  6  3 12  3  2 10  8 10
 *summer_t 11  7 17  7
 *help_start
-Climate is Guantanamo Bay a CUB
- Location: 19.90N 14.85E : 1971
+ Station location: 19.90 N, 14.85 E.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     17.2 @ 4h00 Thu-21       29.4 @13h00 Sat-16    24.1
  Feb     20.6 @ 7h00 Fri-05       28.9 @14h00 Tue-09    24.4
@@ -989,8 +991,8 @@ Winter season is Mon-01-Nov - Fri-31-Dec
 Typical winter week begins Sat-20-Nov
 *help_end
 *item
-*name	Jersey Channel Isles (038950)
-*aide	Jersey Channel Islands (038950) GBR was sourced from US DoE
+*name	UK, Channel Isles, Jersey
+*aide	IWEC 038950 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/GBR_Channel_Islands
 *avail	ONLINE
 *winter_s  1  1 24  3 11 11 31 12 # seasons Mon-01-Jan--Sun-24-Mar & Mon-11-Nov--Tue-31-Dec
@@ -1000,8 +1002,7 @@ Typical winter week begins Sat-20-Nov
 *spring_t 29  4  5  5 23  9 29  9 # typical Mon-29-Apr--Sun-05-May & Mon-23-Sep--Sun-29-Sep
 *summer_t  3  6  9  6 # typical summer Mon-03-Jun--Sun-09-Jun
 *help_start
-Climate is JERSEY/CHANNEL ISLANDS - GBR
- Location: 49.22N  2.20W : 1996
+ Station location: 49.22 N, 2.20 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -1.1 @10h00 Sat-27       11.2 @13h00 Sun-07     6.5
  Feb      0.2 @22h00 Tue-20       10.8 @14h00 Tue-06     6.3
@@ -1029,8 +1030,8 @@ Winter season is Mon-11-Nov - Tue-31-Dec
 Typical winter week begins Mon-09-Dec
 *help_end
 *item
-*name	Fairbanks AK USA 702610
-*aide	Fairbanks AK USA was sourced from US DoE web site Sept 2005
+*name	USA, Fairbanks AK, 2001
+*aide	IWEC 702610 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/USA_AK_Fairbanks_iwec
 *avail	ONLINE
 *winter_s  1  1 29  4  8 10 31 12
@@ -1040,8 +1041,7 @@ Typical winter week begins Mon-09-Dec
 *spring_t 14  5 20  5 18  9 24  9
 *summer_t  2  7  8  7
 *help_start
-Climate is Fairbanks AK USA IWEC 702610
- Location: 64.82N 12.87W : 2001
+ Station location: 64.82 N, 12.87 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -45.6 @24h00 Fri 12        6.1 @ 2h00 Sun 21   -23.2
  Feb    -45.0 @ 9h00 Sun  4        3.9 @15h00 Wed 28   -21.9
@@ -1069,8 +1069,8 @@ Winter season is Mon  8 Oct - Mon 31 Dec
 Typical winter week begins Mon  5 Nov
 *help_end
 *item
-*name	Finningley GBR IWEC WMO 033600
-*aide	Finningley GBR (sourced from IWEC/DoE)
+*name	UK, Finningley, 1995
+*aide	IWEC 033600 sourced from DoE.
 *dbfl	/opt/esp-r/climate/uk_finningley_iwec
 *avail	ONLINE
 *winter_s 1  1  19  3  30  10  31 12
@@ -1103,8 +1103,8 @@ The solar radiation is Direct Normal. Dry bulb temperatures:
  Typical winter week begins Monday 6 November,
 *help_end
 *item
-*name	Firenze-Peretola - ITA
-*aide	Firenze-Peretola - ITA was sourced from US DoE weather site
+*name	Italy, Firenze-Peretola, 2001
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/ITA_Firenze-Peretola_IGDG
 *avail	ONLINE
 *winter_s  1  1 25  2  3 12 31 12
@@ -1114,8 +1114,7 @@ The solar radiation is Direct Normal. Dry bulb temperatures:
 *spring_t 16  4 22  4 22 10 28 10
 *summer_t 27  8  2  9
 *help_start
-Climate is Firenze-Peretola - ITA
- Location: 43.80N  3.80W : 2001
+ Station location: 43.80 N, 3.80 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -5.2 @ 8h00 Thu-11       13.8 @16h00 Mon-15     5.1
  Feb     -5.4 @ 8h00 Fri-09       15.7 @14h00 Wed-28     5.9
@@ -1143,8 +1142,33 @@ Winter season is Mon-03-Dec - Mon-31-Dec
 Typical winter week begins Mon-17-Dec
 *help_end
 *item
-*name	Lerwick in Shetland UK
-*aide	Lerwick in Shetland converted from Entrak 1978 data set
+*name	Germany, Hamburg, 1986
+*aide	IWEC 101470 sourced from US DoE August 2019
+*dbfl	/opt/esp-r/climate/DEU_Hamburg
+*avail	ONLINE
+*winter_s  1  1  4  3  5 11 31 12 # seasons Sun-01-Jan--Sun-04-Mar & Mon-05-Nov--Mon-31-Dec
+*spring_s  5  3  6  5  3  9  4 11 # seasons Mon-05-Mar--Sun-06-May & Mon-03-Sep--Sun-04-Nov
+*summer_s  7  5  2  9 # summer season Mon-07-May--Sun-02-Sep
+*winter_t 29  1  4  2 26 11  2 12 # typical Sun-29-Jan--Sat-04-Feb & Mon-26-Nov--Sun-02-Dec
+*spring_t 26  3  1  4 15 10 21 10 # typical Mon-26-Mar--Sun-01-Apr & Mon-15-Oct--Sun-21-Oct
+*summer_t  2  7  8  7 # typical summer Mon-02-Jul--Sun-08-Jul
+*help_start
+Station: HAMBURG DEU 53.63N -5.00W, 1984
+ ---Seasons & typical periods---
+Winter season is Sun-01-Jan - Sun-04-Mar
+Typical winter week begins Sun-29-Jan
+Spring season is Mon-05-Mar - Sun-06-May
+Typical spring week begins Mon-26-Mar
+Summer season is Mon-07-May - Sun-02-Sep
+Typical summer week begins Mon-02-Jul
+Autumn season is Mon-03-Sep - Sun-04-Nov
+Typical autumn week begins Mon-15-Oct
+Winter season is Mon-05-Nov - Mon-31-Dec
+Typical winter week begins Mon-26-Nov
+*help_end
+*item
+*name	UK, Shetland, Lerwick, 2007
+*aide	Converted from Entrak data.
 *dbfl	/opt/esp-r/climate/GBR_lerwick
 *avail	ONLINE
 *winter_s  1  1 19  3 13 11 31 12 # seasons Sat-01-Jan--Sun-19-Mar & Mon-13-Nov--Sun-31-Dec
@@ -1154,8 +1178,7 @@ Typical winter week begins Mon-17-Dec
 *spring_t 17  4 23  4 18  9 24  9 # typical Mon-17-Apr--Sun-23-Apr & Mon-18-Sep--Sun-24-Sep
 *summer_t 19  6 25  6 # typical summer Mon-19-Jun--Sun-25-Jun
 *help_start
-Weather is Lerwick via 1978 entrak
- Location: 61.00N  -1.20W : 2007
+ Station location: 61.00 N, 1.20 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -2.9 @22h00 Sun-02        8.5 @ 5h00 Thu-06     3.1
  Feb     -5.0 @23h00 Thu-17        7.3 @13h00 Sun-27     1.8
@@ -1183,8 +1206,8 @@ Winter season is Mon-13-Nov - Sun-31-Dec
 Typical winter week begins Mon-27-Nov
 *help_end
 *item
-*name	London Gatwick (037769) GBR
-*aide	London Gatwick (037760) was sourced from US DoE
+*name	UK, London Gatwick, 1991
+*aide	IWEC 037760 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/GBR_London_Gatwick
 *avail	ONLINE
 *winter_s  1  1  3  3 28 10 31 12 # seasons Tue-01-Jan--Sun-03-Mar & Mon-28-Oct--Tue-31-Dec
@@ -1194,8 +1217,7 @@ Typical winter week begins Mon-27-Nov
 *spring_t  1  4  7  4 16  9 22  9 # typical Mon-01-Apr--Sun-07-Apr & Mon-16-Sep--Sun-22-Sep
 *summer_t  1  7  7  7 # typical summer Mon-01-Jul--Sun-07-Jul
 *help_start
-Climate is London/Gatwick - GBR
- Location: 51.15N  0.18W : 1991
+ Station location: 51.15 N, 0.18 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -3.4 @ 7h00 Mon-14       12.0 @13h00 Wed-02     4.4
  Feb     -4.7 @ 9h00 Thu-14       11.0 @16h00 Wed-27     3.9
@@ -1223,8 +1245,8 @@ Winter season is Mon-28-Oct - Tue-31-Dec
 Typical winter week begins Mon-18-Nov
 *help_end
 *item
-*name	London Heathrow GBR (037720)
-*aide	London Heathrow GBR (037720) TRY was sourced from CIBSE
+*name	UK, London Heathrow, 1988
+*aide	IWEC 037720 sourced from CIBSE UK.
 *dbfl	/opt/esp-r/climate/GBR_London-Heathrow
 *avail	ONLINE
 *winter_s  1  1 13  3 24 10 31 12 # seasons Fri-01-Jan--Sun-13-Mar & Mon-24-Oct--Sat-31-Dec
@@ -1234,8 +1256,7 @@ Typical winter week begins Mon-18-Nov
 *spring_t 25  4  1  5 19  9 25  9 # typical Mon-25-Apr--Sun-01-May & Mon-19-Sep--Sun-25-Sep
 *summer_t  1  8  7  8 # typical summer Mon-01-Aug--Sun-07-Aug
 *help_start
-Climate is London-Heathrow England GBR
- Location: 51.48N  0.45W : 1988
+ Station location: 51.48 N, 0.45 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -1.7 @ 5h00 Fri-08       13.1 @ 8h00 Sat-02     6.2
  Feb     -4.6 @ 4h00 Sat-27       16.2 @14h00 Thu-04     6.3
@@ -1263,8 +1284,8 @@ Winter season is Mon-24-Oct - Sat-31-Dec
 Typical winter week begins Mon-21-Nov
 *help_end
 *item
-*name	Geneva - CHE
-*aide	Geneva - CHE was sourced from US DoE
+*name	Switzerland, Geneva CHE, 2001
+*aide	IWEC sourced from US DoE.
 *dbfl	/opt/esp-r/climate/CHE_Geneva_IWEC	
 *avail	ONLINE
 *winter_s  1  1 11  3 19 11 31 12
@@ -1274,8 +1295,7 @@ Typical winter week begins Mon-21-Nov
 *spring_t 21  5 27  5  1 10  7 10
 *summer_t  6  8 12  8
 *help_start
-Climate is Geneva - CHE
- Location: 46.25N  8.87W : 2001
+ Station location: 46.25 N, 8.87 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -6.8 @ 4h00 Fri 26       11.1 @16h00 Sun 14     1.8
  Feb     -5.8 @ 7h00 Tue 27       11.7 @16h00 Wed  7     2.4
@@ -1303,8 +1323,8 @@ Winter season is Mon 19 Nov - Mon 31 Dec
 Typical winter week begins Mon 17 Dec
 *help_end
 *item
-*name	Glasgow-Abbotsinch Scotland GB
-*aide	Glasgow-Abbotsinch Scotland (031400) TRY was sourced from CIBSE
+*name	UK, Glasgow, Abbotsinch, 1986
+*aide	TRY  sourced from CIBSE UK.
 *dbfl	/opt/esp-r/climate/GBR_Glasgow_Abbotsinch
 *avail	ONLINE
 *winter_s  1  1 23  3 27 10 31 12 # seasons Wed-01-Jan--Sun-23-Mar & Mon-27-Oct--Wed-31-Dec
@@ -1314,8 +1334,7 @@ Typical winter week begins Mon 17 Dec
 *spring_t 21  4 27  4 22  9 28  9 # typical Mon-21-Apr--Sun-27-Apr & Mon-22-Sep--Sun-28-Sep
 *summer_t  4  8 10  8 # typical summer Mon-04-Aug--Sun-10-Aug
 *help_start
-Climate is Glasgow-Abbotsinch Scotland GB
- Location: 55.87N  4.43W : 1986
+ Station location: 55.87 N, 4.43 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -7.7 @11h00 Mon-06       10.5 @ 7h00 Fri-10     3.0
  Feb    -10.8 @ 8h00 Sun-16       11.2 @14h00 Mon-24     2.9
@@ -1343,8 +1362,8 @@ Winter season is Mon-27-Oct - Wed-31-Dec
 Typical winter week begins Mon-17-Nov
 *help_end
 *item
-*name	GuangZhou - CHN
-*aide	GuangZhou - CHN was sourced from US DoE web site
+*name	China, GuangZhou, 1991
+*aide	GSourced from US DoE.
 *dbfl	/opt/esp-r/climate/CHN_Guangzhou
 *avail	ONLINE
 *winter_s  1  1  1  4  5 11 31 12
@@ -1354,8 +1373,7 @@ Typical winter week begins Mon-17-Nov
 *spring_t 16  4 22  4 22 10 28 10
 *summer_t 25  6  1  7
 *help_start
-Climate is GUANGZHOU - CHN
- Location: 23.13N  6.68W : 1991
+ Station location: 23.13 N, 6.68 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan      6.0 @ 6h00 Sun-06       24.0 @15h00 Mon-21    14.1
  Feb      6.5 @ 5h00 Sun-17       24.6 @17h00 Wed-20    14.2
@@ -1383,8 +1401,8 @@ Winter season is Tue-05-Nov - Tue-31-Dec
 Typical winter week begins Tue-19-Nov
 *help_end
 *item
-*name	Hemsby - GBR (034960)
-*aide	Hemsby - GBR (034960) was sourced from US DoE
+*name	UK, Hemsby, 1995
+*aide	IWEC 034960 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/GBR_Hemsby
 *avail	ONLINE
 *winter_s  1  1 19  3  6 11 31 12 # seasons Sun-01-Jan--Sun-19-Mar & Mon-06-Nov--Sun-31-Dec
@@ -1394,8 +1412,7 @@ Typical winter week begins Tue-19-Nov
 *spring_t 10  4 16  4  2 10  8 10 # typical Mon-10-Apr--Sun-16-Apr & Mon-02-Oct--Sun-08-Oct
 *summer_t  5  6 11  6 # typical summer Mon-05-Jun--Sun-11-Jun
 *help_start
-Climate is Hemsby - GBR
- Location: 52.68N  1.68E : 1995
+ Station location: 52.68 N, 1.68 E.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -1.0 @23h00 Sun-01       11.5 @ 2h00 Thu-26     4.8
  Feb     -2.2 @ 3h00 Fri-24       13.3 @13h00 Tue-28     4.6
@@ -1423,8 +1440,8 @@ Winter season is Mon-06-Nov - Sun-31-Dec
 Typical winter week begins Mon-04-Dec
 *help_end
 *item
-*name	Hong Kong SAR CHN
-*aide	Hong Kong SAR CHN was sourced from US DoE web site
+*name	China, Hong Kong SAR, 1995
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/CHN_Hong_Kong_CityUHK
 *avail	ONLINE
 *winter_s  1  1  2  4 20 11 31 12
@@ -1434,8 +1451,7 @@ Typical winter week begins Mon-04-Dec
 *spring_t 17  4 23  4  6 11 12 11
 *summer_t  7  8 13  8
 *help_start
-Climate is Hong Kong SAR CHN
- Location: 22.32N  5.83W : 1995
+ Station location: 22.32 N, 5.83 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan      9.3 @ 6h00 Tue-31       22.5 @13h00 Sun-22    16.1
  Feb     10.2 @21h00 Sun-19       23.3 @13h00 Mon-06    16.3
@@ -1463,8 +1479,8 @@ Winter season is Mon-20-Nov - Sun-31-Dec
 Typical winter week begins Mon-04-Dec
 *help_end
 *item
-*name	Houston TX USA iwec 722430
-*aide	Houston TX USA iwec 722430 was sourced from US DoE web site Sep 2005
+*name	USA, Houston TX, 2001
+*aide	IWEC 722430 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/USA_TX_Houston_iwec
 *avail	ONLINE
 *winter_s  1  1 11  2 26 11 31 12
@@ -1474,8 +1490,7 @@ Typical winter week begins Mon-04-Dec
 *spring_t 19  3 25  3 22 10 28 10
 *summer_t 21  5 27  5
 *help_start
-Climate is Houston TX USA iwec 722430
- Location: 29.98N  5.37W : 2001
+ Station location: 29.98 N, 5.37 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -10.0 @ 8h00 Thu 11       27.2 @14h00 Wed  3    11.9
  Feb     -2.2 @ 4h00 Sat 17       28.9 @15h00 Wed 21    10.9
@@ -1503,8 +1518,8 @@ Winter season is Mon 26 Nov - Mon 31 Dec
 Typical winter week begins Mon 17 Dec
 *help_end
 *item
-*name	Inchon Korea IWEC 471120
-*aide	Inchon Korea IWEC 471120 was sourced from US DoE
+*name	South Korea, Inchon, 1996
+*aide	IWEC 471120 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/KOR_Inchon_IWEC
 *avail	ONLINE
 *winter_s  1  1 17  3 11 11 31 12 # seasons Mon-01-Jan--Sun-17-Mar & Mon-11-Nov--Tue-31-Dec
@@ -1514,8 +1529,7 @@ Typical winter week begins Mon 17 Dec
 *spring_t 15  4 21  4 23  9 29  9 # typical Mon-15-Apr--Sun-21-Apr & Mon-23-Sep--Sun-29-Sep
 *summer_t 15  7 21  7 # typical summer Mon-15-Jul--Sun-21-Jul
 *help_start
-Climate is Inchon - KOR IWEC 471120
- Location: 37.48N  8.45W : 1996
+ Station location: 37.48 N, 8.45 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -9.9 @ 9h00 Thu-04        8.9 @15h00 Sat-13    -2.2
  Feb     -9.5 @ 6h00 Thu-01       10.3 @12h00 Sat-10    -0.3
@@ -1543,8 +1557,8 @@ Winter season is Mon-11-Nov - Tue-31-Dec
 Typical winter week begins Mon-02-Dec
 *help_end
 *item
-*name	Kagoshima JPN
-*aide	Kagoshima JPN 1987 was sourced from US DoE
+*name	Japan, Kagoshima, 1987
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/JPN_Kagoshima
 *avail	ONLINE
 *winter_s  1  1  1  3 30 11 31 12 # seasons Thu-01-Jan--Sun-01-Mar & Mon-30-Nov--Thu-31-Dec
@@ -1554,8 +1568,7 @@ Typical winter week begins Mon-02-Dec
 *spring_t 20  4 26  4 26 10  1 11 # typical Mon-20-Apr--Sun-26-Apr & Mon-26-Oct--Sun-01-Nov
 *summer_t 31  8  6  9 # typical summer Mon-31-Aug--Sun-06-Sep
 *help_start
-Weather is KAGOSHIMA - JPN
- Location: 31.57N  4.45W : 1987
+ Station location: 31.57 N, 4.45 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -1.1 @ 3h00 Mon-26       18.2 @21h00 Fri-02     8.3
  Feb     -0.4 @ 7h00 Wed-25       22.2 @13h00 Fri-06     9.5
@@ -1583,8 +1596,8 @@ Winter season is Mon-30-Nov - Thu-31-Dec
 Typical winter week begins Mon-07-Dec
 *help_end
 *item
-*name	Kangnung - KOR IWEC 471050
-*aide	Kangnung - KOR IWEC 471050 was sourced from US DoE ASHRAE
+*name	South Korea, Kangnung, 2001
+*aide	IWEC 471050 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/KOR_Kangnung_IWEC
 *avail	ONLINE
 *winter_s  1  1 10  3 19 11 31 12
@@ -1594,8 +1607,7 @@ Typical winter week begins Mon-07-Dec
 *spring_t  1  4  7  4  8 10 14 10
 *summer_t  4  6 10  6
 *help_start
-Climate is KANGNUNG - KOR IWEC 471050
- Location: 37.75N  6.10W : 2001
+ Station location: 37.75 N, 6.10 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -9.8 @ 6h00 Fri  5       10.7 @12h00 Sat 20     0.4
  Feb     -8.5 @ 6h00 Sat 10       13.6 @12h00 Sun 18     2.2
@@ -1623,8 +1635,8 @@ Winter season is Mon 19 Nov - Mon 31 Dec
 Typical winter week begins Mon 24 Dec
 *help_end
 *item
-*name	Kwangju - KOR IWEC 471560
-*aide	Kwangju - KOR IWEC 471560 was sourced from US DoE ASHRAE
+*name	South Korea, Kwangju, 2001
+*aide	IWEC 471560 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/KOR_Kwangju_IWEC
 *avail	ONLINE
 *winter_s  1  1  4  3 19 11 31 12
@@ -1634,8 +1646,7 @@ Typical winter week begins Mon 24 Dec
 *spring_t 23  4 29  4 22 10 28 10
 *summer_t  3  9  9  9
 *help_start
-Climate is Kwangju - KOR IWEC 471560
- Location: 35.13N  8.08W : 2001
+ Station location: 35.13 N, 8.08 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -7.7 @ 9h00 Sat 13        9.8 @15h00 Mon 29     0.6
  Feb     -5.2 @ 6h00 Sun 25       18.4 @15h00 Tue  6     2.8
@@ -1663,8 +1674,8 @@ Winter season is Mon 19 Nov - Mon 31 Dec
 Typical winter week begins Mon 17 Dec
 *help_end
 *item
-*name	Seoul AB - from Kier
-*aide	Seoul AB - from KIER in Seoul probably the Seoul AB
+*name	South Korea, Seoul AB, 1983
+*aide	Sourced from KIER.
 *dbfl	/opt/esp-r/climate/KOR_SeoulAB
 *avail	ONLINE
 *winter_s  1  1 11  3 12 11 31 12
@@ -1674,8 +1685,7 @@ Typical winter week begins Mon 17 Dec
 *spring_t 14  5 20  5  1 10  7 10
 *summer_t  2  7  8  7
 *help_start
-Climate is ESP kier climate (1983)
- Location: 37.34N  8.42E : 2001
+ Station location: 37.34 N, 8.42 E.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -14.0 @ 7h00 Mon-29        8.0 @13h00 Thu-11    -3.4
  Feb    -10.0 @ 8h00 Thu-08       10.0 @14h00 Sat-03    -0.6
@@ -1703,8 +1713,8 @@ Winter season is Mon-12-Nov - Mon-31-Dec
 Typical winter week begins Mon-24-Dec
 *help_end
 *item
-*name	Lexington KY USA IWEC 724220
-*aide	Lexington KY USA IEWC 724220 was sourced from US DoE
+*name	USA, Lexington KY, 1976
+*aide	IEWC 724220 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/USA_KY_Lexington
 *avail	ONLINE
 *winter_s  1  1  7  3 22 11 31 12 # seasons Thu-01-Jan--Sun-07-Mar & Mon-22-Nov--Fri-31-Dec
@@ -1714,8 +1724,7 @@ Typical winter week begins Mon-24-Dec
 *spring_t 15  3 21  3  8 11 14 11 # typical Mon-15-Mar--Sun-21-Mar & Mon-08-Nov--Sun-14-Nov
 *summer_t 26  7  1  8 # typical summer Mon-26-Jul--Sun-01-Aug
 *help_start
-Climate is Lexington Bluegrass Ap KY USA
- Location: 38.03N  9.60W : 1976
+ Station location: 38.03 N, 9.60 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -20.6 @ 6h00 Fri-09       13.9 @17h00 Sun-25    -1.5
  Feb    -15.0 @ 8h00 Mon-09       17.8 @13h00 Sun-01     0.3
@@ -1743,8 +1752,8 @@ Winter season is Mon-22-Nov - Fri-31-Dec
 Typical winter week begins Mon-20-Dec
 *help_end
 *item
-*name	London Heathrow (TM33 testing)
-*aide	A London Heatrow Airport climate set used for TM33 testing
+*name	UK, London Heathrow, TM33 test
+*aide	Data used for CIBSE TM33 testing.
 *dbfl	/opt/esp-r/climate/london_try
 *avail	ONLINE
 *winter_s  1  1  7  3  1 11 31 12 # seasons Fri-01-Jan--Sun-07-Mar & Mon-01-Nov--Fri-31-Dec
@@ -1753,9 +1762,8 @@ Typical winter week begins Mon-20-Dec
 *winter_t  5  2 11  2 15 11 21 11 # typical Fri-05-Feb--Thu-11-Feb & Mon-15-Nov--Sun-21-Nov
 *spring_t 26  4  2  5 20  9 26  9 # typical Mon-26-Apr--Sun-02-May & Mon-20-Sep--Sun-26-Sep
 *summer_t  2  8  8  8 # typical summer Mon-02-Aug--Sun-08-Aug
-*help_start
-Climate is London_Heathrow (TM33 tesing)
- Location: 51.48N  0.45W : 1999
+*help_start)
+ Station location: 51.48 N, 0.45 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -1.7 @ 5h00 Fri-08       13.1 @ 8h00 Sat-02     6.2
  Feb     -4.6 @ 4h00 Sat-27       16.2 @14h00 Thu-04     6.3
@@ -1783,8 +1791,8 @@ Winter season is Mon-01-Nov - Fri-31-Dec
 Typical winter week begins Mon-15-Nov
 *help_end
 *item
-*name	Madrid - ESP from IWEC
-*aide	Madrid - ESP from IWEC was sourced from USA DoE weather site
+*name	Spain, Madrid, 2001
+*aide	IWEC sourced from USA DoE.
 *dbfl	/opt/esp-r/climate/ESP_Madrid_IWEC
 *avail	ONLINE
 *winter_s  1  1 29  4 12 11 31 12
@@ -1794,8 +1802,7 @@ Typical winter week begins Mon-15-Nov
 *spring_t  7  5 13  5  8 10 14 10
 *summer_t 20  8 26  8
 *help_start
-Climate is MADRID - ESP from IWEC
- Location: 55.90N  4.15W : 2001
+ Station location: 55.90 N, 4.15 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -4.6 @ 7h00 Tue-23       16.0 @16h00 Mon-29     5.6
  Feb     -3.6 @ 7h00 Tue-06       18.0 @18h00 Mon-19     6.9
@@ -1823,8 +1830,8 @@ Winter season is Mon-12-Nov - Mon-31-Dec
 Typical winter week begins Mon-03-Dec
 *help_end
 *item
-*name	Malin Ireland (039800)
-*aide	Malin Ireland (039800) sourced from US DoE
+*name	Ireland, Malin, 1994
+*aide	IWEC 039800 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/IRL_Malin
 *avail	ONLINE
 *winter_s  1  1 27  3 14 11 31 12 # seasons Sat-01-Jan--Sun-27-Mar & Mon-14-Nov--Sat-31-Dec
@@ -1834,8 +1841,7 @@ Typical winter week begins Mon-03-Dec
 *spring_t 25  4  1  5  3 10  9 10 # typical Mon-25-Apr--Sun-01-May & Mon-03-Oct--Sun-09-Oct
 *summer_t 18  7 24  7 # typical summer Mon-18-Jul--Sun-24-Jul
 *help_start
-Climate is MALIN - IRL
- Location: 55.37N  7.33W : 1994
+ Station location: 55.37 N, 7.33 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan      1.4 @22h00 Fri-28       10.4 @13h00 Sat-29     5.8
  Feb      0.9 @ 9h00 Wed-16       11.6 @16h00 Sat-12     5.9
@@ -1863,8 +1869,8 @@ Winter season is Mon-14-Nov - Sat-31-Dec
 Typical winter week begins Mon-19-Dec
 *help_end
 *item
-*name	Memphis TN USA iwec 723340
-*aide	Memphis TN USA iwec 723340 was sourced from US DoE web Sep 2005
+*name	USA, Memphis TN, 2001
+*aide	IWEC 723340 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/USA_TN_Memphis_iwec
 *avail	ONLINE
 *winter_s  1  1 18  2 26 11 31 12
@@ -1874,8 +1880,7 @@ Typical winter week begins Mon-19-Dec
 *spring_t 16  4 22  4 22 10 28 10
 *summer_t 23  7 29  7
 *help_start
-Climate is Memphis TN USA iwec 723340
- Location: 35.05N  0.02E : 2001
+ Station location: 35.05 N, 0.02 E.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -10.0 @ 6h00 Thu 18       22.2 @15h00 Tue 23     5.7
  Feb    -10.6 @ 6h00 Sat  3       18.3 @15h00 Tue 27     5.5
@@ -1903,8 +1908,8 @@ Winter season is Mon 26 Nov - Mon 31 Dec
 Typical winter week begins Mon 17 Dec
 *help_end
 *item
-*name	Mexico-City-MEX iwec 766790
-*aide	MEXICO-CITY-IAP-MEX 1985 was sourced from Universidad Autonoma Metropolitana
+*name	Mexico, Mexico City, 1985
+*aide	IWEC 766790 sourced from Universidad Autonoma Metropolitana.
 *dbfl	/opt/esp-r/climate/MEX_Mexico-City_iwec
 *avail	ONLINE
 *winter_s  1  1 11  3 10 12 31 12 # seasons Tue-01-Jan--Mon-11-Mar & Tue-10-Dec--Tue-31-Dec
@@ -1914,8 +1919,7 @@ Typical winter week begins Mon 17 Dec
 *spring_t 28  5  3  6 20 11 26 11 # typical Tue-28-May--Mon-03-Jun & Wed-20-Nov--Tue-26-Nov
 *summer_t 11  7 17  7 # typical summer Thu-11-Jul--Wed-17-Jul
 *help_start
-Weather is Mexico-City-IAP-MEX
- Location: 19.43N -9.13W : 1985
+ Station location: 19.43 N, 9.13 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -0.4 @ 5h00 Sun-06       26.0 @14h00 Tue-29    13.3
  Feb     -0.9 @ 7h00 Mon-25       26.0 @14h00 Mon-18    14.8
@@ -1943,8 +1947,8 @@ Winter season is Tue-10-Dec - Tue-31-Dec
 Typical winter week begins Tue-24-Dec
 *help_end
 *item
-*name	Miami FL USA iwec 722020
-*aide	Miami FL USA iwec 722020 was sourced from US DoE web site Sep 2005
+*name	USA, Miami FL, 2001
+*aide	IWEC 722020 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/USA_FL_Miami_iwec
 *avail	ONLINE
 *winter_s  1  1 25  2 19 11 31 12
@@ -1954,8 +1958,7 @@ Typical winter week begins Tue-24-Dec
 *spring_t  5  3 11  3 12 11 18 11
 *summer_t 30  7  5  8
 *help_start
-Climate is Miami FL USA iwec 722020
- Location: 25.80N  5.27W : 2001
+ Station location: 25.80 N, 5.27 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan      3.3 @ 7h00 Wed  3       27.2 @13h00 Sat  6    20.0
  Feb      8.9 @ 8h00 Sat 10       30.0 @14h00 Sun 25    20.8
@@ -1983,8 +1986,8 @@ Winter season is Mon 19 Nov - Mon 31 Dec
 Typical winter week begins Mon  3 Dec
 *help_end
 *item
-*name	ITA Milan IWEC 160660
-*aide	ITA Milan IWEC 160660 was sourced from US DoE
+*name	Italy, Milan, 1991
+*aide	IWEC 160660 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/ITA_Milan
 *avail	ONLINE
 *winter_s  1  1  3  3 11 11 31 12 # seasons Tue-01-Jan--Sun-03-Mar & Mon-11-Nov--Tue-31-Dec
@@ -1994,8 +1997,7 @@ Typical winter week begins Mon  3 Dec
 *spring_t  6  5 12  5  7 10 13 10 # typical Mon-06-May--Sun-12-May & Mon-07-Oct--Sun-13-Oct
 *summer_t 17  6 23  6 # typical summer Mon-17-Jun--Sun-23-Jun
 *help_start
-Weather is MILAN - ITA
- Location: 45.62N  6.27W : 1991
+ Station location: 45.62 N, 6.27 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -11.0 @ 4h00 Wed-30       10.0 @13h00 Sun-20     0.3
  Feb     -7.0 @ 7h00 Fri-08       16.6 @16h00 Sun-17     2.2
@@ -2023,8 +2025,8 @@ Winter season is Mon-11-Nov - Tue-31-Dec
 Typical winter week begins Mon-02-Dec
 *help_end
 *item
-*name	Minneapolis ST Paul IWEC 726580
-*aide	Minneapolis St Paul MN IWEC 726580 was sourced from US DoE
+*name	USA, Minneapolis MN, 2004
+*aide	IWEC 726580 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/USA_MN_Minneapolis
 *avail	ONLINE
 *winter_s  1  1 21  3  8 11 31 12 # seasons Thu-01-Jan--Sun-21-Mar & Mon-08-Nov--Fri-31-Dec
@@ -2034,8 +2036,7 @@ Typical winter week begins Mon-02-Dec
 *spring_t 26  4  2  5 27  9  3 10 # typical Mon-26-Apr--Sun-02-May & Mon-27-Sep--Sun-03-Oct
 *summer_t 16  8 22  8 # typical summer Mon-16-Aug--Sun-22-Aug
 *help_start
-Climate is Minneapolis St Paul IntL Arp M
- Location: 44.88N  3.23W : 2004
+ Station location: 44.88 N, 3.23 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -31.1 @ 8h00 Fri-30        2.2 @18h00 Fri-02   -11.4
  Feb    -23.9 @ 8h00 Fri-06       10.0 @14h00 Wed-11    -4.8
@@ -2063,8 +2064,8 @@ Winter season is Mon-08-Nov - Fri-31-Dec
 Typical winter week begins Mon-13-Dec
 *help_end
 *item
-*name	Montreal CWEC 1965
-*aide	Montreal 1965 (sourced from NRCan/IWEC)
+*name	Canada, Montreal, 1965
+*aide	CWEC sourced from NRCan.
 *dbfl	/opt/esp-r/climate/can_montreal
 *avail	ONLINE
 *winter_s 1  1  28 2  1  11  31 12
@@ -2097,8 +2098,8 @@ The solar radiation is Direct Normal. Dry bulb temperatures:
  Typical winter week begins Monday 29 November,
 *help_end
 *item
-*name	Munich DEU IWEC 108660
-*aide	DEU Munich IWEC 108660 was sourced from US DoE
+*name	Germany, Munich DEU, 2001
+*aide	IWEC 108660 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/DEU_Munich
 *avail	ONLINE
 *winter_s  1  1 11  3 29 10 31 12 # seasons Mon-01-Jan--Sun-11-Mar & Mon-29-Oct--Mon-31-Dec
@@ -2108,8 +2109,7 @@ The solar radiation is Direct Normal. Dry bulb temperatures:
 *spring_t 16  4 22  4  1 10  7 10 # typical Mon-16-Apr--Sun-22-Apr & Mon-01-Oct--Sun-07-Oct
 *summer_t 25  6  1  7 # typical summer Mon-25-Jun--Sun-01-Jul
 *help_start
-Climate is MUNICH - DEU IWEC 108660
- Location: 48.13N  3.30W : 2001
+ Station location: 48.13 N, 3.30 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -11.8 @ 6h00 Sun-28       10.8 @24h00 Fri-19    -0.5
  Feb    -16.5 @ 7h00 Tue-13       10.2 @15h00 Mon-05    -2.6
@@ -2137,8 +2137,8 @@ Winter season is Mon-29-Oct - Mon-31-Dec
 Typical winter week begins Mon-17-Dec
 *help_end
 *item
-*name	Oban - GBR (031140)
-*aide	Oban Scotland GBR (031140) was sourced from US DoE
+*name	UK, Oban, 1994
+*aide	IWEC 031140 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/GBR_Oban
 *avail	ONLINE
 *winter_s  1  1 20  3 31 10 31 12 # seasons Sat-01-Jan--Sun-20-Mar & Mon-31-Oct--Sat-31-Dec
@@ -2148,8 +2148,7 @@ Typical winter week begins Mon-17-Dec
 *spring_t  4  4 10  4 12  9 18  9 # typical Mon-04-Apr--Sun-10-Apr & Mon-12-Sep--Sun-18-Sep
 *summer_t  6  6 12  6 # typical summer Mon-06-Jun--Sun-12-Jun
 *help_start
-Climate is OBAN - GBR
- Location: 56.42N  5.47W : 1994
+ Station location: 56.42 N, 5.47 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -2.1 @ 3h00 Sun-16        9.5 @12h00 Thu-20     4.8
  Feb     -3.9 @24h00 Tue-08        9.9 @15h00 Sat-05     5.1
@@ -2177,8 +2176,8 @@ Winter season is Mon-31-Oct - Sat-31-Dec
 Typical winter week begins Mon-14-Nov
 *help_end
 *item
-*name	Osaka JPN
-*aide	Osaka JPN 1994 was sourced from US DoE
+*name	Jpan, Osaka, 1994
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/JPN_Osaka
 *avail	ONLINE
 *winter_s  1  1 13  3  5 12 31 12 # seasons Sat-01-Jan--Sun-13-Mar & Mon-05-Dec--Sat-31-Dec
@@ -2188,8 +2187,7 @@ Typical winter week begins Mon-14-Nov
 *spring_t 25  4  1  5 17 10 23 10 # typical Mon-25-Apr--Sun-01-May & Mon-17-Oct--Sun-23-Oct
 *summer_t  4  7 10  7 # typical summer Mon-04-Jul--Sun-10-Jul
 *help_start
-Weather is OSAKA - JPN
- Location: 34.78N  0.45E : 1994
+ Station location: 34.78 N, 0.45 E.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -2.0 @ 3h00 Sun-16       14.0 @15h00 Mon-10     4.9
  Feb     -2.0 @ 6h00 Sun-27       15.0 @15h00 Sat-19     5.1
@@ -2217,8 +2215,8 @@ Winter season is Mon-05-Dec - Sat-31-Dec
 Typical winter week begins Mon-19-Dec
 *help_end
 *item
-*name	Ottawa CWEC 1997 IWMO 716280
-*aide	Ottawa 1966 (sourced from NRCan/DoE)
+*name	Canada, Ottawa, 1997
+*aide	IWMO 716280 sourced from NRCan.
 *dbfl	/opt/esp-r/climate/can_ottawa
 *avail	ONLINE
 *winter_s 1  1   3  4  17 10  31 12
@@ -2227,8 +2225,7 @@ Typical winter week begins Mon-19-Dec
 *winter_t 21  2  27  2  28 11  4 12
 *spring_t  2  5   8  5  11 9  17 9
 *summer_t 15  8  21  8
-*help_start
-Climate is Ottawa ON CAN located at 45.32N and 0.67W.  
+*help_start  
 The solar radiation is Direct Normal. Dry bulb temperatures:
  Month     Minimum  Time           Maximum  Time        Mean
  Jan       -25.0 @ 5h00 Mon 27     6.8 @ 4h00 Wed  1   -11.5
@@ -2251,8 +2248,8 @@ The solar radiation is Direct Normal. Dry bulb temperatures:
  Typical winter week begins Monday 28 November,
 *help_end
 *item
-*name	Palermo Italy 2001 IWMO 164050
-*aide	Palermo Italy (sourced from ASHRAE/DoE)
+*name	Italy, Palermo, 2001
+*aide	IWMO 164050 sourced from US ASHRAE/DoE.
 *dbfl	/opt/esp-r/climate/ita_palermo_iwec
 *avail	ONLINE
 *winter_s 1  1  25  2  26 11  31 12
@@ -2261,8 +2258,7 @@ The solar radiation is Direct Normal. Dry bulb temperatures:
 *winter_t 29  1   4  2  10 12 16 12
 *spring_t 26  2   4  3  15 10 21 10
 *summer_t  2  7   8  7
-*help_start
-Palermo is located at 38.18N and 1.9W.  
+*help_start  
 The solar radiation is Direct Normal. Dry bulb temperatures:
  Month     Minimum  Time           Maximum  Time        Mean
  Jan          6.8 @10h00 Mon  1    16.6 @16h00 Fri 19    12.7
@@ -2285,8 +2281,22 @@ The solar radiation is Direct Normal. Dry bulb temperatures:
  Typical winter week begins Monday 10 December.
 *help_end
 *item
-*name	Paris_Orly France IWEC 071490
-*aide	Paris_Orly France IWEC 071490 was sourced from US DoE
+*name	France, LYON, 1983
+*aide	IWEC 074810 sourced from US DoE Aug 2019
+*dbfl	/opt/esp-r/climate/FRA_Lyon
+*avail	ONLINE
+*winter_s  1  1 20  3 14 11 31 12 # seasons Sat-01-Jan--Sun-20-Mar & Mon-14-Nov--Sat-31-Dec
+*spring_s 21  3 19  6 26  9 13 11 # seasons Mon-21-Mar--Sun-19-Jun & Mon-26-Sep--Sun-13-Nov
+*summer_s 20  6 25  9 # summer season Mon-20-Jun--Sun-25-Sep
+*winter_t 29  1  4  2 12 12 18 12 # typical Sat-29-Jan--Fri-04-Feb & Mon-12-Dec--Sun-18-Dec
+*spring_t  9  5 15  5 10 10 16 10 # typical Mon-09-May--Sun-15-May & Mon-10-Oct--Sun-16-Oct
+*summer_t  5  9 11  9 # typical summer Mon-05-Sep--Sun-11-Sep
+*help_start
+Station location: 45.73 N 5.08 E 240.0m elevation
+*help_end
+*item
+*name	France, Paris Orly, 2001
+*aide	IWEC 071490 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/fra_paris_orly_iwec
 *avail	ONLINE
 *winter_s  1  1 25  2  5 11 31 12
@@ -2296,8 +2306,7 @@ The solar radiation is Direct Normal. Dry bulb temperatures:
 *spring_t 16  4 22  4  8 10 14 10
 *summer_t  9  7 15  7
 *help_start
-Climate is Paris_Orly France IWEC 071490
- Location: 48.73N 12.60W : 2001
+ Station location: 48.73 N, 12.60 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -5.2 @ 3h00 Sat 27       13.5 @16h00 Sun 14     3.9
  Feb     -4.0 @ 8h00 Sun 18       11.3 @19h00 Sat  3     4.2
@@ -2324,8 +2333,8 @@ Winter season is Mon  5 Nov - Mon 31 Dec
 Typical winter week begins Mon  5 Nov
 *help_end
 *item
-*name	Phoenix AZ USA iwec 722780
-*aide	Phoenix AZ USA iwec 722780 was sourced from DoE web site
+*name	USA, Phoenix AZ, 2001
+*aide	IWEC 722780 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/USA_AZ_Phoenix_iwec
 *avail	ONLINE
 *winter_s  1  1 25  2  5 11 31 12
@@ -2335,8 +2344,7 @@ Typical winter week begins Mon  5 Nov
 *spring_t 16  4 22  4 22 10 28 10
 *summer_t 11  6 17  6
 *help_start
-Climate is Phoenix AZ USA iwec 722780
- Location: 33.43N  7.02W : 2001
+ Station location: 33.43 N, 7.02 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan      1.1 @ 7h00 Sat 20       26.1 @15h00 Sun 28    12.1
  Feb      0.0 @ 7h00 Fri 23       27.8 @16h00 Wed 28    12.4
@@ -2364,8 +2372,8 @@ Winter season is Mon  5 Nov - Mon 31 Dec
 Typical winter week begins Tue 20 Nov
 *help_end
 *item
-*name	Pinar del Rio - CUB
-*aide	Pinar del Rio - CUB was sourced from DoE website Mar 2008
+*name	Cuba, Pinar del Rio, 1998
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/CUB_Pinar.del.Rio_SWERA
 *avail	ONLINE
 *winter_s  1  1 28  2  1 11 31 12
@@ -2375,8 +2383,7 @@ Typical winter week begins Tue 20 Nov
 *spring_t  6  3 12  3  2 10  8 10
 *summer_t 11  7 17  7
 *help_start
-Climate is Pinar del Rio - CUB
- Location: 22.42N  8.68W : 1998
+ Station location: 22.42 N, 8.68 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     10.9 @ 4h00 Thu-29       30.0 @16h00 Sat-24    21.4
  Feb     13.4 @ 7h00 Sun-08       30.1 @16h00 Fri-20    22.7
@@ -2404,8 +2411,8 @@ Winter season is Sun-01-Nov - Thu-31-Dec
 Typical winter week begins Fri-20-Nov
 *help_end
 *item
-*name	Pisa Italy 2001 IWMO 161580
-*aide	Pisa Italy (sourced from ASHRAE/DoE)
+*name	Italy, Pisa, 2001
+*aide	IWMO 161580 sourced from US ASHRAE/DoE.
 *dbfl	/opt/esp-r/climate/ita_pisa_iwec
 *avail	ONLINE
 *winter_s 1  1  18  3  12 11  31 12
@@ -2414,8 +2421,7 @@ Typical winter week begins Fri-20-Nov
 *winter_t 15  1  21  1  17 12 23 12
 *spring_t 23  4  29  4  15 10 21 10
 *summer_t  3  9   9  9
-*help_start
-Pisa is located at 43.7N and 4.6W.  
+*help_start  
 The solar radiation is Direct Normal. Dry bulb temperatures:
  Month     Minimum  Time           Maximum  Time        Mean
  Jan         -1.2 @ 7h00 Tue 23    15.2 @16h00 Sun  7     7.0
@@ -2438,8 +2444,8 @@ The solar radiation is Direct Normal. Dry bulb temperatures:
  Typical winter week begins Monday 17 December.
 *help_end
 *item
-*name	Porto - PRT IWEC 085450
-*aide	Porto - PRT IWEC 085450 was sourced from US DoE
+*name	Portugal, Porto, 2001
+*aide	IWEC 085450 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/prt_porto_iwec
 *avail	ONLINE
 *winter_s  1  1  4  3  5 11 31 12
@@ -2449,8 +2455,7 @@ The solar radiation is Direct Normal. Dry bulb temperatures:
 *spring_t 30  4 30  4 22 10 22 10
 *summer_t 13  8 13  8
 *help_start
-Climate is Porto - PRT IWEC 085450
- Location: 41.23N  8.68W : 2001
+ Station location: 41.23 N, 8.68 W.
  Month    Minimum  Time         Maximum  Time         Mean
  Jan      0.0 @ 7h00 Mon  1      17.4 @15h00 Fri 26     9.4
  Feb      2.0 @ 7h00 Sat 24      21.0 @15h00 Mon  5    10.7
@@ -2477,8 +2482,8 @@ Winter season is Mon  5 Nov - Mon 31 Dec
 Typical winter week begins Mon 10 Dec
 *help_end
 *item
-*name	Prague CZE IWEC 115180
-*aide	Prague CZE IWEC 115180 was sourced from US DoE web
+*name	Czech Republic, Prague, 1995
+*aide	IWEC 115180 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/CZE_Prague
 *avail	ONLINE
 *winter_s  1  1 20  3 21 12 31 12
@@ -2488,8 +2493,7 @@ Typical winter week begins Mon 10 Dec
 *spring_t 23  5 29  5 19 10 25 10
 *summer_t 19  7 25  7
 *help_start
-Climate is Prague - CZE
- Location: 50.10N  0.72W : 1995
+ Station location: 50.10 N, 0.72 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -14.4 @ 1h00 Fri-06       12.6 @13h00 Thu-26    -1.5
  Feb    -15.0 @ 8h00 Fri-17        7.0 @14h00 Sun-05    -2.1
@@ -2517,8 +2521,8 @@ Winter season is Thu-21-Dec - Sun-31-Dec
 Typical winter week begins Mon-25-Dec
 *help_end
 *item
-*name	Quebec PQ CAN
-*aide	Quebec PQ CAN was sourced from US DoE
+*name	Canada, Quebec, 1973
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/CAN_PQ_Quebec_CWEC
 *avail	ONLINE
 *winter_s  1  1  1  4 19 11 31 12
@@ -2528,8 +2532,7 @@ Typical winter week begins Mon-25-Dec
 *spring_t 16  4 22  4 24  9 30  9
 *summer_t 11  6 17  6
 *help_start
-Climate is Quebec PQ CAN
- Location: 46.80N  3.62E : 1973
+ Station location: 46.80 N, 3.62 E.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -27.8 @ 1h00 Wed 17        5.0 @ 2h00 Fri 19   -11.6
  Feb    -26.0 @ 7h00 Wed  7        4.1 @15h00 Thu  1   -10.4
@@ -2557,8 +2560,8 @@ Winter season is Mon 19 Nov - Mon 31 Dec
 Typical winter week begins Mon 17 Dec
 *help_end
 *item
-*name	Rome Italy 1987 IWMO 162420
-*aide	Rome 1987 (sourced from IWMO/DoE)
+*name	Italy, Rome, 1987
+*aide	IWMO 162420s ourced from US DoE.
 *dbfl	/opt/esp-r/climate/ita_rome_iwec
 *avail	ONLINE
 *winter_s 1  1   1  3   2 11  31 12
@@ -2591,8 +2594,8 @@ The solar radiation is Direct Normal. Dry bulb temperatures:
  Typical winter week begins Monday 14 December.
 *help_end
 *item
-*name	San Francisco California USA)
-*aide	San Francisco Intl Airport California USA was sourced from US DoE
+*name	USA, San Francisco CA, 1999
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/USA_CA_San_Francisco_TMY3
 *avail	ONLINE
 *winter_s  1  1 28  2 15 11 31 12 # seasons Fri-01-Jan--Sun-28-Feb & Mon-15-Nov--Fri-31-Dec
@@ -2602,8 +2605,7 @@ The solar radiation is Direct Normal. Dry bulb temperatures:
 *spring_t  8  3 14  3 27  9  3 10 # typical Mon-08-Mar--Sun-14-Mar & Mon-27-Sep--Sun-03-Oct
 *summer_t 12  7 18  7 # typical summer Mon-12-Jul--Sun-18-Jul
 *help_start
-Climate is San Francisco Intl Ap CA USA
- Location: 37.62N  2.40W : 1999
+ Station location: 37.62 N, 2.40 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan      2.2 @ 6h00 Sun-24       16.7 @13h00 Tue-19     9.6
  Feb      5.0 @ 7h00 Fri-26       22.2 @13h00 Sun-14    11.3
@@ -2631,8 +2633,8 @@ Winter season is Mon-15-Nov - Fri-31-Dec
 Typical winter week begins Mon-06-Dec
 *help_end
 *item
-*name	San_Juan PR PRI
-*aide	San_Juan PR PRI was sourced from DoE website Mar 2008
+*name	Puerto Rico, San_Juan, 1970
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/PRI_San.Juan_TMY2
 *avail	ONLINE
 *winter_s  1  1 28  2  1 11 31 12
@@ -2642,8 +2644,7 @@ Typical winter week begins Mon-06-Dec
 *spring_t  6  3 12  3  2 10  8 10
 *summer_t 11  7 17  7
 *help_start
-Climate is San_Juan PR PRI
- Location: 18.43N  6.00W : 1970
+ Station location: 18.43 N, 6.00 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     19.4 @ 5h00 Mon-05       28.9 @14h00 Sat-03    24.4
  Feb     19.4 @ 5h00 Sat-07       30.0 @14h00 Thu-12    24.3
@@ -2671,8 +2672,8 @@ Winter season is Sun-01-Nov - Thu-31-Dec
 Typical winter week begins Fri-20-Nov
 *help_end
 *item
-*name	Santiago CHL IWEC 855740
-*aide	Santiago CHL IWEC 855740 was sourced from US DoE
+*name	Chile, Santiago, 1987
+*aide	IWEC 855740 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/CHL_Santiago
 *avail	ONLINE
 *winter_s  1  1 29  3  2 11 31 12 # seasons Thu-01-Jan--Sun-29-Mar & Mon-02-Nov--Thu-31-Dec
@@ -2682,8 +2683,7 @@ Typical winter week begins Fri-20-Nov
 *spring_t 13  4 19  4  7  9 13  9 # typical Mon-13-Apr--Sun-19-Apr & Mon-07-Sep--Sun-13-Sep
 *summer_t 22  6 28  6 # typical summer Mon-22-Jun--Sun-28-Jun
 *help_start
-Climate is Santiago - CHL
- Location: 33.38S 10.78W : 1987
+ Station location: 33.38 S, 10.78 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     10.0 @ 6h00 Fri-02       33.0 @15h00 Wed-14    21.0
  Feb      9.0 @ 6h00 Sun-15       32.0 @16h00 Sat-21    20.3
@@ -2711,8 +2711,8 @@ Winter season is Mon-02-Nov - Thu-31-Dec
 Typical winter week begins Mon-16-Nov
 *help_end
 *item
-*name	Santiago de Cuba - CUB
-*aide	Santiago de Cuba - CUB was sourced from DoE website Mar 2008
+*name	Cuba, Santiago de Cuba, 1977
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/CUB_Santiago.de.Cuba_SWERA
 *avail	ONLINE
 *winter_s  1  1 28  2  1 11 31 12
@@ -2722,8 +2722,7 @@ Typical winter week begins Mon-16-Nov
 *spring_t  6  3 12  3  2 10  8 10
 *summer_t 11  7 17  7
 *help_start
-Climate is Santiago de Cuba - CUB
- Location: 19.97N  0.85W : 1977
+ Station location: 19.97 N, 0.85 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     14.1 @ 7h00 Thu-20       31.0 @13h00 Thu-06    23.4
  Feb     15.0 @ 5h00 Sat-05       36.0 @23h00 Wed-02    23.7
@@ -2751,8 +2750,8 @@ Winter season is Tue-01-Nov - Sat-31-Dec
 Typical winter week begins Sun-20-Nov
 *help_end
 *item
-*name	Sapporo JPN 1988
-*aide	Sapporo JPN was sourced from US DoE
+*name	Japan, Sapporo, 1988
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/JPN_Sapporo
 *avail	ONLINE
 *winter_s  1  1  3  4 31 10 31 12 # seasons Fri-01-Jan--Sun-03-Apr & Mon-31-Oct--Sat-31-Dec
@@ -2762,8 +2761,7 @@ Typical winter week begins Sun-20-Nov
 *spring_t  9  5 15  5 29  8  4  9 # typical Mon-09-May--Sun-15-May & Mon-29-Aug--Sun-04-Sep
 *summer_t 18  7 24  7 # typical summer Mon-18-Jul--Sun-24-Jul
 *help_start
-Weather is SAPPORO - JPN
- Location: 43.05N  6.33E : 1988
+ Station location: 43.05 N, 6.33 E.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -10.4 @ 6h00 Thu-28        6.6 @12h00 Fri-22    -3.8
  Feb    -15.3 @ 6h00 Sat-20        5.2 @ 3h00 Fri-05    -2.8
@@ -2791,8 +2789,8 @@ Winter season is Mon-31-Oct - Sat-31-Dec
 Typical winter week begins Mon-21-Nov
 *help_end
 *item
-*name	Saskatoon SK CAN
-*aide	Saskatoon SK CAN was sourced from US DoE
+*name	Canada, Saskatoon SK, 2001
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/CAN_SK_Saskatoon_CWEC
 *avail	ONLINE
 *winter_s  1  1 15  4 29 10 31 12
@@ -2802,8 +2800,7 @@ Typical winter week begins Mon-21-Nov
 *spring_t 30  4  6  5 10  9 16  9
 *summer_t 23  7 29  7
 *help_start
-Climate is Saskatoon SK CAN
- Location: 55.90N  4.15W : 2001
+ Station location: 55.90 N, 4.15 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -38.1 @ 8h00 Fri 19        5.7 @16h00 Wed  3   -15.6
  Feb    -32.2 @ 3h00 Fri  2        3.3 @15h00 Wed 21   -12.8
@@ -2831,8 +2828,8 @@ Winter season is Mon 29 Oct - Mon 31 Dec
 Typical winter week begins Mon 26 Nov
 *help_end
 *item
-*name	Singapore SGP
-*aide	Singapore SBP was sourced from US DoE
+*name	Singapore, 1989 
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/SGP_Singapore_486980
 *avail	ONLINE
 *winter_s  1  1 26  3 27 11 31 12 # seasons Sun-01-Jan--Sun-26-Mar & Mon-27-Nov--Sun-31-Dec
@@ -2842,8 +2839,7 @@ Typical winter week begins Mon 26 Nov
 *spring_t  8  5 14  5 16 10 22 10 # typical Mon-08-May--Sun-14-May & Mon-16-Oct--Sun-22-Oct
 *summer_t  7  8 13  8 # typical summer Mon-07-Aug--Sun-13-Aug
 *help_start
-Climate is SINGAPORE - SGP
- Location: 55.90N  4.15W : 1989
+ Station location: 55.90 N, 4.15 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     22.8 @20h00 Sun-22       33.2 @14h00 Thu-26    26.7
  Feb     22.4 @ 5h00 Mon-13       33.0 @15h00 Sat-25    27.2
@@ -2871,8 +2867,8 @@ Winter season is Mon-27-Nov - Sun-31-Dec
 Typical winter week begins Mon-18-Dec
 *help_end
 *item
-*name	Stuttgart DEU IWEC 107380
-*aide	DEU Stuttgart IWEC 107380 was sourced from US DoE
+*name	Germany, Stuttgart, 2001
+*aide	IWEC 107380 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/DEU_Stuttgart
 *avail	ONLINE
 *winter_s  1  1  4  3 12 11 31 12 # seasons Mon-01-Jan--Sun-04-Mar & Mon-12-Nov--Mon-31-Dec
@@ -2882,8 +2878,7 @@ Typical winter week begins Mon-18-Dec
 *spring_t  9  4 15  4 24  9 30  9 # typical Mon-09-Apr--Sun-15-Apr & Mon-24-Sep--Sun-30-Sep
 *summer_t 16  7 22  7 # typical summer Mon-16-Jul--Sun-22-Jul
 *help_start
-Climate is Stuttgart - DEU IWEC 107380
- Location: 48.68N  5.78W : 2001
+ Station location: 48.68 N, 5.78 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -9.8 @24h00 Sat-27       10.6 @22h00 Fri-19     1.0
  Feb    -10.9 @ 6h00 Tue-20        9.6 @14h00 Mon-05    -0.2
@@ -2911,8 +2906,8 @@ Winter season is Mon-12-Nov - Mon-31-Dec
 Typical winter week begins Mon-24-Dec
 *help_end
 *item
-*name	Suwoon Korea MET 2009
-*aide	Suwoon Korea MET office 2009 actual data (Muneer solar)
+*name	South Korea, Suwon, 2009
+*aide	Sourced from Korean MET office.
 *dbfl	/opt/esp-r/climate/KOR_Suwoon_kmet_2009
 *avail	ONLINE
 *winter_s  1  1  8  3  2 11 31 12 # seasons Thu-01-Jan--Sun-08-Mar & Mon-02-Nov--Thu-31-Dec
@@ -2922,8 +2917,7 @@ Typical winter week begins Mon-24-Dec
 *spring_t  6  4 12  4 21  9 27  9 # typical Mon-06-Apr--Sun-12-Apr & Mon-21-Sep--Sun-27-Sep
 *summer_t 20  7 26  7 # typical summer Mon-20-Jul--Sun-26-Jul
 *help_start
-Climate is Suwoon Korea MET 2009
- Location: 38.00N  8.42E : 2009
+ Station location: 38.00 N, 8.42 E.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -14.3 @ 7h00 Sun-25       12.2 @16h00 Fri-30    -2.7
  Feb     -8.8 @ 7h00 Sat-21       16.7 @10h00 Fri-13     2.4
@@ -2951,8 +2945,8 @@ Winter season is Mon-02-Nov - Thu-31-Dec
 Typical winter week begins Mon-30-Nov
 *help_end
 *item
-*name	Shearwater NS CAN
-*aide	Shearwater NS CAN was sourced from US DoE
+*name	Canada, Shearwater NS, 1973
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/CAN_NS_Shearwater_CWEC
 *avail	ONLINE
 *winter_s  1  1 25  3 12 11 31 12
@@ -2962,8 +2956,7 @@ Typical winter week begins Mon-30-Nov
 *spring_t 30  4  6  5  3  9  9  9
 *summer_t 16  7 22  7
 *help_start
-Climate is Shearwater NS CAN
- Location: 44.63N  3.50W : 1973
+ Station location: 44.63 N, 3.50 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -18.5 @21h00 Wed 31        9.4 @12h00 Mon  1    -4.1
  Feb    -24.4 @ 3h00 Sun  4        7.2 @ 6h00 Fri  9    -4.2
@@ -2991,8 +2984,8 @@ Winter season is Mon 12 Nov - Mon 31 Dec
 Typical winter week begins Mon 19 Nov
 *help_end
 *item
-*name	St Johns NF CAN
-*aide	St Johns NF CAN was sourced from US DoE
+*name	Canada, St Johns NF, 2001
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/CAN_NF_St.Johns_CWEC
 *avail	ONLINE
 *winter_s  1  1 18  3 12 11 31 12
@@ -3002,8 +2995,7 @@ Typical winter week begins Mon 19 Nov
 *spring_t  2  4  8  4  8 10 14 10
 *summer_t 16  7 22  7
 *help_start
-Climate is St Johns NF CAN
- Location: 47.62N  0.23W : 2001
+ Station location: 47.62 N, 0.23 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -18.0 @22h00 Sun  7       11.1 @ 3h00 Tue 16    -3.3
  Feb    -19.9 @ 7h00 Tue  6        8.0 @13h00 Fri 16    -5.5
@@ -3031,8 +3023,33 @@ Winter season is Mon 12 Nov - Mon 31 Dec
 Typical winter week begins Mon  3 Dec
 *help_end
 *item
-*name	Sydney Australia IWEC 947670
-*aide	Sydney Australia IWEC 947670 was sourced from US DoE
+*name	Sweden, Stockholm 1984
+*aide	IWEC 024600 was sourced from US DoE August 2019
+*dbfl	/opt/esp-r/climate/SWE_Stockholm
+*avail	ONLINE
+*winter_s  1  1 18  3 19 11 31 12 # seasons Sun-01-Jan--Sun-18-Mar & Mon-19-Nov--Mon-31-Dec
+*spring_s 19  3  6  5 13  8 18 11 # seasons Mon-19-Mar--Sun-06-May & Mon-13-Aug--Sun-18-Nov
+*summer_s  7  5 12  8 # summer season Mon-07-May--Sun-12-Aug
+*winter_t 12  2 18  2  3 12  9 12 # typical Sun-12-Feb--Sat-18-Feb & Mon-03-Dec--Sun-09-Dec
+*spring_t 16  4 22  4  1 10  7 10 # typical Mon-16-Apr--Sun-22-Apr & Mon-01-Oct--Sun-07-Oct
+*summer_t  9  7 15  7 # typical summer Mon-09-Jul--Sun-15-Jul
+*help_start
+Station STOCKHOLM_ARLANDA, 59.65N  2.95E, 1984
+ ---Seasons & typical periods---
+Winter season is Sun-01-Jan - Sun-18-Mar
+Typical winter week begins Sun-12-Feb
+Spring season is Mon-19-Mar - Sun-06-May
+Typical spring week begins Mon-16-Apr
+Summer season is Mon-07-May - Sun-12-Aug
+Typical summer week begins Mon-09-Jul
+Autumn season is Mon-13-Aug - Sun-18-Nov
+Typical autumn week begins Mon-01-Oct
+Winter season is Mon-19-Nov - Mon-31-Dec
+Typical winter week begins Mon-03-Dec
+*help_end
+*item
+*name	Australia, Sydney, 2001
+*aide	IWEC 947670 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/aus_sydney_iwec
 *avail	ONLINE
 *winter_s  1  1 11  3  1 10 31 12
@@ -3042,8 +3059,7 @@ Typical winter week begins Mon  3 Dec
 *spring_t 23  4 29  4 27  8  2  9
 *summer_t 20  8 26  8
 *help_start
-Climate is Sydney Australia IWEC 947670
- Location: 33.95S  1.18E : 2001
+ Station location: 33.95 S, 1.18 E.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     14.6 @ 9h00 Thu 18       34.5 @12h00 Fri 12    22.0
  Feb     15.0 @ 4h00 Tue 27       34.3 @15h00 Sat 10    22.9
@@ -3072,8 +3088,8 @@ Summer 2nd season is Mon  1 Oct - Mon 31 Dec
 Typical 2nd summer week begins Mon 12 Nov
 *help_end
 *item
-*name	Tampa Florida USA (Int Ap)
-*aide	Tampa International Airport Florida USA was sourced from US DoE
+*name	USA, Tampa FL, 1996
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/USA_FL_Tampa_TMY3
 *avail	ONLINE
 *winter_s  1  1 11  2 25 11 31 12 # seasons Mon-01-Jan--Sun-11-Feb & Mon-25-Nov--Tue-31-Dec
@@ -3083,8 +3099,7 @@ Typical 2nd summer week begins Mon 12 Nov
 *spring_t 22  4 28  4 18 11 24 11 # typical Mon-22-Apr--Sun-28-Apr & Mon-18-Nov--Sun-24-Nov
 *summer_t 12  8 18  8 # typical summer Mon-12-Aug--Sun-18-Aug
 *help_start
-Climate is Tampa International Ap FL USA
- Location: 27.97N  7.53W : 1996
+ Station location: 27.97 N, 7.53 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -1.7 @ 6h00 Tue-09       26.1 @15h00 Wed-17    15.0
  Feb     -2.2 @ 7h00 Fri-09       28.3 @15h00 Thu-15    16.2
@@ -3112,8 +3127,8 @@ Winter season is Mon-25-Nov - Tue-31-Dec
 Typical winter week begins Mon-09-Dec
 *help_end
 *item
-*name	Tokyo Hyakuri JPN
-*aide	Tokyo Hyakuri JPN 1983 was sourced from US DoE
+*name	Japan, Tokyo Hyakuri, 1983
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/JPN_Tokyo.Hyakuri
 *avail	ONLINE
 *winter_s  1  1  3  4 24 10 31 12 # seasons Sat-01-Jan--Sun-03-Apr & Mon-24-Oct--Sat-31-Dec
@@ -3123,8 +3138,7 @@ Typical winter week begins Mon-09-Dec
 *spring_t  2  5  8  5  3 10  9 10 # typical Mon-02-May--Sun-08-May & Mon-03-Oct--Sun-09-Oct
 *summer_t 27  6  3  7 # typical summer Mon-27-Jun--Sun-03-Jul
 *help_start
-Weather is TOKYO HYAKURI - JPN
- Location: 36.18N  5.42E : 1983
+ Station location: 36.18 N, 5.42 E.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -10.0 @ 5h00 Sun-23       13.0 @13h00 Sat-29     1.9
  Feb     -7.0 @ 7h00 Tue-01       23.0 @12h00 Sat-12     3.2
@@ -3152,8 +3166,33 @@ Winter season is Mon-24-Oct - Sat-31-Dec
 Typical winter week begins Mon-21-Nov
 *help_end
 *item
-*name	Toronto Int ON CAN
-*aide	Toronto Int ON CAN was sourced from US DoE
+*name	Italy, Torino, 1986
+*aide	IWEC 160590 was sourced from US DoE August 2019
+*dbfl	/opt/esp-r/climate/ITA_Torino
+*avail	ONLINE
+*winter_s  1  1  2  3  3 11 31 12 # seasons Wed-01-Jan--Sun-02-Mar & Mon-03-Nov--Wed-31-Dec
+*spring_s  3  3 18  5 15  9  2 11 # seasons Mon-03-Mar--Sun-18-May & Mon-15-Sep--Sun-02-Nov
+*summer_s 19  5 14  9 # summer season Mon-19-May--Sun-14-Sep
+*winter_t  5  2 11  2  1 12  7 12 # typical Wed-05-Feb--Tue-11-Feb & Mon-01-Dec--Sun-07-Dec
+*spring_t  7  4 13  4 13 10 19 10 # typical Mon-07-Apr--Sun-13-Apr & Mon-13-Oct--Sun-19-Oct
+*summer_t 16  6 22  6 # typical summer Mon-16-Jun--Sun-22-Jun
+*help_start
+Station TORINO - ITA: 45.22N -7.35W, 1986
+ ---Seasons & typical periods---
+Winter season is Wed-01-Jan - Sun-02-Mar
+Typical winter week begins Wed-05-Feb
+Spring season is Mon-03-Mar - Sun-18-May
+Typical spring week begins Mon-07-Apr
+Summer season is Mon-19-May - Sun-14-Sep
+Typical summer week begins Mon-16-Jun
+Autumn season is Mon-15-Sep - Sun-02-Nov
+Typical autumn week begins Mon-13-Oct
+Winter season is Mon-03-Nov - Wed-31-Dec
+Typical winter week begins Mon-01-Dec
+*help_end
+*item
+*name	Canada, Toronto ON, 2001
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/CAN_ON_Toronto_CWEC
 *avail	ONLINE
 *winter_s  1  1 25  3 12 11 31 12
@@ -3163,8 +3202,7 @@ Typical winter week begins Mon-21-Nov
 *spring_t  9  4 15  4 24  9 30  9
 *summer_t  6  8 12  8
 *help_start
-Climate is Toronto Int ON CAN
- Location: 43.67N  4.63W : 2001
+ Station location: 43.67 N, 4.63 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -19.4 @ 3h00 Tue 16        6.7 @14h00 Tue 30    -5.8
  Feb    -17.8 @ 7h00 Sat  3       10.6 @14h00 Sat 10    -5.7
@@ -3192,8 +3230,8 @@ Winter season is Mon 12 Nov - Mon 31 Dec
 Typical winter week begins Mon 12 Nov
 *help_end
 *item
-*name	Ulsan - Korea IWEC 471520
-*aide	Ulsan - Korea IWEC 471520 was sourced from US DoE ASHRAE
+*name	South Korea, Ulsan, 1991
+*aide	IWEC 471520 sourced from US ASHRAE/DoE.
 *dbfl	/opt/esp-r/climate/KOR_Ulsan_IWEC
 *avail	ONLINE
 *winter_s  1  1 17  3 11 11 31 12 # seasons Tue-01-Jan--Sun-17-Mar & Mon-11-Nov--Tue-31-Dec
@@ -3203,8 +3241,7 @@ Typical winter week begins Mon 12 Nov
 *spring_t  1  4  7  4 14 10 20 10 # typical Mon-01-Apr--Sun-07-Apr & Mon-14-Oct--Sun-20-Oct
 *summer_t 10  6 16  6 # typical summer Mon-10-Jun--Sun-16-Jun
 *help_start
-Climate is Ulsan - Korea
- Location: 35.55N  5.68W : 1991
+ Station location: 35.55 N, 5.68 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -6.4 @ 6h00 Wed-09       12.7 @12h00 Tue-01     1.9
  Feb     -6.7 @ 6h00 Sun-10       14.1 @15h00 Thu-28     3.7
@@ -3232,8 +3269,8 @@ Winter season is Mon-11-Nov - Tue-31-Dec
 Typical winter week begins Mon-09-Dec
 *help_end
 *item
-*name	Vancouver Int BC CAN
-*aide	Vancouver Int BC CAN was sourced from US DoE
+*name	Canada, Vancouver BC, 2001
+*aide	VSourced from US DoE.
 *dbfl	/opt/esp-r/climate/CAN_BC_Vancouver_CWEC
 *avail	ONLINE
 *winter_s  1  1 25  2 12 11 31 12
@@ -3243,8 +3280,7 @@ Typical winter week begins Mon-09-Dec
 *spring_t  7  5 13  5  8 10 14 10
 *summer_t  2  7  8  7
 *help_start
-Climate is Vancouver Int BC CAN
- Location: 49.18N  3.17W : 2001
+ Station location: 49.18 N, 3.17 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan     -5.0 @ 8h00 Tue 16       12.2 @14h00 Sun 21     3.2
  Feb     -2.2 @ 5h00 Mon 19       10.6 @15h00 Fri  2     5.1
@@ -3272,8 +3308,8 @@ Winter season is Mon 12 Nov - Mon 31 Dec
 Typical winter week begins Mon 24 Dec
 *help_end
 *item
-*name	Wellington New Zealand 934360
-*aide	Wellington New Zealand 934360 was sourced from US DoE
+*name	New Zealand, Wellington, 2001
+*aide	IWEC 934360 sourced from US DoE.
 *dbfl	/opt/esp-r/climate/nzl_wellington_iwec
 *avail	ONLINE
 *winter_s  1  1  4  3 26 11 31 12
@@ -3283,8 +3319,7 @@ Typical winter week begins Mon 24 Dec
 *spring_t 12  3 18  3 29 10  4 11
 *summer_t 13  8 19  8
 *help_start
-Climate is Wellington New Zealand 934360
- Location: 41.30S  5.22W : 2001
+ Station location: 41.30 S, 5.22 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan      9.2 @ 5h00 Tue  2       24.5 @14h00 Fri 12    16.7
  Feb      9.6 @ 6h00 Sat  3       25.0 @13h00 Sat 10    17.4
@@ -3299,8 +3334,7 @@ Climate is Wellington New Zealand 934360
  Nov      7.1 @ 5h00 Fri 16       21.8 @14h00 Thu 22    13.5
  Dec      0.0 @24h00 Mon 31       23.0 @11h00 Wed  5    15.2
  Annual   0.0 @20h00 Tue 10 Jul   25.0 @13h00 Sat 10 Feb    13.0
-Note ESP-r 1st winter season is actually early year summer in this
-location.
+1st winter season is actually early year summer in this location.
 Winter season is Mon  1 Jan - Sun  4 Mar
 Typical winter week begins Mon  8 Jan
 Spring season is Mon  5 Mar - Sun  6 May
@@ -3313,8 +3347,8 @@ Winter season is Mon 26 Nov - Mon 31 Dec
 Typical winter week begins Mon 17 Dec
 *help_end
 *item
-*name	Whitehorse YT CAN
-*aide	Whitehorse YT CAN was sourced from US DoE
+*name	Canada, Whitehorse YT, 2001
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/CAN_YT_Whitehorse_CWEC
 *avail	ONLINE
 *winter_s  1  1 22  4 29 10 31 12
@@ -3324,8 +3358,7 @@ Typical winter week begins Mon 17 Dec
 *spring_t 30  4  6  5 24  9 30  9
 *summer_t 16  7 22  7
 *help_start
-Climate is Whitehorse YT CAN
- Location: 55.90N  4.15W : 2001
+ Station Location: 55.90 N, 4.15 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -48.9 @ 6h00 Tue  9        2.2 @23h00 Fri 19   -20.5
  Feb    -33.6 @ 7h00 Fri 16        2.5 @16h00 Wed 21   -11.3
@@ -3353,8 +3386,8 @@ Winter season is Mon 29 Oct - Mon 31 Dec
 Typical winter week begins Mon 26 Nov
 *help_end
 *item
-*name	Winnipeg Int MB CAN
-*aide	Winnipeg Int MB CAN was sourced from US DoE
+*name	Canada, Winnipeg MB, 2001
+*aide	Sourced from US DoE.
 *dbfl	/opt/esp-r/climate/CAN_MB_Winnipeg_CWEC
 *avail	ONLINE
 *winter_s  1  1 18  3  5 11 31 12
@@ -3364,8 +3397,7 @@ Typical winter week begins Mon 26 Nov
 *spring_t 16  4 22  4  8 10 14 10
 *summer_t 20  8 26  8
 *help_start
-Climate is Winnipeg Int MB CAN
- Location: 49.90N  7.23W : 2001
+ Station location: 49.90 N, 7.23 W.
  Month    Minimum  Time          Maximum  Time         Mean
  Jan    -35.0 @ 9h00 Fri 19        0.6 @22h00 Thu 11   -17.3
  Feb    -33.6 @ 7h00 Mon  5        5.0 @18h00 Wed 21   -14.3

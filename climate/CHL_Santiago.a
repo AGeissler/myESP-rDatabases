@@ -1,5 +1,5 @@
 *CLIMATE
-# ascii climate file from CHL_Santiago binary db,
+# ascii weather file from CHL_Santiago binary db,
 # defined in: CHL_Santiago.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)
@@ -7,7 +7,7 @@
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-SANTIAGO - CHL                  # site name
+SANTIAGO - CHL 1987                 # site name
  1987,-33.38,-10.78,0   # year, latitude, long diff, direct normal rad flag
  1,365    # period (julian days)
 * day  1 month  1

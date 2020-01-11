@@ -1,5 +1,5 @@
 *CLIMATE
-# ascii climate file from EGY_Alexandria binary db,
+# ascii weather file from EGY_Alexandria binary db,
 # defined in: EGY_Alexandria.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)
@@ -7,7 +7,7 @@
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-Alexandria Al Iskandariyah EGY  # site name
+Alexandria Al Iskandariyah EGY 1997  # site name
  1997,31.20,-0.05,0   # year, latitude, long diff, direct normal rad flag
  1,365    # period (julian days)
 * day  1 month  1

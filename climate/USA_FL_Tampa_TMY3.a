@@ -1,5 +1,5 @@
 *CLIMATE
-# ascii climate file from USA_FL_Tampa_TMY3 binary db,
+# ascii weather file from USA_FL_Tampa_TMY3 binary db,
 # defined in: USA_FL_Tampa_TMY3.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)
@@ -7,7 +7,7 @@
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-Tampa International Ap FL USA   # site name
+Tampa International Ap FL USA 1996   # site name
  1996,27.97,-7.53,0   # year, latitude, long diff, direct normal rad flag
  1,365    # period (julian days)
 * day  1 month  1

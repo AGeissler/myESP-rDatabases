@@ -1,5 +1,5 @@
 *CLIMATE
-# ascii climate file from EGY_Aswan binary db,
+# ascii weather file from EGY_Aswan binary db,
 # defined in: EGY_Aswan.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)
@@ -7,7 +7,7 @@
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-Aswan Aswan EGY 624140          # site name
+Aswan Aswan EGY 1986 IWEC 624140          # site name
  1986,23.97,2.78,0   # year, latitude, long diff, direct normal rad flag
  1,365    # period (julian days)
 * day  1 month  1

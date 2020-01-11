@@ -1,5 +1,5 @@
 *CLIMATE
-# ascii climate file from JPN_Osaka binary db,
+# ascii weather file from JPN_Osaka binary db,
 # defined in: JPN_Osaka.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)
@@ -7,7 +7,7 @@
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-OSAKA - JPN                     # site name
+OSAKA - JPN 1994                    # site name
  1994,34.78,0.45,0   # year, latitude, long diff, direct normal rad flag
  1,365    # period (julian days)
 * day  1 month  1

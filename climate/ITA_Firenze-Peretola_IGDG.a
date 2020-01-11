@@ -1,5 +1,5 @@
 *CLIMATE
-# ascii climate file from ITA_Firenze-Peretola_IGDG binary db,
+# ascii weather file from ITA_Firenze-Peretola_IGDG binary db,
 # defined in: ITA_Firenze-Peretola_IGDG.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)
@@ -7,7 +7,7 @@
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-Firenze-Peretola - ITA          # site name
+Firenze-Peretola - ITA 2001          # site name
  2001,43.80,-3.80,0   # year latitude long diff rad flag
  1,365    # period (julian days)
 * day  1 month  1

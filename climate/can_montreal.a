@@ -1,5 +1,5 @@
 *CLIMATE
-# ascii climate file from can_montreal binary db,
+# ascii weather file from can_montreal binary db,
 # defined in: can_montreal.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)
@@ -7,7 +7,7 @@
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-Montreal Mirabel PQ CAN         # site name
+Montreal Mirabel PQ CAN 1965        # site name
  1965,45.68,0.97,0,   # year latitude long diff rad flag
  1,365,    # period (julian days)
 * day  1 month  1

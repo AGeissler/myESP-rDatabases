@@ -1,5 +1,5 @@
 *CLIMATE
-# ascii climate file from seoul.bin binary db,
+# ascii weather file from seoul.bin binary db,
 # defined in: seoul.bin.a
 # col 1: Diffuse solar on the horizontal (W/m**2)
 # col 2: External dry bulb temperature   (Tenths DEG.C)
@@ -7,7 +7,7 @@
 # col 4: Prevailing wind speed           (Tenths m/s) 
 # col 5: Wind direction     (clockwise deg from north) 
 # col 6: Relative humidity               (Percent)
-ESP kier climate                # site name
+ESP Kier GBR 1983               # site name
  1983,37.34,8.42,0   # year, latitude, long diff, direct normal rad flag
  1,365    # period (julian days)
 * day  1 month  1

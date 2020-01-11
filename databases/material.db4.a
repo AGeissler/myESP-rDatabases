@@ -412,7 +412,7 @@ Category (12) Carpet includes both natural and synthetic carpets, some differ on
 *item,linoleum_CSTC,232,12,linoleum as per CSTC Belgium 1980 (impermeable)
 0.1900,1200.000,1470.000,0.900,0.900,0.600,0.600,10.000,5.0,-
 # class index |nb items|description (32 char)
-*class,13,12,Glass
+*class,13,14,Glass and ceramics
 Category (13) Glass with additional single layer optical properties (some estimated, some still all zero). All are considered impermeable. Based on data traditionally distributed with ESP-r.
 *item,glass block,241,13,Glass block with placeholder single layer optics
 0.7000,3500.000,837.000,0.830,0.830,0.050,0.050,19200.000,6.0,t,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
@@ -438,6 +438,10 @@ Category (13) Glass with additional single layer optical properties (some estima
 1.0500,2500.000,750.000,0.830,0.830,0.050,0.050,19200.000,6.0,t,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
 *item,EVA layer,252,13,EVA layer for embedded PV cells (resin cell resin)
 0.3800,920.000,2100.000,0.900,0.900,0.500,0.500,19200.000,6.0,t,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
+*item,glass-ceramic,253,13,Schott NEXTREMA glass-ceramic (some properties assumed, can be transparent, but for cooktops effectively opaque).
+1.6000,2500.000,825.000,0.800,0.800,0.100,0.100,19200.000,6.0,o
+*item,porcelain,254,13,porcelain
+1.8800,2300.000,1085.000,0.800,0.800,0.500,0.500,19200.000,50.0,o
 # class index |nb items|description (32 char)
 *class,14,11,Earth
 Category (14) Earth includes loose materials. Also check the stone category for other gravels. Mostly inorganic-porous. Based on data traditionally distributed with ESP-r.
@@ -555,7 +559,7 @@ Category (17) Non-homogeneous layers combine two existing materials properties t
 *item,plaster_dabs_in_12mmair_gap,329,17,plaster_dabs_in_12mmair_gap derived from dense plaster & Air (k) 12mm glz ( 0.200 0.800)  as in mounting of plasterboard on structure via dabs
 0.1560,260.963,1004.800,0.974,0.974,0.892,0.892,3.000,12.5,-
 # class index |nb items|description (32 char)
-*class,18, 6,GAPS
+*class,18, 7,GAPS
 Category (18) holds the implied air material (legacy index of zero), several gaps with default air gap resistances and air expressed as k value for a thickness to use in non-homogeneous layers.
 *item,air gap,  0,18,Air layer with default properties assumed for legacy treatment of air (index zero).
 0.0000,0.000,0.000,0.990,0.990,0.990,0.990,1.000,25.0,-
@@ -569,4 +573,6 @@ Category (18) holds the implied air material (legacy index of zero), several gap
 0.0330,1.204,1006.000,0.990,0.990,0.990,0.990,1.000,12.0,-
 *item,Argon (k) 16 mm,343,18,Argon (as k value) in 16 mm and lowe space
 2.3360,1.670,519.000,0.990,0.990,0.990,0.990,1.000,16.0,g
+*item,water,344,18,water at approx. 20 dec C
+0.5980,1000.000,4182.000,0.990,0.990,0.990,0.990,1.000,100.0,o
 *end

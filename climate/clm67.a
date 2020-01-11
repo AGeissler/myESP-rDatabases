@@ -1,15 +1,15 @@
 *CLIMATE
-# ascii climate file from clm67 binary db,
-# defined in: clm67.aa
-# col 1: Diffuse solar on the horizontal (W/m**2)
-# col 2: External dry bulb temperature   (Tenths DEG.C)
-# col 3: Direct normal solar intensity   (W/m**2)
+# ascii weather file from clm67 binary db,
+# defined in: clm67.a
+# col 1: Diffuse solar on the horizontal (W/m^2)
+# col 2: External dry bulb temperature   (Tenths C)
+# col 3: Direct normal solar intensity   (W/m^2)
 # col 4: Prevailing wind speed           (Tenths m/s) 
-# col 5: Wind direction     (clockwise deg from north) 
-# col 6: Relative humidity               (Percent)
-ESP test climate                # site name
+# col 5: Wind direction     (clockwise deg from N.) 
+# col 6: Relative humidity               (%)
+Fictitious UK location                # station
  1967,52.00,0.00,0   # year, latitude, long diff, direct normal rad flag
- 1,365    # period (julian days)
+ 1,365    # period
 * day  1 month  1
  0,27,0,51,240,78
  0,27,0,44,240,76
