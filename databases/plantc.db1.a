@@ -8130,7 +8130,7 @@ Type :   0    Init suppl dat :   0    Tot suppl dat :   0    No. of conns :   0
  
  Component Description
     Generic type     : WCH inverter controlled Ground Source Heat Pump
-    Description      : inv. contrld Ground Source Heat Pump connecting to WCH system; 1 node model
+    Description      : inverter controlled GSHP connecting to WCH system; 1 node model
     Insertion date   : 30 Jan 20 17:38
     Type: Single component                    Component code :    490
  
@@ -8152,7 +8152,7 @@ Type :   0    Init suppl dat :   0    Tot suppl dat :   0    No. of conns :   0
  BDATA variables:
     1 Control mode [1 - fx set in GSHP; 2 - fx via CDATA]
       Value =    2.0000        Range (Min Max):     1.0000        2.0000
-    2 COP model [1- fixed 2 - HP/(HP-CP)]
+    2 COP model [1- simple; 2 - 3d-polynomial fit]
       Value =    2.0000        Range (Min Max):     1.0000        2.0000
     3 HP at 0 %, coef HP_0(1) (-)
       Value =    6.0365        Range (Min Max):   -20.0000        20.000
@@ -8239,9 +8239,9 @@ Type :   0    Init suppl dat :   0    Tot suppl dat :   0    No. of conns :   0
    44 Heat pump lock out time (min)
       Value =    10.000        Range (Min Max):     0.0000        120.00
    45 Ground source model [1 - standard profile 2 - user profile 3 - f(dep
-      Value =    4.0000        Range (Min Max):     0.0000        10.000
+      Value =    2.0000        Range (Min Max):     0.0000        10.000
    46 Model coef g0 [1 & 2 - profile number 3 - depth in m]
-      Value =    4.0000        Range (Min Max):     0.0000        100.00
+      Value =    3.0000        Range (Min Max):     0.0000        100.00
  CDATA variables:
     1 ON/OFF signal for space heat (-)
     2 ON/OFF signal for DHW (-)
