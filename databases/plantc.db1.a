@@ -8214,29 +8214,29 @@ Type :   0    Init suppl dat :   0    Tot suppl dat :   0    No. of conns :   0
       Value =    1.0000        Range (Min Max):     0.0000        1.0000
    32 Compressor pf (-)
       Value =   0.90000        Range (Min Max):     0.0000        1.0000
-   33 Tout max SH (degC)
+   33 Tout SH (degC)
       Value =    35.000        Range (Min Max):     0.0000        100.00
-   34 Tin max SH (degC)
-      Value =    32.000        Range (Min Max):     0.0000        100.00
-   35 Nominal water return temperature SH (Deg C)
+   34 Nominal return temperature SH (Deg C)
       Value =    30.000        Range (Min Max):     0.0000        100.00
-   36 Nominal water return deadband SH (Deg C)
+   35 Nominal return deadband SH (Deg C)
       Value =    2.0000        Range (Min Max):     0.0000         10.00
-   37 Ambient air temp compensation on/off (-)
+   36 Ambient air temp compensation on/off (-)
       Value =    1.0000        Range (Min Max):     0.0000        1.0000
-   38 Low amb. air temperature for temp compensation [Deg C]
+   37 Low amb. air temperature for temp compensation [Deg C]
       Value =    3.0000        Range (Min Max):     0.0000        100.00
-   39 High amb. air temperature for temp compensation [Deg C]
+   38 High amb. air temperature for temp compensation [Deg C]
       Value =    17.000        Range (Min Max):     0.0000        100.00
-   40 Temp compensation gradient c1 (-)
+   39 Temp compensation gradient c1 (-)
       Value =   -0.3000        Range (Min Max):     0.0000        100.00
-   41 Tout max DHW (degC)
+   40 Tout DHW high (degC)
       Value =    65.000        Range (Min Max):     60.000        100.00
-   42 Tin max DHW (degC)
-      Value =    60.000        Range (Min Max):     50.000        85.000
-   43 Nominal water return temperature for DHW (degC)
+   41 Nominal return temperature DHW high (degC)
       Value =    55.000        Range (Min Max):     55.000        80.000
-   44 Nominal water return deadband DHW (Deg C)
+   42 Tout DHW low (degC)
+      Value =    65.000        Range (Min Max):     60.000        100.00
+   43 Nominal return temperature DHW low (degC)
+      Value =    55.000        Range (Min Max):     55.000        80.000
+   44 Nominal return deadband DHW (Deg C)
       Value =    5.0000        Range (Min Max):     0.0000         10.00
    45 Heat pump lock out time (min)
       Value =    10.000        Range (Min Max):     0.0000        120.00
@@ -8247,7 +8247,7 @@ Type :   0    Init suppl dat :   0    Tot suppl dat :   0    No. of conns :   0
  CDATA variables:
     1 Relative frequency signal for space heat (-)
     2 Relative frequency signal for DHW (-)
-    3 Preference signal 0 space heat, 1 DHW
+    3 Preference signal 0 space heat, 1 DHW high, 2 DHW low
  
  Number of additional output parameters:     9
  Additional output variables:
