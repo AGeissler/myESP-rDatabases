@@ -6966,7 +6966,7 @@ Type :   0    Init suppl dat :   0    Tot suppl dat :   0    No. of conns :   0
     Variable type    :  20,
  
  Miscellaneous Data
-    Adata items   :  47    Bdata items   :   0    Cdata items   :   0
+    Adata items   :  49    Bdata items   :   0    Cdata items   :   0
  ADATA variables:
     1 Nominal daily hot water draw (l)
       Value =    130.00        Range (Min Max):     100.00        500.00
@@ -7062,7 +7062,11 @@ Type :   0    Init suppl dat :   0    Tot suppl dat :   0    No. of conns :   0
       Value =    1.0000        Range (Min Max):     0.0000        1.0000
    47 Random number generator seed (-)
       Value =    1234.0        Range (Min Max):     1.0000       0.10000E+07
- 
+   48 Ground source model [1 - std. profile 2 - user profile 3 - f(depth)]
+      Value =    2.0000        Range (Min Max):     0.0000        10.000
+   49 Model coef g0 [1 & 2 - profile number 3 - depth in m]
+      Value =    3.0000        Range (Min Max):     0.0000        100.00
+
  Number of additional output parameters:     6
  Additional output variables:
     1 Flow rate type 1 (kg/s)        Type :    2
