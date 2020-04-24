@@ -13,7 +13,7 @@ Tags are:
 - *layer layer data... mat ref, thickness,mat name: mat description
 - *Text ... *End_text  markers for database documentation
 *End_text
-*date,Mon Dec  2 06:49:57 2019
+*date,Mon Mar  2 09:33:02 2020
 *Category,walls,opaque facade constructions,opaque facades representing different ages and performance (mostly UK based)
 *Category,partitions,internal partitions,partitions between zones (some have matching mirror versions)
 *Category,doors,inside and outside doors,doors of different ages types and performance characteristics
@@ -36,7 +36,7 @@ Tags are:
 *layer,0,0.0500,gap  0.170 0.170 0.170
 *layer,2,0.1000,breeze block : Breeze block (inorganic-porous)
 *end_item
-*item,brk_aer_block_wall,cavity insulated brick-aerated-block # tag name menu entry
+*item,brk_aer_block_wall,cavity insulated brick-aerated-b # tag name menu entry
 *itemdoc,typical UK insulated cavity brick-aerated-block wall with 50mm air gap & 150mm insulation
 *incat,general constructions
 *type,OPAQ,OPAQUE,NONSYMMETRIC
@@ -334,6 +334,14 @@ Tags are:
 *type,OPAQ,OPAQUE,SYMMETRIC
 *layer,108,0.0120,white gypboard : White painted Gypboard (inorganic-porous)
 *layer,0,0.0500,gap  0.170 0.170 0.170
+*layer,108,0.0120,white gypboard : White painted Gypboard (inorganic-porous)
+*end_item
+*item,gyp_stud_acou_gyp_ptn,gyp_stud_acoust_gyp_partition # tag name menu entry
+*itemdoc,no documentation yet for gyp_stud_acou_gyp_ptn
+*incat,partitions
+*type,OPAQ,OPAQUE,SYMMETRIC
+*layer,108,0.0120,white gypboard : White painted Gypboard (inorganic-porous)
+*layer,337,0.0500,stud_acoustic_batt : stud_acoustic_batt derived from fir & Mineral wool
 *layer,108,0.0120,white gypboard : White painted Gypboard (inorganic-porous)
 *end_item
 *item,brick_ptn,lime plaster over 100mm brick # tag name menu entry
@@ -634,6 +642,12 @@ Tags are:
 *incat,frames
 *type,OPAQ,OPAQUE,SYMMETRIC
 *layer,71,0.0920,softwood : Softwood (generic)
+*end_item
+*item,stair_treads,wooden stair_treads # tag name menu entry
+*itemdoc,manufactured stair treads - exposed wood both sides
+*incat,frames
+*type,OPAQ,OPAQUE,SYMMETRIC
+*layer,65,0.0200,flooring : Flooring (source does not clarify what it is)
 *end_item
 *item,roof,metal insulated roof pnl U=0.427 # tag name menu entry
 *itemdoc,A formed uncoated aluminium roof panel including air gap and 80mm quilt insulation to yield U=0.427.
@@ -1116,7 +1130,7 @@ Tags are:
 *layer,225,0.0150,synthetic carpet : Synthetic carpet (non-hygroscopic)
 *end_item
 *item,ext_doors_CCHT,ext_doors_CCHT # tag name menu entry
-*itemdoc,no documentation yet for ext_doors_CCHT inproject specific
+*itemdoc,no documentation yet for ext_doors_CCHT
 *incat,legacy
 *type,OPAQ,OPAQUE,SYMMETRIC
 *layer,56,0.0050,light steel door : light steel door for use with CCHT testing
@@ -1131,7 +1145,7 @@ Tags are:
 *layer,72,0.0120,plywood 700d : Plywood (700 density)
 *end_item
 *item,int_partitn_CCHT,int_partitn_CCHT # tag name menu entry
-*itemdoc,no documentation yet for int_partitn_CCHT inproject specific
+*itemdoc,no documentation yet for int_partitn_CCHT
 *incat,legacy
 *type,OPAQ,OPAQUE,SYMMETRIC
 *layer,104,0.0125,gypsum plaster : Gypsum based plaster (inorganic-porous)

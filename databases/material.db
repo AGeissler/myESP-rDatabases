@@ -352,7 +352,7 @@ Category (10) Asbestos is included for historic reasons, some regions still use 
 *item,cement sheet,182,10,Cement sheet (inorganic-porous)
 0.3600,700.000,1050.000,0.960,0.960,0.600,0.600,150.000,6.0,-
 # class index |nb items|description (32 char)
-*class,11,54,Insulation materials
+*class,11,55,Insulation materials
 Category (11) Insulation materials (1) is an initial tranche of loose, batt and foam insulating materials. Based on data traditionally distributed with ESP-r.
 *item,aerogel,235,11,aerogel is a synthetic porous ultralight material typically silica based data from greenspec.co.uk and NASA fact sheet
 0.0140,15.000,1000.000,0.900,0.900,0.500,0.500,3.000,50.0,-
@@ -462,6 +462,8 @@ Category (11) Insulation materials (1) is an initial tranche of loose, batt and 
 0.0400,38.000,1450.000,0.900,0.900,0.300,0.300,350.000,100.0,-
 *item,Xtratherm_PIR,312,11,Xtratherm_PIR polyisocyanurate with foil facing
 0.0210,32.000,1181.000,0.800,0.800,0.650,0.650,300.000,75.0,-
+*item,EPS_wetherby HD EPS,320,11,EPS_wetherby HD EPS (copy of EPS k 0.04)
+0.0360,15.000,1450.000,0.900,0.900,0.700,0.700,30.000,80.0,-
 # class index |nb items|description (32 char)
 *class,12,12,Carpet
 Category (12) Carpet includes both natural and synthetic carpets, some differ only in colour. Based on data traditionally distributed with ESP-r.
@@ -579,7 +581,7 @@ Category (15) Board and Sheathing includes a range of plaster and wood products 
 *item,rockpanel_extreme,332,15,rockpanel_extreme is compressed mineral wool board from Rockwool. No info on specific heat used mineral wool value
 0.5100,1200.000,105.000,0.900,0.900,0.750,0.750,400.000,8.0,-
 # class index |nb items|description (32 char)
-*class,16, 7,Non-homogeneous
+*class,16,10,Non-homogeneous
 Category (16) Non-homogeneous layers combine two existing materials properties to represent non-homogeneous constructions. Documentation should state percentage and base materials.
 *item,block_beam_conc_thermalite,331,16,block_beam_conc_thermalite derived from heavy mix concrete & thermalite_aircrete_HS_7 ( 0.150 0.850)
 0.3630,935.500,947.950,0.900,0.900,0.650,0.650,13.900,100.0,-
@@ -595,8 +597,14 @@ Category (16) Non-homogeneous layers combine two existing materials properties t
 0.1560,260.963,1004.800,0.974,0.974,0.892,0.892,3.000,12.5,-
 *item,wool+fir_4.16pc,325,16,wool+fir_4.16pc derived from fir & lambswool felt insulation ( 0.042 0.958) assuming 600mm centres for 25mm battens
 0.0440,46.182,1550.752,0.900,0.900,0.698,0.698,10.083,25.0,-
+*item,joist_7pc_air_93pc_100mm,335,16,joist_7pc_air_93pc derived from air (k) 100mm HF & fir ( 0.930 0.070) 100mm thickness assumed.
+0.5120,30.450,1125.980,0.900,0.900,0.966,0.966,1.770,100.0,-
+*item,air_void_80pc_stud_20pc,336,16,air_void_80pc_stud_20pc derived from fir & air (k) 50mm upwards ( 0.200 0.800)  assumed 5m thick gap
+0.2760,84.763,1348.800,0.900,0.900,0.922,0.922,3.200,25.0,-
+*item,stud_acoustic_batt,337,16,stud_acoustic_batt derived from fir & Mineral wool batt ( 0.070 0.930) for use in partition walls
+0.0470,52.580,1120.400,0.900,0.900,0.697,0.697,28.740,25.0,-
 # class index |nb items|description (32 char)
-*class,17, 8,GAPS
+*class,17,17,GAPS
 Category (17) holds the implied air material (legacy index of zero), several gaps with default air gap resistances and air expressed as k value for a thickness to use in non-homogeneous layers.
 *item,air gap,  0,17,Air layer with default properties assumed for legacy treatment of air (index zero).
 0.0000,0.000,0.000,0.990,0.990,0.990,0.990,1.000,25.0,-
@@ -614,6 +622,24 @@ Category (17) holds the implied air material (legacy index of zero), several gap
 0.5980,1000.000,4182.000,0.990,0.990,0.990,0.990,1.000,100.0,o
 *item,argon,346,17,argon for use with CCHT testing
 0.0160,1.780,524.920,0.900,0.990,0.650,0.990,30.000,30.0,o
+*item,air (k) 50mm HF,347,17,air (k) 50mm gap horizontal flow from PHPP E=0.9
+0.2700,1.204,1006.000,0.900,0.900,0.990,0.990,1.000,50.0,-
+*item,air (k) 50mm upwards,348,17,air (k) 50mm upwards heat flow via PHPP method E=0.9
+0.3100,1.204,1006.000,0.900,0.900,0.990,0.990,1.000,50.0,-
+*item,air (k) 50mm downwards,349,17,air (k) 50mm downwards heat flow via PHPP method E=0.9
+0.2300,1.204,1006.000,0.900,0.900,0.990,0.990,1.000,50.0,-
+*item,air (k) 100mm HF,350,17,air (k) 100mm horizontal flow via PHPP method E=0.9
+0.5400,1.204,1006.000,0.900,0.900,0.990,0.990,1.000,100.0,-
+*item,air (k) 100mm upwards,351,17,air (k) 100mm upwards heat flow via PHPP method E=0.9
+0.6100,1.204,1006.000,0.900,0.900,0.990,0.990,1.000,100.0,-
+*item,air (k) 100mm downwards,352,17,air (k) 100mm downwards heat flow via PHPP method emissivity =0.9
+0.4500,1.204,1006.000,0.900,0.900,0.990,0.990,1.000,100.0,-
+*item,air (k) 25mm HF,353,17,air (k) 25mm horizontal heat flow via PHPP method E=0.9
+0.1400,1.204,1006.000,0.900,0.900,0.990,0.990,1.000,25.0,-
+*item,air (k) 25mm foil,354,17,air (k) 25mm foil one side horizontal heat flow via PHPP method
+0.0500,1.204,1006.000,0.150,0.150,0.990,0.990,1.000,25.0,-
+*item,air (k) 50mm foil,355,17,air (k) 50mm one side foil horizontal heat flow PHPP method
+0.1000,1.204,1006.000,0.150,0.150,0.990,0.990,1.000,25.0,-
 # class index |nb items|description (32 char)
 *class,18, 1,Project specific
 Category (18) holds non-standard materials associated with a project so that these can be isolated prior to acceptance as a standard material.
