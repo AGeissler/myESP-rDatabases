@@ -265,6 +265,14 @@ Tags are:
 *layer,0,0.0200,air  0.170 0.170 0.170
 *layer,101,0.0300,dense plaster : Dense plaster
 *end_item
+*item,insul_frc_facade,insul GFRC facade ov Fermacell # tag name menu entry
+*itemdoc,insul_frc_facade GFR concrete over insulation and fermacell
+*incat,walls
+*type,OPAQ,OPAQUE,NONSYMMETRIC
+*layer,31,0.0200,Glass reinf conc : Glass fibre reinforced concrete
+*layer,281,0.0800,glass fibre quilt : Glass Fibre Quilt (non-hygroscopic)
+*layer,115,0.0120,gypsum_fibreboard : Fermacell gypsum fibreboard IBR report 3001-100 gyp
+*end_item
 *item,masonry0.2,plastered masonry 0.2m # tag name menu entry
 *itemdoc,masonry0.2 is 140mm brick plastered both sides 200mm total thickness
 *incat,partitions
@@ -1552,7 +1560,7 @@ Tags are:
 *layer,253,0.0100,glass-ceramic : Schott NEXTREMA glass-ceramic (some properties assumed,
 *end_item
 *item,fridge,fridge # tag name menu entry
-*itemdoc,no documentation yet for fridge infittings
+*itemdoc,plastic insulated case for fridge in fittings
 *incat,fittings
 *type,OPAQ,OPAQUE,SYMMETRIC
 *layer,175,0.0020,ABS_case : ABS case (Acrylonitrile Butadiene Styrene) (www.matweb.com)
@@ -1573,6 +1581,34 @@ Tags are:
 *layer,344,0.1000,water : water at approx. 20 dec C
 *layer,344,0.1000,water : water at approx. 20 dec C
 *layer,254,0.0200,porcelain : porcelain (
+*end_item
+*item,magnitite_core->shell,magnatite core-> shell # tag name menu entry
+*itemdoc,heat storage cells for storage heater
+*incat,fittings
+*type,OPAQ,OPAQUE,magnitite_shell->core
+*layer,235,0.0120,aerogel : aerogel is a synthetic porous ultralight material typically s
+*layer,52,0.0450,synthetic_magnetite : Synthetic magnetite bricks Fe3O4 used in electric
+*end_item
+*item,magnitite_shell->core,magnitite cells shell2core # tag name menu entry
+*itemdoc,heat storage cell with 10mm insulation  shell to core
+*incat,fittings
+*type,OPAQ,OPAQUE,magnitite_core->shell
+*layer,52,0.0450,synthetic_magnetite : Synthetic magnetite bricks Fe3O4 used in electric
+*layer,235,0.0120,aerogel : aerogel is a synthetic porous ultralight material typically s
+*end_item
+*item,store_heater_shell->room,store_heater_shell->room # tag name menu entry
+*itemdoc,estimated case for a Quantam storage heater
+*incat,fittings
+*type,OPAQ,OPAQUE,store_heater_room2shell
+*layer,47,0.0040,wt cotd alum : White coated aluminium
+*layer,235,0.0120,aerogel : aerogel is a synthetic porous ultralight material typically s
+*end_item
+*item,store_heater_room2shell,store_heater_room->shell # tag name menu entry
+*itemdoc,estimated case for a Quantam storage heater room to shell
+*incat,fittings
+*type,OPAQ,OPAQUE,store_heater_shell->room
+*layer,235,0.0120,aerogel : aerogel is a synthetic porous ultralight material typically s
+*layer,47,0.0040,wt cotd alum : White coated aluminium
 *end_item
 *item,placeholder,placeholder # tag name menu entry
 *itemdoc,no documentation yet for placeholder inproject specific

@@ -265,6 +265,14 @@ Tags are:
 *layer,0,0.0200,air  0.170 0.170 0.170
 *layer,101,0.0300,dense plaster : Dense plaster
 *end_item
+*item,insul_frc_facade,insul GFRC facade ov Fermacell # tag name menu entry
+*itemdoc,insul_frc_facade GFR concrete over insulation and fermacell
+*incat,walls
+*type,OPAQ,OPAQUE,NONSYMMETRIC
+*layer,31,0.0200,Glass reinf conc : Glass fibre reinforced concrete
+*layer,281,0.0800,glass fibre quilt : Glass Fibre Quilt (non-hygroscopic)
+*layer,115,0.0120,gypsum_fibreboard : Fermacell gypsum fibreboard IBR report 3001-100 gyp
+*end_item
 *item,masonry0.2,plastered masonry 0.2m # tag name menu entry
 *itemdoc,masonry0.2 is 140mm brick plastered both sides 200mm total thickness
 *incat,partitions

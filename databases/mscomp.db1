@@ -6,21 +6,21 @@
 #       components, 4-building electrical loads, 5-plant motors and generators)
 #    2: material name and id
 #    3: specific data items
-#    4 text field
+#    4: text field
 # The field entries have the same format.
 ***********************************************************************************
 *SPMDB
 *CATEGORY
-# The categories of special components currently supported in the database
-# categories 1-4 are reserved for building integrated renewables all other
-# categories are for active materials
+# The categories of special components currently supported in the database.
+# Categories 1-4 are reserved for building integrated renewables all other
+# categories are for active materials.
 8
-crystalline PV model
-amorphous PV model
-simple PV model
+crystalline PV
+amorphous PV
+simple PV
 solar collector backplate
 ducted wind turbine
-thermocromic glazing
+thermochromic glazing
 phase change material
 evaporating surface
 *ENDCATEGORY
@@ -33,15 +33,15 @@ evaporating surface
 BP380_poly_36cell    
 *SPECDATA
 13                  
-22.1      Open circuit voltage. (V)
-4.80      Short circuit current. (I)
+22.1      Open circuit voltage (V)
+4.80      Short circuit current (I)
 17.6      Voltage at maximum power point (V)
 4.55      Current at maximum power point (A)
-1000.     Reference insolation. (W/m^2)
-298.      Reference temperature. (K)
+1000.     Reference insolation (W/m^2)
+298.      Reference temperature (K)
 36.       Number of series connected cells (not panels) (-)
-1.        Number of parallel connected branches. (-)
-5.        Number of panels in surface. (-)
+1.        Number of parallel connected branches (-)
+5.        Number of panels in surface (-)
 10.       Empirical value used in calculation of Io
 0.        Load type (0-maximum power,1-fixed R,2-fixed V)
 0.        Load value - resistance or voltage (-)
@@ -49,7 +49,7 @@ BP380_poly_36cell
 *TEXT
 Data from BP solar:
 BP Saturn (BP 585)
-Module type             BP 380 polycrstalline
+Module type             BP 380 polycrystalline
 Module size             1209 x 537 mm
 Weight                  7.5 kg
 Construction            Low-Iron Glass, EVA (cells 400 microns thick)
@@ -123,15 +123,15 @@ Values apply to both the framed and laminated models
 Solarex_MSX550    
 *SPECDATA
 13                   
-20.9      Open circuit voltage. (V)
-3.08      Short circuit current. (I)
+20.9      Open circuit voltage (V)
+3.08      Short circuit current (I)
 16.9      Voltage at maximum power point (V)
 2.91      Current at maximum power point (A)
-1000.     Reference insolation. (W/m^2)
+1000.     Reference insolation (W/m^2)
 298.      Reference temperature. (K)
 36.       Number of series connected cells (not panels) (-)
 1.        Number of parallel connected branches. (-)
-2.        Number of panels in surface. (-)
+2.        Number of panels in surface (-)
 10.       Empirical value used in calculation of Io
 0.        Load type (0-maximum power,1-fixed R,2-fixed V)
 0.        Load value - resistance or voltage (-)
@@ -177,15 +177,15 @@ MSX 550     :PV-hybrid-cell_3mm
 RMS100
 *SPECDATA
 13                 
-43.8      Open circuit voltage. (V)
-3.10      Short circuit current. (I)
+43.8      Open circuit voltage (V)
+3.10      Short circuit current (I)
 34.1      Voltage at maximum power point (V)
 2.85      Current at maximum power point (A)
-1000.     Reference insolation. (W/m^2)
-298.      Reference temperature. (K)
+1000.     Reference insolation (W/m^2)
+298.      Reference temperature (K)
 72.       Number of series connected cells (not panels) (-)
-1.        Number of parallel connected branches. (-)
-2.        Number of panels in surface. (-)
+1.        Number of parallel connected branches (-)
+2.        Number of panels in surface (-)
 10.       Empirical value used in calculation of Io
 0.        Load type (0-maximum power,1-fixed R,2-fixed V)
 0.        Load value - resistance or voltage (-)
@@ -240,15 +240,15 @@ facing the PV panel.
 Eurosolare_poly    
 *SPECDATA
 13                 
-21.67     Open circuit voltage. (V)
-2.98      Short circuit current. (I)
+21.67     Open circuit voltage (V)
+2.98      Short circuit current (I)
 17.42     Voltage at maximum power point (V)
 2.73      Current at maximum power point (A)
-1000.0    Reference insolation. (W/m^2)
-297.90    Reference temperature. (K)
+1000.0    Reference insolation (W/m^2)
+297.90    Reference temperature (K)
 36.       Number of series connected cells (not panels) (-)
 1.        Number of parallel connected branches. (-)
-2.        Number of panels in surface. (-)
+2.        Number of panels in surface (-)
 10.       Empirical value used in calculation of Io
 0.        Load type (0-maximum power,1-fixed R,2-fixed V)
 0.        Load value - resistance or voltage (-)
@@ -307,15 +307,15 @@ efficiecy) of the solar radiation falling on a surface to power output.
 TNO_amorphous_pv
 *SPECDATA 
 13
-99.48     Open circuit voltage. (V)
-0.438     Short circuit current. (I)
+99.48     Open circuit voltage (V)
+0.438     Short circuit current (I)
 77.76     Voltage at maximum power point (V)
 0.378     Current at maximum power point (A)
-1000.     Reference insolation. (W/m^2)
-298.      Reference temperature. (K)
+1000.     Reference insolation (W/m^2)
+298.      Reference temperature (K)
 57.       Number of series connected cells (not panels) (-)
 180.      Number of parallel connected branches. (-)
-1.        Number of panels in surface. (-)
+1.        Number of panels in surface (-)
 100.      Empirical value used in calculation of Io
 0.        Load type (0-maximum power,1-fixed R,2-fixed V)
 0.        Load value - resistance or voltage (-)
@@ -383,7 +383,7 @@ ducted_wind_turbine
 *TEXT
 This ducted wind turbine model is developed from that described in
 "Development of building integrated wind turbines" by Grant, Danecker
-and Nicholson.  The generated power (W) is calculated based on the 
+and Nicholson. The generated power (W) is calculated based on the 
 following formula: 
 
 P=(Cv/(3.3^(1/2))).rho.A.d^(2/3).V^(1/3)

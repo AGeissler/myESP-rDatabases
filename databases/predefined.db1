@@ -37,7 +37,7 @@ back-to-back surfaces representing their mass.
 *Text
 A standard swivel office chair with upholstery mass for
 the seat and seat back. Visual entities are a mix of
-materials and the seat back reclines slightly.
+materials and the seat back reclines slightly. Faces south.
 *End_text
 # 
 *vertex,0.09000,0.10000,0.50500  #   1
@@ -80,7 +80,7 @@ materials and the seat back reclines slightly.
 *bounding_box,0.600,2.000,0.715
 *Text
 An oak office desk with steel legs. The mass of the
-top is included but not the legs.
+top is included but not the legs. Long axis N-S.
 *End_text
 #
 *vertex,0.00500,0.00500,0.69500  #   1
@@ -108,7 +108,7 @@ top is included but not the legs.
 *bounding_box,0.600,1.600,0.715
 *Text
 An office desk of corian with steel legs. The mass of the
-top is included.
+top is included.  Long axis N-S along Y axis.
 *End_text
 #
 *vertex,0.00500,0.00500,0.69500  #   1
@@ -136,7 +136,7 @@ top is included.
 *bounding_box,1.8,0.900,0.715
 *Text
 An engineering workstation desk of corian with steel legs. The mass of
-the top is included.
+the top is included.  Long axis E-W along X axis.
 *End_text
 #
 *vertex,0.00500,0.00500,0.69500  #   1
@@ -164,7 +164,7 @@ the top is included.
 *bounding_box,0.900,1.800,0.715
 *Text
 An engineering workstation desk of corian with steel legs. The mass of
-the top is included.
+the top is included. Long axis N-S along Y axis.
 *End_text
 #
 *vertex,0.00500,0.00500,0.69500  #   1
@@ -192,7 +192,7 @@ the top is included.
 *bounding_box,1.000,2.000,0.715
 *Text
 An directors office desk of corian with steel legs. The mass of the
-top is included.
+top is included.  Long axis N-S along Y axis.
 *End_text
 #
 *vertex,0.00500,0.00500,0.69500  #   1
@@ -222,6 +222,7 @@ top is included.
 An office filing cabinet with four visible drawers. Composed of
 3mm steel with mass represented by pairs of vertial 3mm steel
 at left right and front edges plus magazines and paper inside.
+Drawers face south.
 *End_text
 #
 *vertex,0.00500,0.40500,0.00500  #   1
@@ -257,7 +258,7 @@ at left right and front edges plus magazines and paper inside.
 *Text
 A pair of office filing cabinets with four visible drawers. Composed
 of 3mm steel on left right top bottom with paper mass included
-on the front and back faces.
+on the front and back faces.  Drawers face south.
 *End_text
 #
 *vertex,0.00500,0.40500,0.00500  #   1
@@ -297,7 +298,7 @@ on the front and back faces.
 *Text
 A set of three of office filing cabinets with four visible drawers.
 Composed of 3mm steel on left right top bottom with paper mass included
-on the front and back faces.
+on the front and back faces. Drawers face south.
 *End_text
 #
 *vertex,0.00500,0.40500,0.00500  #   1
@@ -341,7 +342,7 @@ on the front and back faces.
 *Text
 A three horizontal drawer tall office filing cabinet. Composed
 of 3mm steel on left right top bottom with paper mass included on
-the front and back faces.
+the front and back faces. Drawers face south.
 *End_text
 #
 *vertex,0.00500,0.50500,0.00500  #   1
@@ -376,7 +377,7 @@ the front and back faces.
 *Text
 A three horizontal drawer tall bk-to-bk office filing cabinet.
 Composed of 3mm steel on left right top bottom with paper mass included
-on the front and back faces.
+on the front and back faces.  Drawers face south.
 *End_text
 #
 *vertex,0.00500,0.99500,0.00500  #   1
@@ -415,7 +416,7 @@ on the front and back faces.
 *Text
 A six horizontal drawer tall wide office filing cabinet. Composed
 of 3mm steel on left right top bottom with paper mass included on
-the front and back faces.
+the front and back faces.  Drawers face south.
 *End_text
 #
 *vertex,0.01000,0.50000,0.00500  #   1
@@ -453,7 +454,7 @@ the front and back faces.
 *Text
 A four horizontal drawer 1.2m tall 2m wide office filing cabinet. Composed
 of 3mm steel case (left right top bottom) with paper mass included
-in the front and back faces.
+in the front and back faces. Drawers face south.
 *End_text
 #
 *vertex,0.01000,0.50000,0.00500  #   1
@@ -489,7 +490,7 @@ in the front and back faces.
 *Text
 A four door low metal office cabinet 2mx0.5mx0.8m. Composed
 of 3mm steel on left right top bottom with paper mass included
-on the front and back faces.
+on the front and back faces.  Drawers face south.
 *End_text
 #
 *vertex,0.00500,0.50500,0.00500  #   1
@@ -525,7 +526,7 @@ on the front and back faces.
 *Text
 Two back-to-back 4 horizontal drawer office filing cabinets. Composed
 of 3mm steel on left right top bottom with paper mass included on the
-front and back faces.
+front and back faces.  Drawers face North and south.
 *End_text
 #
 *vertex,0.00500,0.99500,0.00500  #   1
@@ -597,7 +598,7 @@ mass placed in the base.
 *bounding_box,0.530,0.115,0.440
 *Text
 A 53cm wide digital TV with rear mounted DVD player. The mass of the
-cabinet as well as the circuit board is included.
+cabinet as well as the circuit board is included. Screen faces south.
 *End_text
 #
 *vertex,0.00500,0.03600,0.04500  #   1
@@ -633,7 +634,7 @@ cabinet as well as the circuit board is included.
 *bounding_box,0.520,0.100,0.510
 *Text
 A 55cm wide digital monitor on a stand. The mass of the
-cabinet as well as the circuit board is included.
+cabinet as well as the circuit board is included.  Screen faces south.
 *End_text
 #
 *vertex,0.00500,0.03600,0.20500  #   1
@@ -672,6 +673,7 @@ photocopy describes a Ricoh A4 & A3 office printer with sorter
 and multiple input trays. Internal gains should be defined to
 represent its electrical use (60W-2kW diversified). Optional to add
 to a flow network to exhaust its internal heat. Weight 100+kg.
+The control pad is on the south and paper out on left.
 *End_text
 *vertex,0.00000,0.00000,0.02000  #   1
 *vertex,0.31000,0.00000,0.02000  #   2
@@ -797,7 +799,7 @@ mass for sides.
 *bounding_box,2.500,0.030,1.700
 *Text
 A fabric covered and glass office privacy screen. The mass of the
-main screen is included.
+main screen is included. Long axis along X.
 *End_text
 #
 *vertex,0.00500,0.00500,0.0500  #   1
@@ -809,8 +811,8 @@ main screen is included.
 # 
 *mass,pscreen,upholstery,OPAQUE,4,1,2,3,6  #  1
 *mass,pscreen_,upholstery,OPAQUE,4,2,1,6,3  #  2
-*mass,low_trns,single_glaz,SCF8783_06nb,4,6,3,4,5  #   1
-*mass,low_trns_,single_glaz,SCF8783_06nb,4,3,6,5,4  #   2
+*mass,low_trns,single_glazing,SCF8783_06nb,4,6,3,4,5  #   1
+*mass,low_trns_,single_glazing,SCF8783_06nb,4,3,6,5,4  #   2
 # 
 *vis,0.000,0.000,0.005,2.500,0.030,1.300,0.000,1.00,screen,upholstery  # visual   1
 *vis,0.000,0.000,1.685,2.500,0.040,0.040,0.000,1.00,upfrm,steel_pl_3mm  # visual   2
@@ -830,7 +832,7 @@ main screen is included.
 *bounding_box,0.510,1.020,0.330
 *Text
 A wooden coffee table with a shelf on 4 wooden legs including
-mass for the top and shelf.
+mass for the top and shelf. Long axis N-S along Y.
 *End_text
 #
 *vertex,0.00500,0.00500,0.32500  #   1
@@ -866,6 +868,7 @@ mass for the top and shelf.
 *Text
 An Ikea Billy bookcase with shelves. 38cm wide x 202cm tall with mass 
 for case and mixed clutter e.g. books magazines papers on the shelves.
+Open face to the south.
 *End_text
 #
 *vertex,0.00500,0.00500,0.00500  #   1
@@ -917,6 +920,7 @@ for case and mixed clutter e.g. books magazines papers on the shelves.
 *Text
 An Ikea Billy bookcase with shelves. 80cm wide x 202cm tall with mass 
 for case and mixed clutter e.g. books magazines papers on the shelves.
+Open face to the south.
 *End_text
 #
 *vertex,0.00500,0.00500,0.00500  #   1
@@ -967,6 +971,7 @@ for case and mixed clutter e.g. books magazines papers on the shelves.
 *bounding_box,1.360,2.000,0.900
 *Text
 Double bed with solid wood head foot base 1.36x1.9x0.9m. With mass for base and matress.
+Head is at the North. Origin at left edge of foot of bed.
 *End_text
 #
 *vertex,0.06000,0.06000,0.34000  #   1
@@ -1001,6 +1006,7 @@ Double bed with solid wood head foot base 1.36x1.9x0.9m. With mass for base and 
 *bounding_box,1.00,1.900,0.900
 *Text
 Single bed with solid wood head foot base 1.0x1.9x0.9m. With mass for base and matress.
+Head is at the North. Origin at left edge of foot of bed.
 *End_text
 #
 *vertex,0.06000,0.06000,0.34000  #   1
@@ -1035,7 +1041,7 @@ Single bed with solid wood head foot base 1.0x1.9x0.9m. With mass for base and m
 *Text
 A typical wooden chair with arms fabric covered seat and back mass for
 the seat and seat back. Visual entities are a mix of
-materials and the seat back reclines slightly.
+materials and the seat back reclines slightly. Occupant faces south.
 *End_text
 # 
 *vertex,0.09000,0.10000,0.50500  #   1
@@ -1077,9 +1083,9 @@ materials and the seat back reclines slightly.
 *origin,0.0,0.0,0.0              # local origin
 *bounding_box,0.700,0.750,0.70  # extents of object
 *Text
-A typical lounge fabric covered arm chair with mass for
-the seat arms and seat back. Visual entities are a mix of
-materials and the seat back reclines slightly.
+A typical lounge fabric covered arm chair with mass for the
+seat arms and seat back. Visual entities are a mix of materials
+and the seat back reclines slightly. Occupant faces south.
 *End_text
 # 
 *vertex,0.09000,0.09000,0.22000  #   1
@@ -1126,7 +1132,7 @@ materials and the seat back reclines slightly.
 *Text
 A lounge two seat sofa covered with mass for the seat and
 arms. Visual entities are a mix of materials and the seat back
-reclines slightly. Based on Ikea Knopparp.
+reclines slightly. Based on Ikea Knopparp. Occupants face south.
 *End_text
 # 
 *vertex,0.09000,0.09000,0.22000  #   1
@@ -1173,7 +1179,7 @@ reclines slightly. Based on Ikea Knopparp.
 *Text
 A lounge three seat sofa covered with mass for the seat and
 arms. Visual entities are a mix of materials and the seat back
-reclines slightly. Based on Ikea Knopparp.
+reclines slightly. Based on Ikea Knopparp. Occupants face south.
 *End_text
 # 
 *vertex,0.09000,0.09000,0.22000  #   1
@@ -1217,8 +1223,9 @@ reclines slightly. Based on Ikea Knopparp.
 *origin,0.0,0.0,0.0              # local origin
 *bounding_box,1.200,0.600,2.050  # extents of object
 *Text
-Freestanding wooden wardrobe 1.2x0.6x2m.
-Front, sides, top, and contents represented with mass.
+Freestanding wooden wardrobe 1.2x0.6x2m. The Front,
+sides, top, and contents represented with mass. Opens
+to the south.
 *End_text
 # 
 *vertex,0.00000,0.00000,0.05000  #   1
@@ -1260,7 +1267,8 @@ Front, sides, top, and contents represented with mass.
 *Text
 A double cooker with oven, grill, and 4 hobs.
 Includes UK regulation spacing round back (10mm) and sides (20mm).
-Mass represented by double glazed glass front, glass-ceramic top, and insulated steel sides.
+Mass represented by double glazed glass front, glass-ceramic top, 
+and insulated steel sides. Doors on south.
 *End_text
 #
 *vertex,0.02000,0.00000,0.02000  #   1
@@ -1276,8 +1284,8 @@ Mass represented by double glazed glass front, glass-ceramic top, and insulated 
 *vertex,0.58000,0.59000,0.02000  #  11
 *vertex,0.02000,0.59000,0.02000  #  12
 # 
-*mass,ckr_front,dbl_glz,OPAQUE,4,1,2,3,4  #  1
-*mass,ckr_front_,dbl_glz,OPAQUE,4,2,1,4,3  #  2
+*mass,ckr_front,collector_pl,OPAQUE,4,1,2,3,4  #  1
+*mass,ckr_front_,collector_pl,OPAQUE,4,2,1,4,3  #  2
 *mass,ckr_top,glass-ceramic,OPAQUE,4,5,6,7,8  #  3
 *mass,ckr_top_,glass-ceramic,OPAQUE,4,6,5,8,7  #  4
 *mass,ckr_left,duct_w_35mm,OPAQUE,4,6,7,11,10  #  5
@@ -1286,8 +1294,8 @@ Mass represented by double glazed glass front, glass-ceramic top, and insulated 
 *mass,ckr_right_,duct_w_35mm,OPAQUE,4,8,5,9,12  #  8
 # 
 *vis,0.020,0.010,0.020,0.560,0.580,0.880,0.000,1.00,ckr_unit,steel_gr_3mm  # visual   1
-*vis,0.030,0.000,0.030,0.540,0.010,0.430,0.000,1.00,ckr_oven,dbl_glz  # visual   2
-*vis,0.030,0.000,0.480,0.540,0.010,0.330,0.000,1.00,ckr_grl,dbl_glz  # visual   3
+*vis,0.030,0.000,0.030,0.540,0.010,0.430,0.000,1.00,ckr_oven,collector_pl  # visual   2
+*vis,0.030,0.000,0.480,0.540,0.010,0.330,0.000,1.00,ckr_grl,collector_pl  # visual   3
 # 
 *vobject,dblcooker,double cooker 0.6x0.6x0.9, 3,ckr_unit,ckr_oven,ckr_grl
 *end_item
@@ -1299,10 +1307,10 @@ Mass represented by double glazed glass front, glass-ceramic top, and insulated 
 *bounding_box,0.600,0.600,1.800
 *Text
 A tower fridge/freezer with a 60/40 split.
-Includes spacing of 20mm at the back.
+Includes spacing of 20mm at the back. Doors open to south.
 Mass represented by insulated plastic on all 6 sides.
-Recommend that boundary conditions for all 6 sides are set to a constant temperature
-of around 1 degree.
+Recommend that boundary conditions for all 6 sides are set to a 
+constant temperature of around 1 degree.
 *End_text
 #
 *vertex,0.00000,0.00000,0.02000  #   1
@@ -1334,8 +1342,9 @@ of around 1 degree.
 *origin,0.0,0.0,0.0
 *bounding_box,1.200,0.600,0.900
 *Text
-Double width under-counter corner cupboard.
-Mass represented by wood front, kicker, and sides, corian counter top, and metal contents (e.g. pots and pans).
+Double width under-counter cupboard.  Mass represented by
+wood front, kicker, and sides, corian counter top, and metal 
+contents (e.g. pots and pans). Door open to south.
 *End_text
 #
 *vertex,0.00000,0.00000,0.20000  #   1
@@ -1389,6 +1398,7 @@ Mass represented by wood front, kicker, and sides, corian counter top, and metal
 *Text
 One-piece porcelain gravity toilet.
 Mass of the stem, bowl and water tank represented.
+Occupant faces south. Origin at left front of bowl.
 *End_text
 #
 *vertex,0.1000,0.22500,0.00000  #   1
@@ -1424,8 +1434,9 @@ Mass of the stem, bowl and water tank represented.
 *origin,0.0,0.0,0.0
 *bounding_box,0.600,0.400,0.350
 *Text
-Wall-mounted porcelain sink.
-Mass of the bowl represented.
+Wall-mounted porcelain sink. Mass of the bowl represented.
+Front edge on south. Remember to install it raised approx 450mm
+above the floor of the room.
 *End_text
 #
 *vertex,0.0000,0.00000,0.25000  #   1
@@ -1448,8 +1459,9 @@ Mass of the bowl represented.
 *origin,0.0,0.0,0.0
 *bounding_box,1.700,0.700,0.500
 *Text
-Standard size alcove-fitted acrylic bath tub.
-Mass of front panel and top represented.
+Standard size 1.7m alcove-fitted acrylic bath tub.
+Mass of front panel and top represented. Front of bath
+is on south.
 *End_text
 #
 *vertex,0.0000,0.00000,0.00000  #   1
@@ -1488,10 +1500,10 @@ Glass walls are on south and east faces with 0 rotation.
 # 
 *mass,shwr_tray,IT_case,OPAQUE,4,1,2,3,4  #  1
 *mass,shwr_tray_,IT_case,OPAQUE,4,2,1,4,3  #  2
-*mass,shwr_wal1,single_glaz,OPAQUE,4,1,2,6,5  #  3
-*mass,shwr_wal1_,single_glaz,OPAQUE,4,2,1,5,6  #  4
-*mass,shwr_wal2,single_glaz,OPAQUE,4,2,3,7,6  #  5
-*mass,shwr_wal2_,single_glaz,OPAQUE,4,3,2,6,7  #  6
+*mass,shwr_wal1,single_glazing,OPAQUE,4,1,2,6,5  #  3
+*mass,shwr_wal1_,single_glazing,OPAQUE,4,2,1,5,6  #  4
+*mass,shwr_wal2,single_glazing,OPAQUE,4,2,3,7,6  #  5
+*mass,shwr_wal2_,single_glazing,OPAQUE,4,3,2,6,7  #  6
 #
 *vis,0.000,0.000,0.000,1.000,1.000,0.100,0.000,1.00,shwr_tray,IT_case  # visual   1
 *vis,0.000,0.000,0.100,1.000,0.005,2.000,0.000,0.30,shwr_wal1,IT_case  # visual   1
@@ -1507,10 +1519,11 @@ Glass walls are on south and east faces with 0 rotation.
 *origin,0.0,0.0,0.0  # local origin
 *bounding_box,  1.000  3.300  2.600  # extents of object
 *Text
-Describes ZONE under a typical post-war residential stair with
-a straight run of 10 steps and a right diagonal landing for a 
-total of 13 steps and rise of 2.6m 1m wide. Can be used
-with the above_stair object in a two level residence. 
+Describes ZONE under a typical post-war residential stair with a
+straight run of 10 steps (going north) and a right diagonal landing 
+for a total of 13 steps and rise of 2.6m and 1m wide. Can be used
+with the above_stair object in a two level residence. Remember to 
+re-run surface topology check.
 *End_text
 # 
 *vertex,0.00000,0.00000,0.00000  #   1
@@ -1625,7 +1638,7 @@ Described ZONE with a run of 13 stairs with a diagonal landing leading
 to a simple hall at 2.6m (assumes a 200mm floor structure) and a
 ceiling at 4.9m. The stair and hall are both 1m wide. It matches 
 the below_stair object. No Z transform from the below_stair is
-needed if used together.                           
+needed if used together.  Remember to re-run a topology check.                        
 *End_text
 # 
 *vertex,2.10000,3.30000,2.60000  #   1
@@ -1763,7 +1776,10 @@ needed if used together.
 *bounding_box,0.124,0.023,0.087  # extents of object
 *Text
 A Honewell CM707 thermostat with plastic case and mass for
-the circuit and sensors. Separate surf for sensor.
+the circuit and sensors. Separate surf for sensor. Front = south.
+Remember to copy bounding surfaces to the parent zone and re-run a
+surface topology check. When defining control sensor will be the
+surface sen_a.                
 *End_text
 # 
 *vertex,0.00000,0.00000,0.00000  #   1
@@ -1815,9 +1831,11 @@ the circuit and sensors. Separate surf for sensor.
 *origin,0.0,0.0,0.0  # local origin
 *bounding_box,  1.100  0.040  0.500  # extents of object
 *Text
-A single zone water filled radiator 1.1m wide x 0.5m high with a
-large fin at back to increase surface area. Made of 3mm steel and
-set 200mm above base with visual piping and TRV. Toggle to water filled!                    
+A single zone water filled radiator 1.1m wide (along X) x 0.5m high
+with a large fin at back to increase surface area. Made of 3mm steel
+and set 200mm above base with visual piping and TRV. Remember to
+Toggle the zone to water filled! And copy bounding surfaces to the 
+parent zone.                  
 *End_text
 # 
 *vertex,0.03000,0.00000,0.20000  #   1
@@ -1867,7 +1885,7 @@ set 200mm above base with visual piping and TRV. Toggle to water filled!
 *origin,0.0,0.0,0.0  # local origin
 *bounding_box,  0.570  0.040  0.500  # extents of object
 *Text
-rad_0.6x0.5 describes a single zone radiator 0.6m wide                  
+rad_0.6x0.5 describes a single zone radiator 0.6m wide (along X)                
 with a large fin at back to increase surface area. Made of
 3mm steel. Set 200mm above base with piping and TRV via visual 
 entities. When imported toggle to water filled and copy bounding
@@ -1973,6 +1991,315 @@ with 870-1140m^3/hr flow.
 *vis,0.1500,1.1500,0.0650,0.6000,0.2000,0.2000,0.0000,1.00,filter,exch_plate  # visual   3
 *vis,0.1500,0.3500,0.0650,0.6000,0.1000,0.2000,0.0000,1.00,coil,exch_plate  # visual   4
 *end_item
+# 
+*item,Q150_brick_S,Q150 magnitite bricks Fr=south # tag name menu entry
+*incat,system_comp            
+*includes,boundary
+*sourced,Derived from an ESP-r geometry file.
+*origin,0.0,0.0,0.0  # local origin
+*bounding_box,  1.070  0.090  0.530  # extents of object
+*Text
+Q150_brick_S describes the bank of energy cells Quantum 150 heater.
+It is raised 120mm above zero to match with Q150_shell_S. It 
+takes a 3.3kW input and 1.5kW nominal output. Use a fixed 
+flow fan of approx 65m-70^3/hr.                    
+*End_text
+# 
+*vertex,0.05000,0.05000,0.12000  #   1
+*vertex,0.88400,0.05000,0.12000  #   2
+*vertex,0.88400,0.14000,0.12000  #   3
+*vertex,0.05000,0.14000,0.12000  #   4
+*vertex,0.05000,0.05000,0.65000  #   5
+*vertex,0.88400,0.05000,0.65000  #   6
+*vertex,0.88400,0.14000,0.65000  #   7
+*vertex,0.05000,0.14000,0.65000  #   8
+*vertex,0.08000,0.08000,0.65000  #   9
+*vertex,0.85400,0.08000,0.65000  #  10
+*vertex,0.85400,0.11000,0.65000  #  11
+*vertex,0.08000,0.11000,0.65000  #  12
+*vertex,0.08000,0.08000,0.12000  #  13
+*vertex,0.08000,0.11000,0.12000  #  14
+*vertex,0.85400,0.11000,0.12000  #  15
+*vertex,0.85400,0.08000,0.12000  #  16
+# 
+*surf,front,magnitite_core->shell,OPAQUE, 4, 1  2  6  5  #   1
+*surf,right,magnitite_core->shell,OPAQUE, 4, 2 3 7 6  #   2
+*surf,back,magnitite_core->shell,OPAQUE, 4  3 4 8 7  #   3
+*surf,left,magnitite_core->shell,OPAQUE, 4 4 1 5 8  #   4
+*surf,top,magnitite_core->shell,OPAQUE, 10 5 9 12 11 10 9 5 6 7 8  #   5
+*surf,base,magnitite_core->shell,OPAQUE, 10 1 4 14 13 16 15 14 4 3 2  #   6
+*surf,upper_vent,steel_gr_3mm,OPAQUE, 4 9 10 11 12  #   7
+*surf,low_vent,steel_gr_3mm,OPAQUE, 4 13 14 15 16  #   8
+*end_item
+# 
+*item,Q150_shell_S,shell of Quantam QM150 Fr=south # tag name menu entry
+*incat,system_comp            
+*includes,boundary
+*sourced,Derived from an ESP-r geometry file.
+*origin,0.0,0.0,0.0  # local origin
+*bounding_box,  1.070  0.185  0.670  # extents of object
+*Text
+Q150_shell describes shell of storage heater QM150 south facing.
+It is raised 60mm above origin.  The surfaces to include in room
+are: case_fr case_rt cae_bk case_lft cae_top case_base fr_grill
+and lft_grill.  It takes a 3.3kW input and 1.5kW nominal output.
+Use a fixed flow fan of approx 65-70m^3/hr.        
+*End_text
+# 
+*vertex,0.00000,0.00000,0.06000  #   1
+*vertex,1.06900,0.00000,0.06000  #   2
+*vertex,1.06900,0.18500,0.06000  #   3
+*vertex,0.00000,0.18500,0.06000  #   4
+*vertex,0.00000,0.00000,0.73000  #   5
+*vertex,1.06900,0.00000,0.73000  #   6
+*vertex,1.06900,0.18500,0.73000  #   7
+*vertex,0.00000,0.18500,0.73000  #   8
+*vertex,0.00000,0.00000,0.12000  #   9
+*vertex,1.06900,0.00000,0.12000  #  10
+*vertex,0.00000,0.09500,0.06000  #  11
+*vertex,0.00000,0.06200,0.06000  #  12
+*vertex,0.00000,0.06200,0.16000  #  13
+*vertex,0.00000,0.09500,0.16000  #  14
+*vertex,0.05000,0.05000,0.12000  #  15
+*vertex,0.88400,0.05000,0.12000  #  16
+*vertex,0.88400,0.05000,0.65000  #  17
+*vertex,0.05000,0.05000,0.65000  #  18
+*vertex,0.88400,0.14000,0.12000  #  19
+*vertex,0.88400,0.14000,0.65000  #  20
+*vertex,0.05000,0.14000,0.12000  #  21
+*vertex,0.05000,0.14000,0.65000  #  22
+*vertex,0.08000,0.08000,0.65000  #  23
+*vertex,0.08000,0.11000,0.65000  #  24
+*vertex,0.85400,0.11000,0.65000  #  25
+*vertex,0.85400,0.08000,0.65000  #  26
+*vertex,0.08000,0.11000,0.12000  #  27
+*vertex,0.08000,0.08000,0.12000  #  28
+*vertex,0.85400,0.08000,0.12000  #  29
+*vertex,0.85400,0.11000,0.12000  #  30
+# 
+*surf,case_fr,store_heater_shell->room,OPAQUE, 4, 10  6  5  9  #   1
+*surf,case_rt,store_heater_shell->room,OPAQUE, 5,  2  3  7  6 10  #   2
+*surf,case_bk,store_heater_shell->room,OPAQUE, 4,  3  4  8  7  #   3
+*surf,case_lft,store_heater_shell->room,OPAQUE, 9,  4 11 14 13 12  1  9  5  8  #   4
+*surf,case_top,store_heater_shell->room,OPAQUE, 4,  5  6  7  8  #   5
+*surf,case_base,store_heater_shell->room,OPAQUE, 6,  1 12 11  4  3  2  #   6
+*surf,fr_grill,steel_gr_3mm,OPAQUE, 4,  1  2 10  9  #   7
+*surf,lft_grill,steel_gr_3mm,OPAQUE, 4, 11 12 13 14  #   8
+*surf,front,magnitite_shell->core,OPAQUE, 4,16,15,18,17  #   9
+*surf,right,magnitite_shell->core,OPAQUE, 4,19,16,17,20  #  10
+*surf,back,magnitite_shell->core,OPAQUE, 4,21,19,20,22  #  11
+*surf,left,magnitite_shell->core,OPAQUE, 4,15,21,22,18  #  12
+*surf,top,magnitite_shell->core,OPAQUE, 10,23,18,22,20,17,18,23,26,25,24  #  13
+*surf,base,magnitite_shell->core,OPAQUE, 10,21,15,16,19,21,27,30,29,28,27  #  14
+*surf,upper_vent,steel_gr_3mm,OPAQUE, 4,26,23,24,25  #  15
+*surf,low_vent,steel_gr_3mm,OPAQUE, 4,27,28,29,30  #  16
+*end_item
+# 
+*item,Q100_brick_S,Q100 magnitite bricks Fr=south # tag name menu entry
+*incat,system_comp            
+*includes,boundary
+*sourced,Derived from an ESP-r geometry file.
+*origin,0.0,0.0,0.0  # local origin
+*bounding_box,  0.630  0.090  0.530  # extents of object
+*Text
+Q100_brick_S describes the bank of energy cells Quantum 100 heater.
+It is raised 120mm above zero to match with Q100_shell_S. It 
+takes a 2.2kW input and 1.0kW nominal output. Use a fixed 
+flow fan of approx 60-65m^3/hr.                    
+*End_text
+# 
+*vertex,0.05000,0.05000,0.12000  #   1
+*vertex,0.68000,0.05000,0.12000  #   2
+*vertex,0.68000,0.14000,0.12000  #   3
+*vertex,0.05000,0.14000,0.12000  #   4
+*vertex,0.05000,0.05000,0.65000  #   5
+*vertex,0.68000,0.05000,0.65000  #   6
+*vertex,0.68000,0.14000,0.65000  #   7
+*vertex,0.05000,0.14000,0.65000  #   8
+*vertex,0.08000,0.08000,0.65000  #   9
+*vertex,0.65000,0.08000,0.65000  #  10
+*vertex,0.65000,0.11000,0.65000  #  11
+*vertex,0.08000,0.11000,0.65000  #  12
+*vertex,0.08000,0.08000,0.12000  #  13
+*vertex,0.08000,0.11000,0.12000  #  14
+*vertex,0.65000,0.11000,0.12000  #  15
+*vertex,0.65000,0.08000,0.12000  #  16
+# 
+*surf,front,magnitite_core->shell,OPAQUE, 4, 1  2  6  5  #   1
+*surf,right,magnitite_core->shell,OPAQUE, 4, 2 3 7 6  #   2
+*surf,back,magnitite_core->shell,OPAQUE, 4  3 4 8 7  #   3
+*surf,left,magnitite_core->shell,OPAQUE, 4 4 1 5 8  #   4
+*surf,top,magnitite_core->shell,OPAQUE, 10 5 9 12 11 10 9 5 6 7 8  #   5
+*surf,base,magnitite_core->shell,OPAQUE, 10 1 4 14 13 16 15 14 4 3 2  #   6
+*surf,upper_vent,steel_gr_3mm,OPAQUE, 4 9 10 11 12  #   7
+*surf,low_vent,steel_gr_3mm,OPAQUE, 4 13 14 15 16  #   8
+*end_item
+# 
+*item,Q100_shell_S,shell of Quantam QM100 Fr=south # tag name menu entry
+*incat,system_comp            
+*includes,boundary
+*sourced,Derived from an ESP-r geometry file.
+*origin,0.0,0.0,0.0  # local origin
+*bounding_box,  0.865  0.185  0.670  # extents of object
+*Text
+Q100_shell describes shell of storage heater QM100 south facing.
+It is raised 60mm above origin.  The surfaces to include in room
+are: case_fr case_rt cae_bk case_lft cae_top case_base fr_grill
+and lft_grill.  It takes a 2.2kW input and 1.0kW nominal output.
+Use a fixed flow fan of approx 60-65m^3/hr.        
+*End_text
+# 
+*vertex,0.00000,0.00000,0.06000  #   1
+*vertex,0.86500,0.00000,0.06000  #   2
+*vertex,0.86500,0.18500,0.06000  #   3
+*vertex,0.00000,0.18500,0.06000  #   4
+*vertex,0.00000,0.00000,0.73000  #   5
+*vertex,0.86500,0.00000,0.73000  #   6
+*vertex,0.86500,0.18500,0.73000  #   7
+*vertex,0.00000,0.18500,0.73000  #   8
+*vertex,0.00000,0.00000,0.12000  #   9
+*vertex,0.86500,0.00000,0.12000  #  10
+*vertex,0.00000,0.09500,0.06000  #  11
+*vertex,0.00000,0.06200,0.06000  #  12
+*vertex,0.00000,0.06200,0.16000  #  13
+*vertex,0.00000,0.09500,0.16000  #  14
+*vertex,0.05000,0.05000,0.12000  #  15
+*vertex,0.68000,0.05000,0.12000  #  16
+*vertex,0.68000,0.05000,0.65000  #  17
+*vertex,0.05000,0.05000,0.65000  #  18
+*vertex,0.68000,0.14000,0.12000  #  19
+*vertex,0.68000,0.14000,0.65000  #  20
+*vertex,0.05000,0.14000,0.12000  #  21
+*vertex,0.05000,0.14000,0.65000  #  22
+*vertex,0.08000,0.08000,0.65000  #  23
+*vertex,0.08000,0.11000,0.65000  #  24
+*vertex,0.65000,0.11000,0.65000  #  25
+*vertex,0.65000,0.08000,0.65000  #  26
+*vertex,0.08000,0.11000,0.12000  #  27
+*vertex,0.08000,0.08000,0.12000  #  28
+*vertex,0.65000,0.08000,0.12000  #  29
+*vertex,0.65000,0.11000,0.12000  #  30
+# 
+*surf,case_fr,store_heater_shell->room,OPAQUE, 4, 10  6  5  9  #   1
+*surf,case_rt,store_heater_shell->room,OPAQUE, 5,  2  3  7  6 10  #   2
+*surf,case_bk,store_heater_shell->room,OPAQUE, 4,  3  4  8  7  #   3
+*surf,case_lft,store_heater_shell->room,OPAQUE, 9,  4 11 14 13 12  1  9  5  8  #   4
+*surf,case_top,store_heater_shell->room,OPAQUE, 4,  5  6  7  8  #   5
+*surf,case_base,store_heater_shell->room,OPAQUE, 6,  1 12 11  4  3  2  #   6
+*surf,fr_grill,steel_gr_3mm,OPAQUE, 4,  1  2 10  9  #   7
+*surf,lft_grill,steel_gr_3mm,OPAQUE, 4, 11 12 13 14  #   8
+*surf,front,magnitite_shell->core,OPAQUE, 4,16,15,18,17  #   9
+*surf,right,magnitite_shell->core,OPAQUE, 4,19,16,17,20  #  10
+*surf,back,magnitite_shell->core,OPAQUE, 4,21,19,20,22  #  11
+*surf,left,magnitite_shell->core,OPAQUE, 4,15,21,22,18  #  12
+*surf,top,magnitite_shell->core,OPAQUE, 10,23,18,22,20,17,18,23,26,25,24  #  13
+*surf,base,magnitite_shell->core,OPAQUE, 10,21,15,16,19,21,27,30,29,28,27  #  14
+*surf,upper_vent,steel_gr_3mm,OPAQUE, 4,26,23,24,25  #  15
+*surf,low_vent,steel_gr_3mm,OPAQUE, 4,27,28,29,30  #  16
+*end_item
+# 
+*item,Q70_brick_S,Q70 magnitite bricks Fr=south # tag name menu entry
+*incat,system_comp            
+*includes,boundary
+*sourced,Derived from an ESP-r geometry file.
+*origin,0.0,0.0,0.0  # local origin
+*bounding_box,  0.465  0.090  0.530  # extents of object
+*Text
+Q70_brick_S describes the bank of energy cells Quantum 70 heater.
+It is raised 120mm above zero to match with Q70_shell_S. It 
+takes a 1.5kW input and 0.7kW nominal output. Use a fixed 
+flow fan of approx 60^3/hr.                    
+*End_text
+# 
+*vertex,0.05000,0.05000,0.12000  #   1
+*vertex,0.51500,0.05000,0.12000  #   2
+*vertex,0.51500,0.14000,0.12000  #   3
+*vertex,0.05000,0.14000,0.12000  #   4
+*vertex,0.05000,0.05000,0.65000  #   5
+*vertex,0.51500,0.05000,0.65000  #   6
+*vertex,0.51500,0.14000,0.65000  #   7
+*vertex,0.05000,0.14000,0.65000  #   8
+*vertex,0.08000,0.08000,0.65000  #   9
+*vertex,0.48500,0.08000,0.65000  #  10
+*vertex,0.48500,0.11000,0.65000  #  11
+*vertex,0.08000,0.11000,0.65000  #  12
+*vertex,0.08000,0.08000,0.12000  #  13
+*vertex,0.08000,0.11000,0.12000  #  14
+*vertex,0.48500,0.11000,0.12000  #  15
+*vertex,0.48500,0.08000,0.12000  #  16
+# 
+*surf,front,magnitite_core->shell,OPAQUE, 4, 1  2  6  5  #   1
+*surf,right,magnitite_core->shell,OPAQUE, 4, 2 3 7 6  #   2
+*surf,back,magnitite_core->shell,OPAQUE, 4  3 4 8 7  #   3
+*surf,left,magnitite_core->shell,OPAQUE, 4 4 1 5 8  #   4
+*surf,top,magnitite_core->shell,OPAQUE, 10 5 9 12 11 10 9 5 6 7 8  #   5
+*surf,base,magnitite_core->shell,OPAQUE, 10 1 4 14 13 16 15 14 4 3 2  #   6
+*surf,upper_vent,steel_gr_3mm,OPAQUE, 4 9 10 11 12  #   7
+*surf,low_vent,steel_gr_3mm,OPAQUE, 4 13 14 15 16  #   8
+*end_item
+# 
+*item,Q70_shell_S,shell of Quantam QM70 Fr=south # tag name menu entry
+*incat,system_comp            
+*includes,boundary
+*sourced,Derived from an ESP-r geometry file.
+*origin,0.0,0.0,0.0  # local origin
+*bounding_box,  0.700  0.185  0.670  # extents of object
+*Text
+Q70_shell describes shell of storage heater QM70 south facing.
+It is raised 60mm above origin.  The surfaces to include in room
+are: case_fr case_rt cae_bk case_lft cae_top case_base fr_grill
+and lft_grill.  It takes a 1.5kW input and 0.7kW nominal output.
+Use a fixed flow fan of approx 60m^3/hr.        
+*End_text
+# 
+*vertex,0.00000,0.00000,0.06000  #   1
+*vertex,0.70000,0.00000,0.06000  #   2
+*vertex,0.70000,0.18500,0.06000  #   3
+*vertex,0.00000,0.18500,0.06000  #   4
+*vertex,0.00000,0.00000,0.73000  #   5
+*vertex,0.70000,0.00000,0.73000  #   6
+*vertex,0.70000,0.18500,0.73000  #   7
+*vertex,0.00000,0.18500,0.73000  #   8
+*vertex,0.00000,0.00000,0.12000  #   9
+*vertex,0.70000,0.00000,0.12000  #  10
+*vertex,0.00000,0.09500,0.06000  #  11
+*vertex,0.00000,0.06200,0.06000  #  12
+*vertex,0.00000,0.06200,0.16000  #  13
+*vertex,0.00000,0.09500,0.16000  #  14
+*vertex,0.05000,0.05000,0.12000  #  15
+*vertex,0.51500,0.05000,0.12000  #  16
+*vertex,0.51500,0.05000,0.65000  #  17
+*vertex,0.05000,0.05000,0.65000  #  18
+*vertex,0.51500,0.14000,0.12000  #  19
+*vertex,0.51500,0.14000,0.65000  #  20
+*vertex,0.05000,0.14000,0.12000  #  21
+*vertex,0.05000,0.14000,0.65000  #  22
+*vertex,0.08000,0.08000,0.65000  #  23
+*vertex,0.08000,0.11000,0.65000  #  24
+*vertex,0.48500,0.11000,0.65000  #  25
+*vertex,0.48500,0.08000,0.65000  #  26
+*vertex,0.08000,0.11000,0.12000  #  27
+*vertex,0.08000,0.08000,0.12000  #  28
+*vertex,0.48500,0.08000,0.12000  #  29
+*vertex,0.48500,0.11000,0.12000  #  30
+# 
+*surf,case_fr,store_heater_shell->room,OPAQUE, 4, 10  6  5  9  #   1
+*surf,case_rt,store_heater_shell->room,OPAQUE, 5,  2  3  7  6 10  #   2
+*surf,case_bk,store_heater_shell->room,OPAQUE, 4,  3  4  8  7  #   3
+*surf,case_lft,store_heater_shell->room,OPAQUE, 9,  4 11 14 13 12  1  9  5  8  #   4
+*surf,case_top,store_heater_shell->room,OPAQUE, 4,  5  6  7  8  #   5
+*surf,case_base,store_heater_shell->room,OPAQUE, 6,  1 12 11  4  3  2  #   6
+*surf,fr_grill,steel_gr_3mm,OPAQUE, 4,  1  2 10  9  #   7
+*surf,lft_grill,steel_gr_3mm,OPAQUE, 4, 11 12 13 14  #   8
+*surf,front,magnitite_shell->core,OPAQUE, 4,16,15,18,17  #   9
+*surf,right,magnitite_shell->core,OPAQUE, 4,19,16,17,20  #  10
+*surf,back,magnitite_shell->core,OPAQUE, 4,21,19,20,22  #  11
+*surf,left,magnitite_shell->core,OPAQUE, 4,15,21,22,18  #  12
+*surf,top,magnitite_shell->core,OPAQUE, 10,23,18,22,20,17,18,23,26,25,24  #  13
+*surf,base,magnitite_shell->core,OPAQUE, 10,21,15,16,19,21,27,30,29,28,27  #  14
+*surf,upper_vent,steel_gr_3mm,OPAQUE, 4,26,23,24,25  #  15
+*surf,low_vent,steel_gr_3mm,OPAQUE, 4,27,28,29,30  #  16
+*end_item
 #
 *mzitem,combiboiler,combustion & water jacket & case # tag name menu entry
 *incat,system_comp
@@ -2071,7 +2398,8 @@ This item is work-in-progress. Preview almost works.
 A PVC_1.8U framed window 1.8m wide x 1.2m high RO with two fixed
 glazing and the lower right glazing operational. Origin is at the
 lower left frame surface. Outer frame 60mm square. Op frame 60x80mm.
-Visuals project +- Y axis 40mm.          
+Visuals project +- Y axis 40mm. Remember to manually connect surface
+edges into a parent surface in the zone.         
 *End_text
 # 
 *vertex,0.00000,0.00000,0.00000  #   1
@@ -2213,8 +2541,8 @@ see www.thorlux.co.uk and iesna file RAD16723.ies, 38W
 *vertex,0.60000,0.57500,0.00500  #   3
 *vertex,0.60000,0.02500,0.00500  #   4
 # 
-*mass,low_trns,single_glaz,SCF8783_06nb, 4,  1  2  3  4  #   1
-*mass,low_trns_,single_glaz,SCF8783_06nb, 4,  2  1  4  3  #   2
+*mass,low_trns,single_glazing,SCF8783_06nb, 4,  1  2  3  4  #   1
+*mass,low_trns_,single_glazing,SCF8783_06nb, 4,  2  1  4  3  #   2
 # 
 *vis,0.0000,0.5900,0.0000,0.6000,0.0100,0.0100,0.0000,1.00,face_bb,steel_pl_3mm  # visual   1
 *vis,0.0000,0.0000,0.0000,0.0100,0.5900,0.0100,0.0000,1.00,end_bb,steel_pl_3mm  # visual   2
@@ -2239,8 +2567,8 @@ the LED with lens_low.
 *vertex,0.10000,1.43000,6.17000  #   3
 *vertex,-0.10000,1.43000,6.17000  #   4
 # 
-*mass,lens_up6s,single_glaz,SCF8783_06nb,4,1,2,3,4  #   1
-*mass,lens_lw6s,single_glaz,SCF8783_06nb,4,2,1,4,3  #   2
+*mass,lens_up6s,single_glazing,SCF8783_06nb,4,1,2,3,4  #   1
+*mass,lens_lw6s,single_glazing,SCF8783_06nb,4,2,1,4,3  #   2
 # 
 *vis,0.0000,0.0000,0.0000,0.1400,0.1400,1.0000,0.00,1.00,lmp_b6s,steel_pl_3mm  # block   1
 *vis,0.0350,0.0350,1.0000,0.0700,0.0700,5.0000,0.00,1.00,lmp_col6s,steel_pl_3mm  # block   2
@@ -2264,8 +2592,8 @@ the LED with lens_low. Double check radiance !xform for lamp
 *vertex,-0.10000,0.00000,6.17000  #   3
 *vertex,0.10000,0.00000,6.17000  #   4
 # 
-*mass,lens_up6n,single_glaz,SCF8783_06nb,4,1,2,3,4  #   1
-*mass,lens_low6n,single_glaz,SCF8783_06nb,4,2,1,4,3  #   2
+*mass,lens_up6n,single_glazing,SCF8783_06nb,4,1,2,3,4  #   1
+*mass,lens_low6n,single_glazing,SCF8783_06nb,4,2,1,4,3  #   2
 # 
 *vis,0.0000,1.4300,0.0000,0.1400,0.1400,1.0000,-180.00,1.00,lmp_b6n,steel_pl_3mm  # block   1
 *vis,-0.0350,1.3950,1.0000,0.0700,0.0700,5.0000,-180.00,1.00,lmp_col6n,steel_pl_3mm  # block   2
@@ -2289,8 +2617,8 @@ the LED with lens_low.  Double check radiance !xform for lamp
 *vertex,0.10000,1.43000,8.17000  #   3
 *vertex,-0.10000,1.43000,8.17000  #   4
 # 
-*mass,lens_up8s,single_glaz,SCF8783_06nb,4,1,2,3,4  #   1
-*mass,lens_low8s,single_glaz,SCF8783_06nb,4,2,1,4,3  #   2
+*mass,lens_up8s,single_glazing,SCF8783_06nb,4,1,2,3,4  #   1
+*mass,lens_low8s,single_glazing,SCF8783_06nb,4,2,1,4,3  #   2
 # 
 *vis,0.0000,0.0000,0.0000,0.1400,0.1400,1.0000,0.00,1.00,lmp_base8s,steel_pl_3mm  # block   1
 *vis,0.0350,0.0350,1.0000,0.0700,0.0700,7.0000,0.00,1.00,lmp_col8s,steel_pl_3mm  # block   2
@@ -2314,8 +2642,8 @@ the LED with lens_low. Double check radiance !xform for lamp
 *vertex,-0.10000,0.00000,8.17000  #   3
 *vertex,0.10000,0.00000,8.17000  #   4
 # 
-*mass,lens_up8n,single_glaz,SCF8783_06nb,4,1,2,3,4  #   1
-*mass,lens_low8n,single_glaz,SCF8783_06nb,4,2,1,4,3  #   2
+*mass,lens_up8n,single_glazing,SCF8783_06nb,4,1,2,3,4  #   1
+*mass,lens_low8n,single_glazing,SCF8783_06nb,4,2,1,4,3  #   2
 # 
 *vis,0.0000,1.4300,0.0000,0.1400,0.1400,1.0000,-180.00,1.00,lmp_b8n,steel_pl_3mm  # block   1
 *vis,-0.0350,1.3950,1.0000,0.0700,0.0700,7.0000,-180.00,1.00,lmp_col8n,steel_pl_3mm  # block   2
